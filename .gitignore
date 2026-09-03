@@ -1,0 +1,19 @@
+# Android SDK / Gradle local caches
+.android/
+.gradle/
+
+# Keras model weights (large binary files)
+.keras/
+
+# Linux admin marker
+.sudo_as_admin_successful
+
+# Research/reference images (not app source)
+image-search/
+
+# Git bundle
+*.bundle
+
+# OS files
+.DS_Store
+Thumbs.db

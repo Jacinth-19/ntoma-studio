@@ -1,0 +1,267 @@
+app_name	Ntoma
+app_tagline	Tsɔ avɔ si le asiwò la nàtrɔe wòazu wò awu yeye.
+cd_app_logo	Ntoma ƒe dzesi
+action_retry	Gadze agbagba ake
+action_cancel	Dzudzɔ
+action_back	Yi megbe
+action_close	Ɖe edzi
+action_confirm	Ɖe asi ɖe edzi
+action_save	Dzraɖo
+action_saved	Wodzrae ɖo
+action_share	Ma
+action_delete	Ɖe ɖa
+action_remove	Ɖe ɖa
+action_done	Wu enu
+action_got_it	Megɔ̃ esi
+action_continue	Yi edzi
+action_see_all	Kpɔ wo katã
+action_learn_more	Srɔ̃ nu geɖe wu
+action_open_settings	Ɖe ɖoɖowo ƒe
+action_not_now	Meɖo ŋku edzi azɔ o
+action_yes	Ɛ̃
+action_no	Ao
+action_search	Di
+action_clear	Ɖe ɖa
+action_apply	Zãe
+label_loading	Emɔŋ va…
+label_offline	Internet meli o
+label_offline_short	Internet meli o
+label_online_short	Internet li
+label_demo_badge	Kpɔɖeŋu
+label_free	Femaxe
+label_premium	Premium
+label_advertisement	Adzɔnu
+nav_home	Aƒeme
+nav_discover	Di
+nav_create	Wɔ yeye
+nav_favorites	Lɔlɔ̃nuwo
+nav_profile	Nye Ŋuti
+cd_bottom_navigation	Zɔzɔ vevitɔ
+onboarding_welcome_title	Woezɔ loo, Ntoma
+onboarding_welcome_body	Ntoma gɔmee nye "avɔ" le Egbe me. Ɖe avɔ si le asiwò ƒe nɔnɔmeɖeɖe, eye míafia nu si wòate ŋu azu wò — tso kaba kɔ ɛɖɛ dzi va se ɖe kaftan yeye dzi.
+onboarding_step1_title	Ɖe avɔ alo tsɔe ɖo ɖa
+onboarding_step1_body	Ɖe avɔ si le kplɔ̃a dzi la ƒe nɔnɔmeɖeɖe, alo tiae tso wò nɔnɔmeɖeɖewo me. Avɔ la dzie nuwo katã dze egɔme tso.
+onboarding_step2_title	Kpɔ ɖoɖo siwo sɔ kplii
+onboarding_step2_body	Míexlẽ amadedewo, nutata kɔ avɔ ƒe nɔnɔme, emegbe míeɖo Ghana kɔ egbeŋkeke ƒe awuɖoɖowo ɖa na nyɔnuwo kɔ ŋutsuwo.
+onboarding_step3_title	Kpɔe wò nɔnɔmeɖeɖe dzi
+onboarding_step3_body	Ne èdi la, tsɔ wò nɔnɔmeɖeɖe kpe ɖe eŋu nàkpɔ ɖoɖo la amegbetɔ ƒe nɔnɔmeɖeɖe dzi hafi ayi wò tɔla gbɔ.
+onboarding_step4_title	Dzraɖo eye nàma
+onboarding_step4_body	Dzra avɔwo kɔ nɔnɔmeɖeɖe siwo nèlɔ̃ ɖo ɖe Lɔlɔ̃nuwo me, eye nàma wo kɔ wò tɔla alo xɔ̃wòwo.
+onboarding_started_title	Mina míadze egɔme
+onboarding_started_body	Wò ɖeɖe gbãtɔ la le klalo ɖi ne wò hã nèklalo.
+onboarding_cta_scan	Ɖe nye avɔ ƒe nɔnɔmeɖeɖe
+onboarding_cta_skip	Dze edzi megbe
+onboarding_page_indicator	Axa %1$d le %2$d me
+onboarding_next	Esi kplɔe ɖo
+onboarding_privacy_note	Akaŋti mehiã o. Wò nɔnɔmeɖeɖewo tsia mɔ̃a dzi negbe ɖe nèbia AI nɔnɔmeɖeɖewɔwɔ ko.
+home_greeting_morning	Ŋdi nyui
+home_greeting_afternoon	Ŋdɔ nyui
+home_greeting_evening	Fiẽ nyui
+home_subtitle	Kpɔ nu si wò avɔ ate ŋu azu.
+home_cta_scan	Ɖe avɔ
+home_cta_upload	Tia tso nɔnɔmeɖeɖewo me
+home_section_recent_fabrics	Wò avɔ yeyewo
+home_section_recommended	Wotsɔ ɖo ɖa na wò
+home_section_continue	Yi edzi nàwɔ
+home_section_favorites	Nɔnɔmeɖeɖe siwo nèdzra ɖo
+home_section_tips	Nu siwo nyanya nyui
+home_tip_1_title	Ɖe nutata la ƒe ŋkuɖoɖo
+home_tip_1_body	Va teƒe si nutata la axɔ agbadzi la katã — enana xlẽle le bɔbɔe wu.
+home_tip_2_title	Zã ŋdɔkɛkɛ
+home_tip_2_body	Ŋdɔkɛkɛ nana amadedewo ɖea wo ɖokui faa. Xɔme kɛklẽ awu ate ŋu atrɔ avɔ ƒe amadede.
+home_tip_3_title	Le avɔ la ƒu anyi nyuie
+home_tip_3_body	Le avɔ la ƒu anyi nyuie ne wòsɔ pɛ hafi nàɖe eƒe nɔnɔmeɖeɖe.
+home_empty_recent	Avɔ aɖeke meli haɖe o
+home_empty_recent_body	Wò ɖeɖewo adze afi sia ne nàte ŋu ayi edzi tso afi si nèdzudzɔ le.
+home_quota_note	%1$d le %2$d dzroɖewɔwɔ femaxewo me susɔ le egbe
+home_quota_exhausted	Èzã egbe ƒe dzroɖewɔwɔ femaxewo katã vɔ. Premium ɖe seɖoƒe la ɖa.
+cd_scan_fabric	Ɖe avɔ ƒe nɔnɔmeɖeɖe kɔ kamera
+tooltip_create	Dze egɔme le afi sia: ɖe wò avɔ ƒe nɔnɔmeɖeɖe. Àte ŋu atia nɔnɔmeɖeɖe xoxo hã.
+create_title	Wɔ Yeye
+create_subtitle	Nuka mee míele wɔwɔm le egbe?
+create_option_camera_title	Ɖe nɔnɔmeɖeɖe
+create_option_camera_body	Zã wò kamera nàɖe avɔ si le ŋkuwòme la.
+create_option_gallery_title	Tia nɔnɔmeɖeɖe
+create_option_gallery_body	Tia avɔ ƒe nɔnɔmeɖeɖe si le wò mɔ̃a dzi xoxo.
+create_option_person_title	Do ɖoɖo kpɔ amegbetɔ dzi
+create_option_person_body	Kpɔ avɔ kɔ ɖoɖo si nèdzra ɖo la nɔnɔmeɖeɖe dzi.
+create_recent_title	Dɔ yeyewo
+create_empty_body	Naneke meli afii haɖe o — wò avɔwo kɔ nɔnɔmeɖeɖewo adze afii.
+create_guidance_header	Nu si nana kpɔɖeŋu nyuitɔ
+camera_title	Ɖe avɔ
+camera_guidance	De avɔ la agbadzi la me
+camera_guidance_far	Va te ŋutɔ vie ne nutata la naxɔ agbadzi la katã
+camera_guidance_dark	Avɔti me — kpe kɛkɛ ɖe eŋu alo ɖe kɛklẽ la
+camera_capture	Ɖe nɔnɔmeɖeɖe
+camera_switch_lens	Trɔ kamera
+camera_flash_on	Kɛklẽ: le ʋuʋu
+camera_flash_off	Kɛklẽ: tsi
+camera_flash_auto	Kɛklẽ: ɖokuiwò
+camera_focus_hint	Ka asi afi aɖekee ne wòaɖo ŋku edzi
+camera_capturing	Emɔŋ ɖe…
+camera_no_device	Kamera meli mɔ̃ sia dzi o
+camera_no_device_body	Àte ŋu atia avɔ ƒe nɔnɔmeɖeɖe tso wò nɔnɔmeɖeɖewo me boŋ.
+camera_capture_failed	Míete ŋu ɖe nɔnɔmeɖeɖe ma o. Gadze agbagba ake.
+edit_title_fabric	Trɔ wò avɔ ƒe nɔnɔmeɖeɖe
+edit_title_person	Trɔ nɔnɔmeɖeɖe la
+edit_hint	Zã asibidɛ eve ne nàdo alo aɖe, hee yi teƒe, emegbe nàɖe asi ɖe edzi.
+edit_rotate	Trɔe
+edit_reset	Gadze egɔme
+edit_ratio_free	De mɔ
+edit_ratio_square	Aɖaɖa ene
+edit_ratio_portrait	3:4
+edit_ratio_full	Blibo
+edit_retake	Ɖee ake
+edit_use_photo	Zã nɔnɔmeɖeɖe la
+edit_saving	Emɔŋ ɖo wò nɔnɔmeɖeɖe ɖa…
+analysis_title	Emɔŋ le wò avɔ me dzrom…
+analysis_stage_preparing	Emɔŋ le wò avɔ dzram ɖo…
+analysis_stage_colors	Emɔŋ le amadedewo xlẽm…
+analysis_stage_pattern	Emɔŋ le nutata la srɔ̃m…
+analysis_stage_styles	Emɔŋ le awuɖoɖo siwo sɔ dim…
+analysis_stage_finishing	Ɖoɖo ƒe nuwuwu…
+analysis_result_title	Avɔ ƒe dzodzro
+analysis_match_confident	Ðewohi mɔsɔ
+analysis_match_possible	Ate ŋu anye esia
+analysis_match_uncertain	Mekpɔ ka ɖe edzi haɖe o
+analysis_confidence	Kakaɖedzi %1$d%%
+analysis_section_colors	Amadede vevitɔwo
+analysis_section_pattern	Nutata
+analysis_section_texture	Avɔ ƒe nɔnɔme
+analysis_section_print	Ɖeɖe ƒe nɔnɔmewo
+analysis_section_category	Avɔ ƒomevi si wòate ŋu anye
+analysis_section_style	Ghana awuɖoɖo si wòate ŋu anye
+analysis_section_uses	Zazã siwo woɖo ɖa
+analysis_honesty_note	Esi nye mɔsɔsɔ si ate ŋu anye, menye ɖaseɖiɖi o. Avɔ eve ate ŋu adze abe ɖeka le nɔnɔmeɖeɖe me ene. Ne èka ɖi la, bi wò avɔdzrala.
+analysis_engine_on_device	Mɔ̃a dzi dzodzro (kpɔɖeŋu)
+analysis_engine_on_device_note	Wò mɔ̃a dzi woexlẽ amadedewo kɔ nutata. Womeɖo naneke ɖa o. Tsɔ cloud ɖoɖo kpe ɖe eŋu le ɖoɖowo me.
+analysis_engine_cloud	Cloud dzi dzodzro
+analysis_engine_cloud_note	Woɖo wò nɔnɔmeɖeɖe ɖa na dzroɖeƒe la be wòaxlẽe.
+analysis_action_view_designs	Kpɔ ɖoɖo siwo sɔ
+analysis_action_save_favorite	Dzra avɔ la ɖo
+analysis_action_rescan	Ɖe avɔ bubu
+print_trait_high_contrast	Ɖeɖe si ƒe amadede vovovowo dze ŋutɔ
+print_trait_low_contrast	Ɖeɖe si ƒe amadede vovovowo medze ŋutɔ o
+print_trait_large_scale	Nutata gãwo
+print_trait_small_repeat	Nutata sue siwo le edzi yim
+print_trait_multicolour	Amadede geɖe
+print_trait_two_tone	Amadede eve
+print_trait_directional	Ɖeɖe si xɔ mɔɖeɖe
+print_trait_all_over	Ɖeɖe si le agbadzi la katã
+analysis_unnamed	Avɔ ƒe ɖeɖe
+analysis_rename_title	Na ŋkɔ avɔ sia
+analysis_rename_hint	le kpɔɖeŋu me: Kete tso Bonwire
+cd_color_swatch	Amadede ƒe kpɔɖeŋu
+color_name_red	Dzĩ
+color_name_orange	Ɔrendzi
+color_name_gold	Sikawo
+color_name_yellow	Kɔkɔdzo
+color_name_green	Atama
+color_name_teal	Tiil
+color_name_blue	Bulu
+color_name_indigo	Indigo
+color_name_purple	Papul
+color_name_pink	Pink
+color_name_brown	Anyigba
+color_name_black	Vivi
+color_name_grey	Grey
+color_name_white	Ƒu
+color_name_cream	Krim
+recs_title	Ɖoɖo siwo wolɔ̃ na wò avɔ
+recs_subtitle	Ɖoɖo %1$d sɔ kɔ avɔ sia
+recs_filter_women	Nyɔnuwo
+recs_filter_men	Ŋutsuwo
+recs_filter_unisex	Nyɔnu kɔ ŋutsu
+recs_filter_casual	Bɔbɔe
+recs_filter_formal	Kɔkɔe
+recs_filter_traditional	Kɔnyinyi
+recs_filter_wedding	Srɔ̃ɖeɖe
+recs_filter_church	Sɔleme
+recs_filter_office	Dɔwɔƒe
+recs_filter_party	Kplɔ̃
+recs_filter_everyday	Gbesiagbe
+recs_filters_label	Tiatia
+recs_clear_filters	Ɖe tiatia ɖa
+recs_empty_title	Ɖoɖo aɖeke mesɔ kɔ tiatia mawo o
+recs_empty_body	Ɖe tiatia ɖeka ɖa alo trɔ le nyɔnuwo kɔ ŋutsuwo ƒe awuɖoɖowo dome.
+recs_try_on	Do kpɔ
+recs_view_design	Kpɔ ɖoɖo la
+recs_match_score	Ɛsɔ %1$d%%
+recs_why_title	Nu si tae wòsɔ kɔ wò avɔ
+recs_favorite_added	Wotsɔ kpe ɖe lɔlɔ̃nuwo ŋu
+recs_favorite_removed	Woɖee ɖa le lɔlɔ̃nuwo me
+recs_for_fabric	Na %1$s
+why_pattern_structured	Nutata sesẽwo tsia wo ɖokui nyuie le ɖoɖo sia me.
+why_pattern_flowing	Nutata si ƒe zɔzɔ dze edzi la dze awuɖoɖo sia ƒe zɔzɔ yome.
+why_scale_large	Nutata gãwo hiã akpa gãwo, eye ɖoɖo sia na mɔnukpɔkpɔ ma wo.
+why_scale_small	Nutata sue siwo le edzi yim la dze nyuie le awu si woɖe ɖe ŋutilã nu la me.
+why_texture_heavy	Avɔ sesẽ si wolɔ̃ nyuie la sɔna awuɖoɖo sia.
+why_texture_light	Avɔ ƒe zɔzɔ le bɔbɔe la nya kpɔna le ɖoɖo sia me.
+why_colors_rich	Amadede sesẽwo tsɔa ŋkekenyui si woɖo ɖoɖo sia ɖi la vɛ.
+why_colors_muted	Amadede fafawo na ɖoɖo sia nɔna bɔbɔe na gbesiagbe.
+why_occasion	Tiatia nyui na %1$s.
+why_tradition	Ghana ƒe awu xoxo ƒe ɖoɖo yeye.
+why_gender	Woɖee na %1$s.
+tryon_title	Do kpɔ
+tryon_step_person	Ame kae le ewom?
+tryon_step_photo	Tsɔ nɔnɔmeɖeɖe kpe ɖe eŋu
+tryon_step_design	Tia ɖoɖo
+tryon_step_apply	Zã avɔ la
+tryon_gender_woman	Nyɔnu
+tryon_gender_man	Ŋutsu
+tryon_gender_auto	Ɖokuiwò
+tryon_photo_camera	Ɖe nɔnɔmeɖeɖe
+tryon_photo_gallery	Tia nɔnɔmeɖeɖe
+tryon_photo_guidance_title	Nu si nana kpɔɖeŋu nyuitɔ
+tryon_photo_guidance	Zã ŋutilã blibo alo ɖe dzi nɔnɔmeɖeɖe si me kɛkɛ le. Tso ɖe ɖeka nàƒo asa na nu geɖe le megbe.
+tryon_photo_replace	Trɔ nɔnɔmeɖeɖe
+tryon_design_current	Ɖoɖo si le eme
+tryon_design_change	Trɔ ɖoɖo
+tryon_fabric_current	Avɔ
+tryon_fabric_change	Trɔ avɔ
+tryon_start	Zã avɔ la
+tryon_state_idle	Emɔŋ wò
+tryon_state_uploading	Emɔŋ le wò nɔnɔmeɖeɖe ɖom ɖa…
+tryon_state_processing	Emɔŋ le wò avɔ dzram ɖo…
+tryon_state_generating	Emɔŋ le wò nɔnɔmeɖeɖe wɔm…
+tryon_state_finishing	Ɖoɖo ƒe nuwuwu…
+tryon_state_success	Wò nɔnɔmeɖeɖe le klalo
+tryon_state_error	Míete ŋu wɔ nɔnɔmeɖeɖe ma o
+tryon_quota_note	%1$d le %2$d dodokpɔ femaxewo me susɔ le ɣleti sia me
+tryon_quota_exhausted	Èzã ɣleti sia ƒe dodokpɔ femaxewo vɔ.
+tryon_rewarded_offer	Kpɔ adzɔnu kpuie aɖe nàkpɔ dodokpɔ 1 bubu
+tryon_rewarded_granted	Nyoe — dodokpɔ 1 kpe ɖe eŋu.
+tryon_needs_connection	Dodokpɔ hiã internet
+tryon_demo_notice	Kpɔɖeŋu nɔnɔmeɖeɖe
+tryon_demo_notice_body	Wò mɔ̃a dzi wowɔ kpɔɖeŋu sia tso amadede kɔ nutata si wokpɔ me. Eɖea amadede kɔ didime fia, menye dodokpɔ ŋutɔŋutɔ o. Tsɔ generation backend kpe ɖe eŋu na kpɔɖeŋu ŋutɔŋutɔ.
+tooltip_tryon	Zã nɔnɔmeɖeɖe nyui nàkpɔ kpɔɖeŋu nyui.
+result_title	Wò nɔnɔmeɖeɖe
+result_ai_disclaimer	AI ƒe nɔnɔmeɖeɖe
+result_demo_disclaimer	Kpɔɖeŋu — amadede kɔ didime ko
+result_summary	%1$s le %2$s me
+result_action_save	Dzraɖo
+result_action_favorite	Lɔlɔ̃nu
+result_action_share	Ma
+result_action_another_design	Do ɖoɖo bubu kpɔ
+result_action_change_fabric	Trɔ avɔ
+result_action_another_person	Do kpɔ ame bubu dzi
+result_action_start_over	Gadze egɔme ake
+result_saved_to_gallery	Wodzrae ɖe wò mɔ̃a dzi
+result_zoom_hint	Zã asibidɛ eve ne nàdo
+discover_title	Di
+discover_tab_styles	Ɖoɖowo
+discover_tab_fabrics	Avɔwo
+discover_tab_looks	Nɔnɔmeɖeɖewo
+discover_search_hint	Di ɖoɖowo, avɔwo alo nɔnɔmeɖeɖewo
+discover_section_trending	Ɖoɖo siwo dze ŋgɔ
+discover_section_fabric_library	Avɔwo ƒe ɖoɖoƒe
+discover_section_editorial	Ɖoɖo tiatiawo
+discover_empty_search	Nutometsonu aɖeke meli na “%1$s” o
+discover_empty_search_body	Kpɔ ŋɔŋlɔɖi la alo tsɔ nya kpuie aɖe gadze agbagba.
+discover_offline_note	Ɖoɖo siwo le mɔ̃ sia dzi lae míele fiafia.
+design_detail_title	Ɖoɖo
+design_detail_about	Ɖoɖo sia ŋuti
+design_detail_occasions	Ɛnyo na
+design_detail_fabrics	Ɛwɔ ɖeka kɔ
+design_detail_tryon	Do kpɔ nɔnɔmeɖeɖe dzi
+design_detail_pick_fabric	Tia avɔ

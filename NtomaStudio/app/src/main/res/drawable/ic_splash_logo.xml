@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Full splash logo: mark on a soft rounded plate. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M26,18H74L94,38V102H26Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M74,18L94,38H74Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M36,56H84V65H36Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M36,72H68V81H36Z" />
+</vector>

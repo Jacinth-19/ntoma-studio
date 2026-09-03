@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="170dp"
+    android:viewportWidth="220"
+    android:viewportHeight="170">
+    <!-- Onboarding 3: preview a design on a person. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M20,10H200A14,14 0,0 1,214 24V146A14,14 0,0 1,200 160H20A14,14 0,0 1,6 146V24A14,14 0,0 1,20 10Z" />
+    <!-- person -->
+    <path
+        android:fillColor="#3B332E"
+        android:pathData="M110,26A16,16 0,1 1,109.9 26Z" />
+    <path
+        android:fillColor="#E3D9CD"
+        android:pathData="M88,52H132L140,96L132,142H88L80,96Z" />
+    <!-- garment applied over the body -->
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M86,56H134L142,100L136,140H84L78,100Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M82,88H138V96H82Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M84,110H136V116H84Z" />
+    <!-- swatch card feeding the garment -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M26,34H70V78H26Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M26,34H70V46H26Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M26,56H70V64H26Z" />
+    <path
+        android:fillColor="#14110F"
+        android:pathData="M24,32H72V34H70V80H26V78H24Z" />
+    <!-- arrow from swatch to person -->
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M74,54H92V50L100,57L92,64V60H74Z" />
+    <!-- dashed hem guide -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M152,104H196V108H152Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M160,116H188V120H160Z" />
+</vector>

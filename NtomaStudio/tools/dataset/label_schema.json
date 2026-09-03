@@ -1,0 +1,17 @@
+{
+  "task": "ghanaian_fabric_classification",
+  "version": 1,
+  "classes": [
+    "KENTE", "KENTE_PRINT", "ADINKRA", "WAX", "ANKARA", "BATIK", "TIEDYE",
+    "LACE", "BROCADE", "COTTON_PLAIN", "LINEN", "SILK", "CHIFFON", "VELVET",
+    "DENIM", "FUGU", "GONJA"
+  ],
+  "folder_layout": "raw/<CLASS_NAME>/*.jpg  (one folder per class, mirroring FabricCategory)",
+  "collection_guidance": {
+    "per_class_target": "300+ real photos before training; 1000+ before claiming accuracy numbers",
+    "capture": "fabric flat or draped, fills most of frame; vary lighting (daylight, market shade, indoor), distance (30cm-2m), angle, folds",
+    "sources": "market photography days (Makola, Kantamanto, Kejetia), weaver cooperatives (Bonwire kente, Tamale fugu), user-contributed photos with consent",
+    "avoid": "screens, prints of photos, watermarked stock, near-duplicate burst frames",
+    "honesty": "never mix authentic hand-woven and machine-printed samples in KENTE without labelling; consider a separate AUTHENTICITY task (see Authente-Kente)"
+  }
+}

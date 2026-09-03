@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============ App ============ -->
+    <string name="app_name">Ntoma</string>
+    <string name="app_tagline">Turn the fabric you already own into your next look.</string>
+    <string name="cd_app_logo">Ntoma logo</string>
+
+    <!-- ============ Common ============ -->
+    <string name="action_retry">Try again</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_back">Back</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_save">Save</string>
+    <string name="action_saved">Saved</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_done">Done</string>
+    <string name="action_got_it">Got it</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_see_all">See all</string>
+    <string name="action_learn_more">Learn more</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_search">Search</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_apply">Apply</string>
+    <string name="label_loading">Loading…</string>
+    <string name="label_offline">You are offline</string>
+    <string name="label_offline_short">Offline</string>
+    <string name="label_online_short">Online</string>
+    <string name="label_demo_badge">Demo</string>
+    <string name="label_free">Free</string>
+    <string name="label_premium">Premium</string>
+    <string name="label_advertisement">Advertisement</string>
+
+    <!-- ============ Bottom navigation ============ -->
+    <string name="nav_home">Home</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_create">Create</string>
+    <string name="nav_favorites">Favourites</string>
+    <string name="nav_profile">Profile</string>
+    <string name="cd_bottom_navigation">Main navigation</string>
+
+    <!-- ============ Welcome & onboarding ============ -->
+    <string name="onboarding_welcome_title">Welcome to Ntoma</string>
+    <string name="onboarding_welcome_body">Ntoma is Akan for cloth. Photograph a fabric you own and we will show you what it could become — from kaba and slit to a modern kaftan.</string>
+    <string name="onboarding_step1_title">Scan or upload a fabric</string>
+    <string name="onboarding_step1_body">Take a photo of the material on your table, or choose one from your gallery. Everything starts with the cloth.</string>
+    <string name="onboarding_step2_title">Discover designs that suit it</string>
+    <string name="onboarding_step2_body">We read the colours, pattern and texture, then suggest Ghanaian and contemporary styles for women and men.</string>
+    <string name="onboarding_step3_title">See it on a photo of you</string>
+    <string name="onboarding_step3_body">Optional: add a photo and preview the design on a person before you visit your seamstress.</string>
+    <string name="onboarding_step4_title">Save and share your looks</string>
+    <string name="onboarding_step4_body">Keep the fabrics and looks you love in Favourites, and share them with your tailor or friends.</string>
+    <string name="onboarding_started_title">Let\'s get started</string>
+    <string name="onboarding_started_body">Your first scan is ready whenever you are.</string>
+    <string name="onboarding_cta_scan">Scan my fabric</string>
+    <string name="onboarding_cta_skip">Skip for now</string>
+    <string name="onboarding_page_indicator">Page %1$d of %2$d</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_privacy_note">No account needed. Your photos stay on this device unless you ask for AI generation.</string>
+
+    <!-- ============ Home ============ -->
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_subtitle">Discover what your fabric could become.</string>
+    <string name="home_cta_scan">Scan fabric</string>
+    <string name="home_cta_upload">Choose from photos</string>
+    <string name="home_section_recent_fabrics">Your recent fabrics</string>
+    <string name="home_section_recommended">Recommended for you</string>
+    <string name="home_section_continue">Continue creating</string>
+    <string name="home_section_favorites">Saved looks</string>
+    <string name="home_section_tips">Good to know</string>
+    <string name="home_tip_1_title">Fill the frame</string>
+    <string name="home_tip_1_body">Move close so the print fills the screen — patterns are easier to read that way.</string>
+    <string name="home_tip_2_title">Use daylight</string>
+    <string name="home_tip_2_body">Natural light keeps colours true. Yellow indoor bulbs can shift a fabric\'s tone.</string>
+    <string name="home_tip_3_title">Flat and smooth</string>
+    <string name="home_tip_3_body">Lay the fabric flat and smooth out folds before you photograph it.</string>
+    <string name="home_empty_recent">No fabrics analysed yet</string>
+    <string name="home_empty_recent_body">Your scans will appear here so you can pick up where you left off.</string>
+    <string name="home_quota_note">%1$d of %2$d free analyses left today</string>
+    <string name="home_quota_exhausted">You have used today\'s free analyses. Premium unlocks unlimited scans.</string>
+    <string name="cd_scan_fabric">Scan a fabric with the camera</string>
+    <string name="tooltip_create">Start here by photographing your fabric. You can also pick an existing photo.</string>
+
+    <!-- ============ Create ============ -->
+    <string name="create_title">Create</string>
+    <string name="create_subtitle">What are we working with today?</string>
+    <string name="create_option_camera_title">Take a photo</string>
+    <string name="create_option_camera_body">Use your camera to capture the fabric in front of you.</string>
+    <string name="create_option_gallery_title">Choose a photo</string>
+    <string name="create_option_gallery_body">Pick a fabric photo already on your phone.</string>
+    <string name="create_option_person_title">Try a design on a person</string>
+    <string name="create_option_person_body">Visualise a saved fabric and design on a photo.</string>
+    <string name="create_recent_title">Recent work</string>
+    <string name="create_empty_body">Nothing here yet — your fabrics and looks will show up as you create.</string>
+    <string name="create_guidance_header">For the best result</string>
+
+    <!-- ============ Camera ============ -->
+    <string name="camera_title">Scan fabric</string>
+    <string name="camera_guidance">Place the fabric inside the frame</string>
+    <string name="camera_guidance_far">Move a little closer so the print fills the frame</string>
+    <string name="camera_guidance_dark">It looks dark — add light or turn on the flash</string>
+    <string name="camera_capture">Capture photo</string>
+    <string name="camera_switch_lens">Switch camera</string>
+    <string name="camera_flash_on">Flash on</string>
+    <string name="camera_flash_off">Flash off</string>
+    <string name="camera_flash_auto">Flash auto</string>
+    <string name="camera_focus_hint">Tap anywhere to focus</string>
+    <string name="camera_capturing">Capturing…</string>
+    <string name="camera_no_device">This device has no camera</string>
+    <string name="camera_no_device_body">You can still choose a fabric photo from your gallery.</string>
+    <string name="camera_capture_failed">We could not capture that photo. Please try again.</string>
+
+    <!-- ============ Image editing ============ -->
+    <string name="edit_title_fabric">Adjust your fabric photo</string>
+    <string name="edit_title_person">Adjust the photo</string>
+    <string name="edit_hint">Pinch to zoom, drag to position, then confirm.</string>
+    <string name="edit_rotate">Rotate</string>
+    <string name="edit_reset">Reset</string>
+    <string name="edit_ratio_free">Free</string>
+    <string name="edit_ratio_square">Square</string>
+    <string name="edit_ratio_portrait">3:4</string>
+    <string name="edit_ratio_full">Full</string>
+    <string name="edit_retake">Retake</string>
+    <string name="edit_use_photo">Use photo</string>
+    <string name="edit_saving">Preparing your image…</string>
+
+    <!-- ============ Analysis ============ -->
+    <string name="analysis_title">Analyzing your fabric…</string>
+    <string name="analysis_stage_preparing">Preparing your fabric…</string>
+    <string name="analysis_stage_colors">Reading colours…</string>
+    <string name="analysis_stage_pattern">Studying the pattern…</string>
+    <string name="analysis_stage_styles">Finding matching styles…</string>
+    <string name="analysis_stage_finishing">Finishing touches…</string>
+    <string name="analysis_result_title">Fabric analysis</string>
+    <string name="analysis_match_confident">Likely match</string>
+    <string name="analysis_match_possible">Possible match</string>
+    <string name="analysis_match_uncertain">Not sure yet</string>
+    <string name="analysis_confidence">Confidence %1$d%%</string>
+    <string name="analysis_section_colors">Dominant colours</string>
+    <string name="analysis_section_pattern">Pattern</string>
+    <string name="analysis_section_texture">Texture</string>
+    <string name="analysis_section_print">Print characteristics</string>
+    <string name="analysis_section_category">Possible fabric category</string>
+    <string name="analysis_section_style">Possible Ghanaian style</string>
+    <string name="analysis_section_uses">Suggested uses</string>
+    <string name="analysis_honesty_note">This is a possible match, not a certification. Two fabrics can look alike on camera. When in doubt, ask your local textile seller.</string>
+    <string name="analysis_ml_title">On-device ML classifier</string>
+    <string name="analysis_ml_mapped">Suggests fabric: %1$s</string>
+    <string name="analysis_ml_note">A MobileNetV2 neural network running on your phone labels what it sees. It is a second opinion, not a verdict, and nothing is uploaded.</string>
+    <string name="analysis_engine_on_device">On-device analysis (demo engine)</string>
+    <string name="analysis_engine_on_device_note">Colours and pattern were read on your phone. Nothing was uploaded. Connect a cloud model in settings for deeper identification.</string>
+    <string name="analysis_engine_cloud">Cloud analysis</string>
+    <string name="analysis_engine_cloud_note">Your image was sent to the analysis service to read it.</string>
+    <string name="analysis_action_view_designs">See matching designs</string>
+    <string name="analysis_action_save_favorite">Save fabric</string>
+    <string name="analysis_action_rescan">Scan another fabric</string>
+    <string name="print_trait_high_contrast">High-contrast print</string>
+    <string name="print_trait_low_contrast">Low-contrast print</string>
+    <string name="print_trait_large_scale">Large-scale motifs</string>
+    <string name="print_trait_small_repeat">Small all-over repeat</string>
+    <string name="print_trait_multicolour">Multicoloured</string>
+    <string name="print_trait_two_tone">Two-tone</string>
+    <string name="print_trait_directional">Directional print</string>
+    <string name="print_trait_woven_strips">Narrow woven strips</string>
+    <string name="print_trait_all_over">All-over print</string>
+    <string name="analysis_unnamed">Fabric scan</string>
+    <string name="analysis_rename_title">Name this fabric</string>
+    <string name="analysis_rename_hint">e.g. Kente from Bonwire</string>
+    <string name="cd_color_swatch">Colour swatch</string>
+    <string name="color_name_red">Red</string>
+    <string name="color_name_orange">Orange</string>
+    <string name="color_name_gold">Gold</string>
+    <string name="color_name_yellow">Yellow</string>
+    <string name="color_name_green">Green</string>
+    <string name="color_name_teal">Teal</string>
+    <string name="color_name_blue">Blue</string>
+    <string name="color_name_indigo">Indigo</string>
+    <string name="color_name_purple">Purple</string>
+    <string name="color_name_pink">Pink</string>
+    <string name="color_name_brown">Brown</string>
+    <string name="color_name_black">Black</string>
+    <string name="color_name_grey">Grey</string>
+    <string name="color_name_white">White</string>
+    <string name="color_name_cream">Cream</string>
+
+    <!-- ============ Recommendations ============ -->
+    <string name="recs_title">Looks made for your fabric</string>
+    <string name="recs_subtitle">%1$d designs suit this cloth</string>
+    <string name="recs_filter_women">Women</string>
+    <string name="recs_filter_men">Men</string>
+    <string name="recs_filter_unisex">Unisex</string>
+    <string name="recs_filter_casual">Casual</string>
+    <string name="recs_filter_formal">Formal</string>
+    <string name="recs_filter_traditional">Traditional</string>
+    <string name="recs_filter_wedding">Wedding</string>
+    <string name="recs_filter_church">Church</string>
+    <string name="recs_filter_office">Office</string>
+    <string name="recs_filter_party">Party</string>
+    <string name="recs_filter_everyday">Everyday</string>
+    <string name="recs_filters_label">Filters</string>
+    <string name="recs_clear_filters">Clear filters</string>
+    <string name="recs_empty_title">No designs match those filters</string>
+    <string name="recs_empty_body">Try removing a filter or switching between women\'s and men\'s styles.</string>
+    <string name="recs_try_on">Try on</string>
+    <string name="recs_view_design">View design</string>
+    <string name="recs_match_score">%1$d%% match</string>
+    <string name="recs_why_title">Why it suits your fabric</string>
+    <string name="recs_favorite_added">Added to favourites</string>
+    <string name="recs_favorite_removed">Removed from favourites</string>
+    <string name="recs_for_fabric">For %1$s</string>
+
+    <!-- Recommendation explanations (arguments: none) -->
+    <string name="why_pattern_structured">Bold, structured motifs hold their shape beautifully in this cut.</string>
+    <string name="why_pattern_flowing">The flowing print follows the movement of this silhouette.</string>
+    <string name="why_scale_large">Large motifs need generous panels, which this design gives them.</string>
+    <string name="why_scale_small">The small, all-over repeat reads well across a fitted shape.</string>
+    <string name="why_texture_heavy">A firm, woven hand suits this tailored style.</string>
+    <string name="why_texture_light">The light drape of this cloth flatters this flowing cut.</string>
+    <string name="why_colors_rich">Rich, saturated colours carry the occasion this design is made for.</string>
+    <string name="why_colors_muted">The calm palette keeps this design easy to wear daily.</string>
+    <string name="why_occasion">A dependable choice for %1$s.</string>
+    <string name="why_tradition">A contemporary take on a Ghanaian classic.</string>
+    <string name="why_gender">Cut for %1$s.</string>
+
+    <!-- ============ Try on ============ -->
+    <string name="tryon_title">Try it on</string>
+    <string name="tryon_step_person">Who is wearing it?</string>
+    <string name="tryon_step_photo">Add a photo</string>
+    <string name="tryon_step_design">Choose design</string>
+    <string name="tryon_step_apply">Apply fabric</string>
+    <string name="tryon_gender_woman">Woman</string>
+    <string name="tryon_gender_man">Man</string>
+    <string name="tryon_gender_auto">Auto detect</string>
+    <string name="tryon_photo_camera">Take a photo</string>
+    <string name="tryon_photo_gallery">Choose photo</string>
+    <string name="tryon_photo_guidance_title">For the best result</string>
+    <string name="tryon_photo_guidance">Use a clear full-body or upper-body photo with good lighting. Stand straight and avoid busy backgrounds.</string>
+    <string name="tryon_photo_replace">Replace photo</string>
+    <string name="tryon_design_current">Current design</string>
+    <string name="tryon_design_change">Change design</string>
+    <string name="tryon_fabric_current">Fabric</string>
+    <string name="tryon_fabric_change">Change fabric</string>
+    <string name="tryon_start">Apply fabric</string>
+    <string name="tryon_state_idle">Ready when you are</string>
+    <string name="tryon_state_uploading">Uploading your photo…</string>
+    <string name="tryon_state_processing">Preparing your fabric…</string>
+    <string name="tryon_state_generating">Creating your look…</string>
+    <string name="tryon_state_finishing">Finishing touches…</string>
+    <string name="tryon_state_success">Your look is ready</string>
+    <string name="tryon_state_error">We could not create that look</string>
+    <string name="tryon_quota_note">%1$d of %2$d free try-ons left this month</string>
+    <string name="tryon_quota_exhausted">You have used this month\'s free try-ons.</string>
+    <string name="tryon_rewarded_offer">Watch a short ad to get 1 additional try-on</string>
+    <string name="tryon_rewarded_granted">Nice — 1 extra try-on added.</string>
+    <string name="tryon_needs_connection">Try-on needs an internet connection</string>
+    <string name="tryon_demo_notice">Demo visualisation</string>
+    <string name="tryon_demo_notice_body">This preview is composited on your device from the detected colours and pattern. It shows scale and colour, not a fitted, photorealistic try-on. Connect a generation backend for real results.</string>
+    <string name="tooltip_tryon">Use a clear photo for the best visualisation.</string>
+
+    <!-- ============ Result ============ -->
+    <string name="result_title">Your look</string>
+    <string name="result_ai_disclaimer">AI-generated visualisation</string>
+    <string name="result_demo_disclaimer">Demo visualisation — colours and scale only</string>
+    <string name="result_summary">%1$s in %2$s</string>
+    <string name="result_action_save">Save</string>
+    <string name="result_action_favorite">Favourite</string>
+    <string name="result_action_share">Share</string>
+    <string name="result_action_another_design">Try another design</string>
+    <string name="result_action_change_fabric">Change fabric</string>
+    <string name="result_action_another_person">Try on another person</string>
+    <string name="result_action_start_over">Start over</string>
+    <string name="result_saved_to_gallery">Saved to your device</string>
+    <string name="result_zoom_hint">Pinch to zoom</string>
+
+    <!-- ============ Discover ============ -->
+    <string name="discover_title">Discover</string>
+    <string name="discover_tab_styles">Styles</string>
+    <string name="discover_tab_fabrics">Fabrics</string>
+    <string name="discover_tab_looks">Looks</string>
+    <string name="discover_search_hint">Search styles, fabrics or looks</string>
+    <string name="discover_section_trending">Popular styles</string>
+    <string name="discover_section_fabric_library">Fabric library</string>
+    <string name="discover_section_editorial">Style edits</string>
+    <string name="discover_empty_search">No results for “%1$s”</string>
+    <string name="discover_empty_search_body">Check the spelling or try a shorter word.</string>
+    <string name="discover_offline_note">Showing designs cached on this device.</string>
+
+    <!-- ============ Design detail ============ -->
+    <string name="design_detail_title">Design</string>
+    <string name="design_detail_about">About this design</string>
+    <string name="design_detail_occasions">Best for</string>
+    <string name="design_detail_fabrics">Works well with</string>
+    <string name="design_detail_tryon">Try it on a photo</string>
+    <string name="design_detail_pick_fabric">Choose a fabric</string>
+
+    <!-- ============ Favourites ============ -->
+    <string name="favorites_title">Favourites</string>
+    <string name="favorites_tab_fabrics">Fabrics</string>
+    <string name="favorites_tab_designs">Designs</string>
+    <string name="favorites_tab_looks">Looks</string>
+    <string name="favorites_empty_title">Your style collection is empty</string>
+    <string name="favorites_empty_body">Save fabrics and looks you love to find them here later.</string>
+    <string name="favorites_search_hint">Search your favourites</string>
+    <string name="favorites_removed">Removed from favourites</string>
+    <string name="favorites_count">%1$d saved</string>
+    <string name="tooltip_favorites">Save designs and generated looks here.</string>
+
+    <!-- ============ History ============ -->
+    <string name="history_title">History</string>
+    <string name="history_subtitle">Your recent activity stays on this device.</string>
+    <string name="history_empty_title">No activity yet</string>
+    <string name="history_empty_body">Scans, chosen designs and generated looks will be listed here.</string>
+    <string name="history_clear">Clear history</string>
+    <string name="history_clear_confirm_title">Clear all history?</string>
+    <string name="history_clear_confirm_body">This removes your scan, design and look history from this device. Favourites are kept.</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="history_item_deleted">Item deleted</string>
+    <string name="history_event_scan">Scanned a fabric</string>
+    <string name="history_event_analysis">Analysed %1$s</string>
+    <string name="history_event_design">Opened %1$s</string>
+    <string name="history_event_look">Created a look: %1$s</string>
+
+    <!-- ============ Profile ============ -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_guest">Guest user</string>
+    <string name="profile_guest_body">You are using Ntoma without an account. Everything you save stays on this device.</string>
+    <string name="profile_section_you">You</string>
+    <string name="profile_section_activity">Activity</string>
+    <string name="profile_section_preferences">Preferences</string>
+    <string name="profile_section_support">Support</string>
+    <string name="profile_row_history">History</string>
+    <string name="profile_row_settings">Settings</string>
+    <string name="profile_row_notifications">Notifications</string>
+    <string name="profile_row_premium">Ntoma Premium</string>
+    <string name="profile_row_help">Help &amp; tips</string>
+    <string name="profile_row_privacy">Privacy</string>
+    <string name="profile_row_about">About Ntoma</string>
+    <string name="profile_stats_fabrics">Fabrics</string>
+    <string name="profile_stats_designs">Designs</string>
+    <string name="profile_stats_looks">Looks</string>
+    <string name="profile_name_hint">Display name</string>
+    <string name="profile_name_saved">Name saved</string>
+    <string name="profile_style_preference">Style preference</string>
+    <string name="profile_preference_womenswear">Womenswear</string>
+    <string name="profile_preference_menswear">Menswear</string>
+    <string name="profile_preference_all">Show everything</string>
+
+    <!-- ============ Settings ============ -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_section_language">Language</string>
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_section_privacy">Privacy</string>
+    <string name="settings_section_account">Account</string>
+    <string name="settings_section_help">Help</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_section_analysis">Analysis engine</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_system">System default</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_twi">Twi</string>
+    <string name="settings_language_ga">Ga</string>
+    <string name="settings_language_ewe">Ewe</string>
+    <string name="settings_language_note">Twi, Ga and Ewe are in progress. Untranslated text is shown in English.</string>
+    <string name="settings_notif_processing">Processing complete</string>
+    <string name="settings_notif_processing_body">Tell me when a look finishes generating.</string>
+    <string name="settings_notif_recommendations">New recommendations</string>
+    <string name="settings_notif_recommendations_body">Occasional style ideas based on fabrics I have saved.</string>
+    <string name="settings_notif_updates">Product updates</string>
+    <string name="settings_notif_updates_body">Important improvements to Ntoma.</string>
+    <string name="settings_notif_inspiration">Weekly inspiration</string>
+    <string name="settings_notif_inspiration_body">One gentle idea each week. Off by default.</string>
+    <string name="settings_notif_permission_needed">Allow notifications to receive these.</string>
+    <string name="settings_notif_denied_body">Notifications are blocked in system settings. You can still use every other part of Ntoma.</string>
+    <string name="settings_privacy_policy">Privacy policy</string>
+    <string name="settings_terms">Terms of service</string>
+    <string name="settings_data_controls">Data controls</string>
+    <string name="settings_delete_data">Delete my data</string>
+    <string name="settings_clear_history">Clear local history</string>
+    <string name="settings_engine">Analysis provider</string>
+    <string name="settings_engine_demo">On-device demo engine</string>
+    <string name="settings_engine_demo_body">Runs entirely on your phone. No image leaves the device.</string>
+    <string name="settings_engine_cloud">Cloud analysis (not connected)</string>
+    <string name="settings_engine_cloud_body">Sends the image to your analysis backend. Requires an API endpoint — no keys are stored in the app.</string>
+    <string name="settings_engine_cloud_unavailable">No cloud endpoint is configured, so Ntoma is using the on-device engine.</string>
+    <string name="settings_help_how">How Ntoma works</string>
+    <string name="settings_help_tutorial">Step-by-step tutorial</string>
+    <string name="settings_help_faq">FAQ</string>
+    <string name="settings_help_contact">Contact support</string>
+    <string name="settings_about_version">Version</string>
+    <string name="settings_about_credits">Credits</string>
+    <string name="settings_about_made">Made in Accra, Ghana</string>
+    <string name="settings_replay_onboarding">Show onboarding again</string>
+    <string name="settings_reset_tips">Reset tooltips</string>
+    <string name="settings_tips_reset_done">Tooltips will show again</string>
+    <string name="settings_data_used">Local storage used</string>
+
+    <!-- ============ Premium / monetisation ============ -->
+    <string name="premium_title">Ntoma Premium</string>
+    <string name="premium_pitch">Free Ntoma already lets you scan fabrics, browse every design and save favourites. Premium is for the days you are planning a whole wardrobe.</string>
+    <string name="premium_benefit_analyses">Unlimited fabric analyses</string>
+    <string name="premium_benefit_tryons">20 try-on generations a month</string>
+    <string name="premium_benefit_resolution">High-resolution results</string>
+    <string name="premium_benefit_speed">Priority processing</string>
+    <string name="premium_benefit_styles">Advanced style library</string>
+    <string name="premium_benefit_ads">No advertisements</string>
+    <string name="premium_benefit_history">Full history retention</string>
+    <string name="premium_price_monthly">%1$s / month</string>
+    <string name="premium_price_yearly">%1$s / year</string>
+    <string name="premium_tab_monthly">Monthly</string>
+    <string name="premium_tab_yearly">Yearly</string>
+    <string name="premium_subscribe">Subscribe</string>
+    <string name="premium_restore">Restore purchases</string>
+    <string name="premium_current_plan">Current plan: %1$s</string>
+    <string name="premium_billing_notice">Billing is not connected in this build. This screen demonstrates the paywall layout only — no payment is taken and no subscription is created.</string>
+    <string name="premium_demo_unlock">Enable Premium (demo flag)</string>
+    <string name="premium_demo_locked">Disable Premium (demo flag)</string>
+    <string name="premium_demo_activated">Demo premium enabled. No payment was taken — this build has no billing connection.</string>
+    <string name="premium_already_active">Premium is already active on this device.</string>
+    <string name="premium_unlocked_toast">Premium enabled for this device (demo)</string>
+    <string name="paywall_sheet_title">You have reached the free limit</string>
+    <string name="paywall_sheet_body_analyses">Free accounts include %1$d fabric analyses a day. Premium removes the limit.</string>
+    <string name="paywall_sheet_body_tryons">Free accounts include %1$d try-on generations a month.</string>
+    <string name="paywall_sheet_alternative">Or watch a short ad for one more try-on</string>
+
+    <!-- ============ Ads ============ -->
+    <string name="ads_placeholder_title">Advertisement</string>
+    <string name="ads_placeholder_body">Ad space. Connect an ad provider to serve real adverts. Premium members never see this.</string>
+    <string name="ads_rewarded_label">Rewarded ad (demo)</string>
+    <string name="ads_rewarded_playing">Playing demo ad… %1$d</string>
+    <string name="ads_rewarded_skip">Skip</string>
+
+    <!-- ============ Permissions ============ -->
+    <string name="permission_camera_title">Camera access</string>
+    <string name="permission_camera_body">Ntoma uses the camera only to photograph the fabric or person you choose. Photos are stored on this device unless you request AI generation.</string>
+    <string name="permission_camera_denied_title">Camera is off</string>
+    <string name="permission_camera_denied_body">You can still choose an existing photo from your gallery, or turn the camera on in system settings.</string>
+    <string name="permission_notifications_title">Notifications</string>
+    <string name="permission_notifications_body">We only notify you when something you started finishes, or when you opt in to style ideas.</string>
+    <string name="permission_denied_continue">Continue without it</string>
+    <string name="permission_open_app_settings">Enable in system settings</string>
+
+    <!-- ============ Errors ============ -->
+    <string name="error_generic_title">Something went wrong</string>
+    <string name="error_generic_body">That did not work. Please try again.</string>
+    <string name="error_no_internet_title">No internet connection</string>
+    <string name="error_no_internet_body">Check your connection and try again. Browsing, favourites and history still work offline.</string>
+    <string name="error_server_title">Service unavailable</string>
+    <string name="error_server_body">Our service is not responding right now. Please try again in a moment.</string>
+    <string name="error_timeout_title">That took too long</string>
+    <string name="error_timeout_body">The request timed out. A shorter photo or a better connection usually helps.</string>
+    <string name="error_invalid_image_title">We could not read that image</string>
+    <string name="error_invalid_image_body">The file may be damaged or empty. Try a different photo.</string>
+    <string name="error_unsupported_image_title">That file type is not supported</string>
+    <string name="error_unsupported_image_body">Please choose a JPG, PNG or WebP photo.</string>
+    <string name="error_image_too_large_title">That photo is too large</string>
+    <string name="error_image_too_large_body">Try a smaller photo — we work best with images under 20&#160;MP.</string>
+    <string name="error_generation_title">We could not create that look</string>
+    <string name="error_generation_body">The generation service could not finish. Try a clearer photo with better lighting.</string>
+    <string name="error_rate_limit_title">Slow down a little</string>
+    <string name="error_rate_limit_body">You have sent several requests in a row. Please wait a minute and try again.</string>
+    <string name="error_analysis_title">We could not analyse that fabric</string>
+    <string name="error_analysis_body">Try a clearer photo with better lighting, with the print filling the frame.</string>
+    <string name="error_permission_title">Permission needed</string>
+    <string name="error_memory_title">Not enough memory</string>
+    <string name="error_memory_body">That image is too big to process here. Close a few apps or choose a smaller photo.</string>
+
+    <!-- ============ Notifications ============ -->
+    <string name="notif_channel_processing">Processing complete</string>
+    <string name="notif_channel_processing_desc">Tells you when a generated look is ready.</string>
+    <string name="notif_channel_recommendations">Style recommendations</string>
+    <string name="notif_channel_recommendations_desc">Occasional design ideas based on your saved fabrics.</string>
+    <string name="notif_channel_updates">Product updates</string>
+    <string name="notif_channel_updates_desc">Important improvements and fixes.</string>
+    <string name="notif_look_ready_title">Your look is ready</string>
+    <string name="notif_look_ready_body">%1$s is waiting for you in Ntoma.</string>
+    <string name="notif_recommendation_title">A style idea for you</string>
+    <string name="notif_recommendation_body">%1$s would suit a fabric like yours.</string>
+    <string name="notif_update_title">Ntoma has been updated</string>
+    <string name="notif_update_body">See what is new in this version.</string>
+
+    <!-- ============ Sharing ============ -->
+    <string name="share_chooser_title">Share with</string>
+    <string name="share_look_text">Look: %1$s in %2$s — created with Ntoma.</string>
+    <string name="share_fabric_text">Fabric: %1$s — %2$s. Spotted with Ntoma.</string>
+    <string name="share_design_text">Design: %1$s — %2$s. Found on Ntoma.</string>
+    <string name="share_saved">Ready to share</string>
+
+    <!-- ============ Privacy & legal ============ -->
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_intro">Short version: Ntoma works on your phone. We only send an image somewhere when you ask for AI generation, and we say so when it happens.</string>
+    <string name="privacy_images_title">What images are processed</string>
+    <string name="privacy_images_body">Fabric photos you capture or pick, and — only if you use try-on — one photo of a person. Generated looks are stored in the app\'s private storage.</string>
+    <string name="privacy_device_title">Do images leave my device?</string>
+    <string name="privacy_device_body">On-device analysis: no. Your fabric photo is analysed on the phone and never uploaded. Cloud analysis and AI try-on: yes — the image is sent to the configured backend so the model can process it. The engine in use is always shown on the analysis screen.</string>
+    <string name="privacy_retention_title">How long are images kept?</string>
+    <string name="privacy_retention_body">Locally, until you delete them. A connected backend decides its own retention; we recommend a maximum of 24 hours for uploaded images, and the demo engine keeps nothing.</string>
+    <string name="privacy_delete_title">How do I delete my data?</string>
+    <string name="privacy_delete_body">Use Delete my data below. It removes scans, analyses, looks, history, favourites and cached images from this device immediately.</string>
+    <string name="privacy_analytics_title">Analytics</string>
+    <string name="privacy_analytics_body">This build ships with a debug-only logger. No analytics SDK is included and no usage data leaves your device.</string>
+    <string name="privacy_ads_title">Advertising</string>
+    <string name="privacy_ads_body">This version of Ntoma contains no advertisements and no advertising SDK. No advertising identifiers or ad data are collected. If ads are introduced in a future version, they will be clearly labelled and this policy will be updated first.</string>
+    <string name="privacy_permissions_title">Permissions</string>
+    <string name="privacy_permissions_body">Camera (only when you scan or take a photo) and notifications (only if you enable them). Photos are read through the Android photo picker, so no storage permission is requested. We never ask for contacts, location, microphone, SMS, phone or call logs.</string>
+    <string name="privacy_delete_data_title">Delete my data?</string>
+    <string name="privacy_delete_data_body">This permanently removes your fabrics, analyses, generated looks, history and favourites from this device. It cannot be undone.</string>
+    <string name="privacy_data_deleted">Your local data has been deleted</string>
+    <string name="privacy_keep_history_days">History retention</string>
+    <string name="privacy_keep_forever">Keep everything</string>
+    <string name="privacy_keep_days">%1$d days</string>
+
+    <string name="terms_title">Terms of service</string>
+    <string name="terms_body_1">Ntoma helps you explore how a fabric could look as a garment. Suggestions and visualisations are ideas, not professional tailoring advice, and results depend on your fabric, measurements and seamstress.</string>
+    <string name="terms_body_2">You keep the rights to the photos you upload. You are responsible for having permission to use any photo of another person, and for how you share generated images.</string>
+    <string name="terms_body_3">Generated images are illustrative. Do not present them as a finished garment, a guarantee of fit, or a real photograph of an existing product.</string>
+    <string name="terms_body_4">The service is provided as-is during beta. Premium features in this build are not connected to billing, and no payment is collected.</string>
+    <string name="terms_body_5">Contact support to report a problem or to request removal of your data.</string>
+
+    <string name="credits_title">Credits</string>
+    <string name="credits_body">Ntoma — “cloth” in Akan. Built with Jetpack Compose. Fabric and style knowledge draws on Ghanaian dress traditions including kente, adinkra, wax print and the smock. All demo imagery in this build is generated from your own fabric colours; no third-party photographs are bundled.</string>
+
+    <!-- ============ Help ============ -->
+    <string name="help_title">Help &amp; tips</string>
+    <string name="help_how_title">How Ntoma works</string>
+    <string name="help_how_1">1. Scan or upload a fabric photo.</string>
+    <string name="help_how_2">2. Read the analysis: colours, pattern, texture and a possible Ghanaian style.</string>
+    <string name="help_how_3">3. Browse matching designs for women and men, filtered by occasion.</string>
+    <string name="help_how_4">4. Optionally preview a design on a photo of a person.</string>
+    <string name="help_how_5">5. Save what you like and share it with your tailor.</string>
+    <string name="help_tips_title">Photography tips</string>
+    <string name="help_tips_body">Fill the frame with the print, use daylight, keep the cloth flat, and avoid strong shadows or flash glare.</string>
+    <string name="help_faq_title">Frequently asked questions</string>
+    <string name="help_faq_q1">Is my photo uploaded?</string>
+    <string name="help_faq_a1">Only if you use a cloud engine or AI try-on. On-device analysis never leaves your phone.</string>
+    <string name="help_faq_q2">Why does it say “possible match”?</string>
+    <string name="help_faq_a2">Because a photo cannot always tell kente from a printed imitation. We would rather be honest than certain.</string>
+    <string name="help_faq_q3">Is the try-on a real fitting?</string>
+    <string name="help_faq_a3">No. It shows colour and scale on a person. Fit and finish depend on your tailor.</string>
+    <string name="help_faq_q4">Does it work offline?</string>
+    <string name="help_faq_a4">Browsing, favourites, history and settings work offline. Cloud analysis and AI try-on need a connection.</string>
+    <string name="help_faq_q5">Can I add my own designs?</string>
+    <string name="help_faq_a5">Not yet. The style library is loaded from a catalogue that can be updated from the backend.</string>
+    <string name="help_contact_body">Tell us what went wrong and we will reply. Include your app version: %1$s.</string>
+    <string name="help_contact_email">support@ntoma.app</string>
+    <string name="help_contact_subject">Ntoma support request</string>
+
+    <!-- ============ Empty states ============ -->
+    <string name="empty_looks_title">No looks yet</string>
+    <string name="empty_looks_body">Try a design on a photo and your results will appear here.</string>
+    <string name="empty_fabrics_title">No fabrics yet</string>
+    <string name="empty_fabrics_body">Scan a fabric to start building your collection.</string>
+    <string name="empty_history_body">Your activity will show up here.</string>
+
+    <!-- ============ Catalogue: fabrics ============ -->
+    <string name="fabric_kente">Kente</string>
+    <string name="fabric_kente_desc">Hand-woven strip cloth from the Ashanti and Ewe traditions, known for bold geometric blocks.</string>
+    <string name="fabric_adinkra">Adinkra</string>
+    <string name="fabric_adinkra_desc">Cotton stamped with symbols cut from calabash, traditionally worn for mourning and ceremony.</string>
+    <string name="fabric_wax">Wax print (Ankara)</string>
+    <string name="fabric_wax_desc">Vibrant wax-resist printed cotton, the everyday fabric of West African dressmaking.</string>
+    <string name="fabric_ankara">Ankara print</string>
+    <string name="fabric_ankara_desc">Bold all-over printed cotton with saturated colour on both faces.</string>
+    <string name="fabric_batik">Batik</string>
+    <string name="fabric_batik_desc">Hand-dyed resist cloth with soft, blended edges and organic motifs.</string>
+    <string name="fabric_tiedye">Tie-dye</string>
+    <string name="fabric_tiedye_desc">Bound and dyed cloth with radiating rings and marbled gradients.</string>
+    <string name="fabric_lace">Lace</string>
+    <string name="fabric_lace_desc">Open-work embroidered cloth, a favourite for weddings and church.</string>
+    <string name="fabric_brocade">Brocade / Bazin</string>
+    <string name="fabric_brocade_desc">Stiff, lustrous jacquard that holds a sculpted silhouette.</string>
+    <string name="fabric_cotton_plain">Plain woven cotton</string>
+    <string name="fabric_cotton_plain_desc">Even, matte weave in a single colour — quiet and versatile.</string>
+    <string name="fabric_linen">Linen</string>
+    <string name="fabric_linen_desc">Slubby, breathable weave with a relaxed natural texture.</string>
+    <string name="fabric_silk">Silk / satin</string>
+    <string name="fabric_silk_desc">Smooth, reflective surface with a fluid drape.</string>
+    <string name="fabric_chiffon">Chiffon</string>
+    <string name="fabric_chiffon_desc">Sheer, airy weave that moves with the body.</string>
+    <string name="fabric_velvet">Velvet</string>
+    <string name="fabric_velvet_desc">Dense pile with deep, light-catching colour.</string>
+    <string name="fabric_denim">Denim</string>
+    <string name="fabric_denim_desc">Sturdy indigo twill with a visible diagonal weave.</string>
+    <string name="fabric_kente_print">Kente-style print</string>
+    <string name="fabric_kente_print_desc">Printed cotton imitating woven strip motifs — a possible match, not woven kente.</string>
+    <string name="fabric_unknown">Unidentified cloth</string>
+    <string name="fabric_unknown_desc">We could not place this fabric confidently. The colour and pattern notes still hold.</string>
+
+    <!-- Catalogue: patterns -->
+    <string name="pattern_striped">Striped</string>
+    <string name="pattern_checked">Checked / plaid</string>
+    <string name="pattern_geometric">Geometric blocks</string>
+    <string name="pattern_floral">Floral</string>
+    <string name="pattern_organic">Organic motifs</string>
+    <string name="pattern_symbolic">Symbolic stamps</string>
+    <string name="pattern_dotted">Dotted</string>
+    <string name="pattern_abstract">Abstract</string>
+    <string name="pattern_solid">Plain / solid</string>
+    <string name="pattern_gradient">Gradient / ombre</string>
+
+    <!-- Catalogue: textures -->
+    <string name="texture_woven">Firm woven</string>
+    <string name="texture_smooth">Smooth</string>
+    <string name="texture_slub">Slubby</string>
+    <string name="texture_sheer">Sheer</string>
+    <string name="texture_pile">Pile</string>
+    <string name="texture_stiff">Stiff / structured</string>
+    <string name="texture_soft">Soft drape</string>
+    <string name="texture_quilted">Quilted</string>
+    <string name="texture_embroidered">Embroidered</string>
+
+    <!-- Catalogue: styles (female) -->
+    <string name="style_kaba_slit">Kaba and slit</string>
+    <string name="style_kaba_slit_desc">The Ghanaian classic: a fitted blouse with a wrapped or straight long skirt.</string>
+    <string name="style_modern_kaba">Modern kaba</string>
+    <string name="style_modern_kaba_desc">Kaba lines re-cut with a corseted bodice and contemporary sleeves.</string>
+    <string name="style_maxi_dress">Maxi dress</string>
+    <string name="style_maxi_dress_desc">A floor-length dress with a full skirt that lets the print move.</string>
+    <string name="style_straight_dress">Straight dress</string>
+    <string name="style_straight_dress_desc">A clean column silhouette with minimal seaming.</string>
+    <string name="style_mermaid_dress">Mermaid dress</string>
+    <string name="style_mermaid_dress_desc">Fitted through the body, flaring below the knee for evening wear.</string>
+    <string name="style_peplum">Peplum top and skirt</string>
+    <string name="style_peplum_desc">A flounced waist over a pencil or A-line skirt.</string>
+    <string name="style_jumpsuit">Printed jumpsuit</string>
+    <string name="style_jumpsuit_desc">One-piece tailoring with a wide leg and defined waist.</string>
+    <string name="style_skirt_blouse">Skirt and blouse</string>
+    <string name="style_skirt_blouse_desc">A separate blouse and skirt that can be mixed with other pieces.</string>
+    <string name="style_african_gown">African print gown</string>
+    <string name="style_african_gown_desc">A formal floor-length gown with structured bodice and train.</string>
+    <string name="style_contemporary_formal">Contemporary formal dress</string>
+    <string name="style_contemporary_formal_desc">A tailored dress for office, church and formal events.</string>
+
+    <!-- Catalogue: styles (male) -->
+    <string name="style_kaftan">Kaftan</string>
+    <string name="style_kaftan_desc">A long pull-over tunic with a straight fall and side vents.</string>
+    <string name="style_agbada">Agbada-inspired outfit</string>
+    <string name="style_agbada_desc">A flowing grand boubou worn over a tunic and trousers.</string>
+    <string name="style_print_shirt">African print shirt</string>
+    <string name="style_print_shirt_desc">A short-sleeve camp-collar shirt in the fabric of your choice.</string>
+    <string name="style_senator">Senator-style outfit</string>
+    <string name="style_senator_desc">A slim tunic with subtle embroidery over matching trousers.</string>
+    <string name="style_smock">Smock-inspired set (fugu)</string>
+    <string name="style_smock_desc">A hand-woven smock silhouette with a woven trim neckline.</string>
+    <string name="style_african_suit">Formal African suit</string>
+    <string name="style_african_suit_desc">A jacket and trouser combination with print lapels or lining.</string>
+    <string name="style_shirt_trousers">Shirt and trousers</string>
+    <string name="style_shirt_trousers_desc">Everyday tailoring that lets the fabric be the statement.</string>
+    <string name="style_modern_traditional">Modern traditional wear</string>
+    <string name="style_modern_traditional_desc">A contemporary cut with traditional trim and detailing.</string>
+
+    <!-- Catalogue: unisex -->
+    <string name="style_beach_cover">Relaxed cover-up</string>
+    <string name="style_beach_cover_desc">A loose, unisex layer for casual days.</string>
+    <string name="style_co_ords">Matching co-ord set</string>
+    <string name="style_co_ords_desc">A shirt-and-short or shirt-and-trouser set in one cloth.</string>
+
+    <!-- Catalogue: occasions -->
+    <string name="occasion_wedding">Wedding</string>
+    <string name="occasion_church">Church</string>
+    <string name="occasion_office">Office</string>
+    <string name="occasion_party">Party</string>
+    <string name="occasion_everyday">Everyday</string>
+    <string name="occasion_ceremony">Ceremony</string>
+    <string name="occasion_mourning">Mourning</string>
+    <string name="occasion_festival">Festival</string>
+
+    <!-- ============ Accessibility ============ -->
+    <string name="cd_favorite_on">Remove from favourites</string>
+    <string name="cd_favorite_off">Add to favourites</string>
+    <string name="cd_fabric_image">Fabric photo</string>
+    <string name="cd_person_image">Photo of the person</string>
+    <string name="cd_generated_image">Generated look</string>
+    <string name="cd_design_image">Design illustration</string>
+    <string name="cd_color_dot">Colour %1$s</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_delete_item">Delete this item</string>
+    <string name="cd_share_item">Share this item</string>
+    <string name="cd_clear_search">Clear search text</string>
+    <string name="cd_open_item">Open %1$s</string>
+    <string name="cd_progress">Progress</string>
+    <string name="a11y_tab_selected">%1$s, selected</string>
+    <string name="a11y_new_content">New</string>
+    <string name="a11y_demo_result">This is a demo visualisation, not a photorealistic try-on</string>
+
+    <!-- ============ Time formatting ============ -->
+    <string name="time_just_now">Just now</string>
+    <string name="time_minutes_ago">%1$d min ago</string>
+    <string name="time_hours_ago">%1$d h ago</string>
+    <string name="time_days_ago">%1$d d ago</string>
+
+    <!-- ===== Collections ===== -->
+    <string name="collections_title">Collections</string>
+    <string name="collections_create">New collection</string>
+    <string name="collections_name_hint">e.g. Wedding ideas</string>
+    <string name="collections_empty_title">No collections yet</string>
+    <string name="collections_empty_body">Create a collection for your next event and keep fabrics, designs and looks together.</string>
+    <string name="collections_add">Add to collection</string>
+    <string name="collections_added">Added to collection</string>
+    <string name="collections_delete">Delete collection</string>
+    <string name="collections_item_count">%1$d items</string>
+    <string name="collections_fabrics">Fabrics</string>
+    <string name="collections_designs">Designs</string>
+    <string name="collections_looks">Looks</string>
+
+    <!-- ===== Wardrobe & outfits ===== -->
+    <string name="wardrobe_title">My wardrobe</string>
+    <string name="wardrobe_cat_top">Top</string>
+    <string name="wardrobe_cat_bottom">Bottom</string>
+    <string name="wardrobe_cat_dress">Dress</string>
+    <string name="wardrobe_cat_shoes">Shoes</string>
+    <string name="wardrobe_cat_bag">Bag</string>
+    <string name="wardrobe_cat_accessory">Accessory</string>
+    <string name="wardrobe_add">Add clothing item</string>
+    <string name="wardrobe_name_hint">Item name</string>
+    <string name="wardrobe_notes_hint">Notes (optional)</string>
+    <string name="wardrobe_empty_title">Your wardrobe is empty</string>
+    <string name="wardrobe_empty_body">Photograph clothing, shoes and accessories you already own to build your wardrobe.</string>
+    <string name="wardrobe_add_photo">Add a photo</string>
+    <string name="wardrobe_change_photo">Change photo</string>
+    <string name="wardrobe_tab_items">Items</string>
+    <string name="wardrobe_tab_outfits">Outfits</string>
+    <string name="outfit_builder_title">Build an outfit</string>
+    <string name="outfit_builder_save">Save outfit</string>
+    <string name="outfit_builder_name_hint">Outfit name</string>
+    <string name="outfit_builder_empty">Pick at least one item to save an outfit.</string>
+    <string name="outfit_builder_surprise">Surprise me</string>
+    <string name="outfits_empty_title">No outfits yet</string>
+    <string name="outfits_empty_body">Combine wardrobe items into complete outfits you can wear again.</string>
+
+    <!-- ===== Colour assistant ===== -->
+    <string name="color_match_title">Colour ideas</string>
+    <string name="color_match_subtitle">Colours that work with this fabric</string>
+    <string name="color_role_complementary">Complementary</string>
+    <string name="color_role_analogous">Analogous</string>
+    <string name="color_role_neutral">Neutral</string>
+    <string name="color_role_metallic">Metallic</string>
+    <string name="color_why_complementary">Sits opposite on the colour wheel — a lively contrast.</string>
+    <string name="color_why_analogous">Neighbouring hue — a calm, harmonious pairing.</string>
+    <string name="color_why_neutral_light">A light neutral lets the fabric lead.</string>
+    <string name="color_why_neutral_dark">A dark neutral grounds bright colours.</string>
+    <string name="color_why_gold">Gold warms up this fabric\'s palette.</string>
+    <string name="color_why_silver">Silver cools and modernises this palette.</string>
+    <string name="color_why_bronze">Bronze is an easy everyday metallic.</string>
+    <string name="color_accessory_hint">Use these for shoes, bags, jewellery, headwraps and ties.</string>
+
+    <!-- ===== Customizer ===== -->
+    <string name="customizer_title">Customize this design</string>
+    <string name="customizer_sleeve">Sleeve</string>
+    <string name="customizer_neckline">Neckline</string>
+    <string name="customizer_length">Length</string>
+    <string name="customizer_placement">Fabric placement</string>
+    <string name="customizer_accent">Contrast colour</string>
+    <string name="customizer_demo_note">The demo preview shows placement and colours. Cut details travel with your tailor brief.</string>
+    <string name="custom_sleeve_default">As shown</string>
+    <string name="custom_sleeve_short">Short</string>
+    <string name="custom_sleeve_long">Long</string>
+    <string name="custom_sleeve_sleeveless">Sleeveless</string>
+    <string name="custom_sleeve_puff">Puff</string>
+    <string name="custom_neck_default">As shown</string>
+    <string name="custom_neck_round">Round</string>
+    <string name="custom_neck_v">V-neck</string>
+    <string name="custom_neck_high">High neck</string>
+    <string name="custom_neck_off_shoulder">Off-shoulder</string>
+    <string name="custom_length_default">As shown</string>
+    <string name="custom_length_mini">Mini</string>
+    <string name="custom_length_midi">Midi</string>
+    <string name="custom_length_maxi">Maxi</string>
+    <string name="custom_place_full">Full garment</string>
+    <string name="custom_place_full_desc">The fabric covers the whole design.</string>
+    <string name="custom_place_top">Top only</string>
+    <string name="custom_place_top_desc">Fabric on the top; a plain or contrast bottom.</string>
+    <string name="custom_place_skirt">Skirt only</string>
+    <string name="custom_place_skirt_desc">Fabric on the skirt; a plain or contrast top.</string>
+    <string name="custom_place_panels">Panels</string>
+    <string name="custom_place_panels_desc">Fabric and contrast panels alternate.</string>
+    <string name="custom_place_accents">Accents</string>
+    <string name="custom_place_accents_desc">A plain garment with fabric bands and trims.</string>
+
+    <!-- ===== Tailors ===== -->
+    <string name="tailors_title">Tailors &amp; designers</string>
+    <string name="tailors_demo_banner">Demo directory — sample listings only. No real businesses are contacted in this build.</string>
+    <string name="tailor_spec_kaba">Kaba &amp; slit</string>
+    <string name="tailor_spec_bridal">Bridal</string>
+    <string name="tailor_spec_kaftan">Kaftans</string>
+    <string name="tailor_spec_agbada">Agbada</string>
+    <string name="tailor_spec_smock">Smocks</string>
+    <string name="tailor_spec_suits">African suits</string>
+    <string name="tailor_hours_demo">Mon–Sat, 8:00–18:00 (demo)</string>
+    <string name="tailor_portfolio_demo">Portfolio available on request (demo listing).</string>
+    <string name="tailor_price_budget">Budget-friendly</string>
+    <string name="tailor_price_mid">Mid-range</string>
+    <string name="tailor_price_premium">Premium</string>
+    <string name="tailor_verified">Verified</string>
+    <string name="tailor_not_verified">Not verified</string>
+    <string name="tailor_delivery">Offers delivery</string>
+    <string name="tailor_specialties">Specialties</string>
+    <string name="tailor_request_quote">Request a quote (demo)</string>
+    <string name="tailor_quote_title">Design brief</string>
+    <string name="tailor_quote_body">This shares a design brief you can send to any tailor. Ntoma does not contact tailors or take payments in this version.</string>
+    <string name="tailor_quote_share">Share brief</string>
+    <string name="tailor_filter_all">All</string>
+    <string name="brief_design">Design: %1$s</string>
+    <string name="brief_fabric">Fabric: %1$s</string>
+    <string name="brief_customizations">Customizations: %1$s</string>
+    <string name="brief_measurements">Measurements (cm): %1$s</string>
+    <string name="brief_notes">Notes: %1$s</string>
+    <string name="brief_notes_hint">Add notes for the tailor (e.g. "make sleeves longer")</string>
+    <string name="brief_include_measurements">Include my measurements</string>
+    <string name="brief_no_design">No design selected</string>
+    <string name="brief_no_fabric">No fabric selected</string>
+
+    <!-- ===== Measurements ===== -->
+    <string name="measurements_title">My measurements</string>
+    <string name="measurements_disclaimer">These are your own numbers, stored only on this device. Ntoma does not estimate body measurements.</string>
+    <string name="measurement_height">Height (cm)</string>
+    <string name="measurement_chest">Chest (cm)</string>
+    <string name="measurement_waist">Waist (cm)</string>
+    <string name="measurement_hip">Hip (cm)</string>
+    <string name="measurement_shoulder">Shoulder (cm)</string>
+    <string name="measurement_sleeve">Sleeve (cm)</string>
+    <string name="measurement_inseam">Inseam (cm)</string>
+    <string name="measurement_neck">Neck (cm)</string>
+    <string name="measurement_notes">Notes for tailors</string>
+    <string name="measurements_saved">Measurements saved</string>
+
+    <!-- ===== Result extras ===== -->
+    <string name="result_variations">Generate 3 more variations</string>
+    <string name="result_variations_progress">Generating variations… (%1$d of 3)</string>
+    <string name="result_variations_quota">Not enough free try-ons left for 3 variations.</string>
+    <string name="result_compare">Compare</string>
+    <string name="result_compare_original">Original</string>
+    <string name="result_compare_result">Result</string>
+
+    <!-- ===== Fabric library extras ===== -->
+    <string name="fabric_edit_title">Edit fabric</string>
+    <string name="fabric_notes_hint">Notes (e.g. wedding fabric)</string>
+    <string name="fabric_amount_hint">Approx. length (cm)</string>
+    <string name="fabric_wearer_hint">Intended wearer (optional)</string>
+    <string name="fabric_occasion_hint">Intended occasion (optional)</string>
+
+    <!-- ===== Personalization ===== -->
+    <string name="recs_not_interested">Not interested</string>
+    <string name="recs_not_interested_undone">Suggestion restored</string>
+    <string name="settings_reset_personalization">Reset personalization</string>
+    <string name="settings_personalization_reset_done">Personalization reset</string>
+
+    <!-- ===== Smart search ===== -->
+    <string name="search_intent_applied">Filtered by your words</string>
+
+    <!-- ===== Data saver & tools ===== -->
+    <string name="settings_data_saver">Data saver</string>
+    <string name="settings_data_saver_body">Use smaller images and skip high-resolution generation.</string>
+    <string name="home_tools_title">Tools</string>
+    <string name="tool_color_ideas">Colour ideas</string>
+    <string name="tool_wardrobe">Wardrobe</string>
+    <string name="tool_tailors">Tailors</string>
+    <string name="tool_collections">Collections</string>
+    <string name="profile_row_measurements">My measurements</string>
+    <string name="profile_row_wardrobe">My wardrobe</string>
+    <string name="favorites_tab_collections">Collections</string>
+    <string name="favorites_tab_tailors">Tailors</string>
+    <string name="sample_picker_title">No fabric at hand?</string>
+    <string name="sample_picker_body">Run the whole pipeline on one of these bundled reference fabrics.</string>
+    <string name="sample_cta">Try a sample fabric</string>
+    <string name="brief_pdf_action">PDF brief</string>
+    <string name="brief_pdf_design">Design</string>
+    <string name="brief_pdf_fabric">Fabric</string>
+    <string name="brief_pdf_custom">Customizations</string>
+    <string name="brief_pdf_measurements">Customer measurements (cm, approximate)</string>
+    <string name="brief_pdf_footer">Prepared with Ntoma. Measurements are the customer\'s own approximate numbers — confirm everything in person.</string>
+    <string name="settings_cloud_url_hint">Cloud backend URL (optional)</string>
+    <string name="settings_engine_saved">Engine preference saved</string>
+    <string name="looks_section_title">Real looks for this fabric</string>
+    <string name="looks_section_caption">Brand illustrations \u2014 honest style examples, not a render of your fabric</string>
+    <string name="look_kente_women_1">Kente kaba \u0026 slit</string>
+    <string name="look_kente_women_2">Kente celebration dress</string>
+    <string name="look_kente_men_1">Kente groom wear</string>
+    <string name="look_kente_men_2">Kente agbada</string>
+    <string name="look_lace_women_1">White lace gown</string>
+    <string name="look_lace_women_2">Lace occasion dress</string>
+    <string name="look_smock_men_1">Northern fugu smock</string>
+    <string name="look_smock_men_2">Hand-woven batakari</string>
+    <string name="look_ankara_women_1">Ankara two-piece</string>
+    <string name="look_ankara_women_2">Ankara mermaid set</string>
+    <string name="look_ankara_men_1">Ankara shirt set</string>
+    <string name="look_ankara_men_2">Ankara casual shirt</string>
+    <string name="looks_share_cd">Share this look photo</string>
+    <string name="notif_brief_ready_title">Tailor brief ready</string>
+    <string name="notif_brief_ready_body">Your PDF brief for %1$s is ready to share.</string>
+    <string name="fabric_fugu">Fugu (batakari smock cloth)</string>
+    <string name="fabric_fugu_desc">Hand-loomed narrow-strip cotton from northern Ghana, usually indigo, black and white.</string>
+    <string name="fabric_gonja">Gonja cloth</string>
+    <string name="fabric_gonja_desc">Northern Gonja hand-woven strips, typically ochre or brown with white and black.</string>
+    <string name="wardrobe_remove_bg">Remove background</string>
+    <string name="wardrobe_remove_bg_note">Works best on plain, even backgrounds</string>
+    <string name="contrib_title">Contribute fabric photos</string>
+    <string name="contrib_body">Donate photos of real fabrics to improve recognition for everyone. Photos stay on this device until you export them.</string>
+    <string name="contrib_category">Fabric type</string>
+    <string name="contrib_consent">I took or own this photo and consent to it being used to train fabric recognition</string>
+    <string name="contrib_save">Save contribution</string>
+    <string name="contrib_saved_count">%1$d photo(s) collected on this device</string>
+    <string name="contrib_export">Export for training</string>
+    <string name="contrib_photo_needed">Pick a photo first</string>
+    <string name="contrib_consent_needed">Consent is required to contribute</string>
+    <string name="contrib_gallery">Your contributions</string>
+    <string name="contrib_delete_cd">Delete this contribution</string>
+    <string name="contrib_edit_category">Edit category</string>
+    <string name="contrib_delete_confirm">Delete this photo?</string>
+    <string name="contrib_delete_confirm_body">The photo will be removed from your contributions.</string>
+    <string name="contrib_duplicate">This photo looks like one you already contributed.</string>
+</resources>

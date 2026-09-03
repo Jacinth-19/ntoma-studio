@@ -1,0 +1,557 @@
+favorites_title	Anikora
+favorites_tab_fabrics	Ntama
+favorites_tab_designs	Adwene
+favorites_tab_looks	Mfonini
+favorites_empty_title	Wo anikora yɛ pan
+favorites_empty_body	Sie ntama ne mfonini a wopɛ na hu wɔn wɔ ha akyire.
+favorites_search_hint	Hwehwɛ w'anikora mu
+favorites_removed	Wɔayi afi anikora mu
+favorites_count	%1$d a wɔasie
+tooltip_favorites	Sie adwene ne mfonini wɔ ha.
+history_title	Abakɔsɛm
+history_subtitle	Deɛ wayɛ foforɔ no tena wo firi so.
+history_empty_title	Wonni abakɔsɛm biara
+history_empty_body	Wo skan, adwene ne mfonini bɛda adi wɔ ha.
+history_clear	Pepa abakɔsɛm
+history_clear_confirm_title	Mepɛ sɛ mepopa abakɔsɛm nyinaa?
+history_clear_confirm_body	Ɛyi wo skan, adwene ne mfonini abakɔsɛm firi wo firi so. Wɔbɛkora w'anikora so.
+history_cleared	Wɔapopa abakɔsɛm
+history_item_deleted	Wɔapopa adeɛ no
+history_event_scan	Wɔatwa ntama mfonini
+history_event_analysis	Wɔahwehwɛ %1$s mu
+history_event_design	Wɔabue %1$s
+history_event_look	Wɔayɛ mfonini: %1$s
+profile_title	Me Ho Nsɛm
+profile_guest	Ɔhɔhoɔ
+profile_guest_body	Woredi Ntoma dwuma a wonni akawnt. Biribiara a wobɛsie bɛtena wo firi so.
+profile_section_you	Wo
+profile_section_activity	Nneyɛe
+profile_section_preferences	Apɛdeɛ
+profile_section_support	Mmoa
+profile_row_history	Abakɔsɛm
+profile_row_settings	Nhyehyɛe
+profile_row_notifications	Amanneɛbɔ
+profile_row_premium	Ntoma Premium
+profile_row_help	Mmoa ne afotuo
+profile_row_privacy	Kokoamsɛm
+profile_row_about	Ntoma ho asɛm
+profile_stats_fabrics	Ntama
+profile_stats_designs	Adwene
+profile_stats_looks	Mfonini
+profile_name_hint	Din a wɔde bɛfrɛ wo
+profile_name_saved	Wɔasie din no
+profile_style_preference	Adwene apɛdeɛ
+profile_preference_womenswear	Mmaa ntadeɛ
+profile_preference_menswear	Mmarima ntadeɛ
+profile_preference_all	Kyerɛ nyinaa
+settings_title	Nhyehyɛe
+settings_section_appearance	Ahosiesie
+settings_section_language	Kasa
+settings_section_notifications	Amanneɛbɔ
+settings_section_privacy	Kokoamsɛm
+settings_section_account	Akawnt
+settings_section_help	Mmoa
+settings_section_about	Ɛho asɛm
+settings_section_analysis	Nhwehwɛmu afiri
+settings_theme	Ahosiesie
+settings_theme_light	Hann
+settings_theme_dark	Esum
+settings_theme_system	Firi no ankasa
+settings_language	Kasa
+settings_language_english	Borɔfo
+settings_language_twi	Twi
+settings_language_ga	Ga
+settings_language_ewe	Ewe
+settings_language_note	Twi, Ga ne Ewe kasa so adwuma rekɔ so. Nsɛm a wɔankyerɛ ase no bɛba Borɔfo mu.
+settings_notif_processing	Adwuma awie
+settings_notif_processing_body	Bɔ me amanneɛ sɛ mfonini bi wie a.
+settings_notif_recommendations	Adwene foforɔ
+settings_notif_recommendations_body	Adwene nkakrankakra a ɛfiri ntama a masie mu.
+settings_notif_updates	Ntoma ho nsakrae
+settings_notif_updates_body	Nsakrae titiriw a aba Ntoma mu.
+settings_notif_inspiration	Nkanyan nnawɔtwe biara
+settings_notif_inspiration_body	Adwene kumaa biara nnawɔtwe. Ɛnnɔm firi mfiaseɛ.
+settings_notif_permission_needed	Ma kwan ma amanneɛbɔ na nya saa nkrasɛm yi.
+settings_notif_denied_body	Wɔato amanneɛbɔ mu wɔ firi no nhyehyɛe mu. Wobɛtumi adi Ntoma ho dwuma nea ɛka nyinaa.
+settings_privacy_policy	Kokoamsɛm nhyehyɛe
+settings_terms	Mmara ne nhyehyɛe
+settings_data_controls	Nsɛm so tumi
+settings_delete_data	Pepa me nsɛm
+settings_clear_history	Pepa abakɔsɛm
+settings_engine	Nhwehwɛmu afiri
+settings_engine_demo	Firi so nhwɛsoɔ
+settings_engine_demo_body	Ɛdi dwuma wɔ wo firi so nko. Mfonini biara mmpue.
+settings_engine_cloud	Cloud nhwehwɛmu (wɔnka ho)
+settings_engine_cloud_body	Ɛde mfonini kɔ wo nhwehwɛmu backend. Ɛhia API — wɔnkora ahintasɛm so wɔ app mu.
+settings_engine_cloud_unavailable	Cloud endpoint nni hɔ, enti Ntoma redi firi so afiri no dwuma.
+settings_help_how	Sɛnea Ntoma di dwuma
+settings_help_tutorial	Nkyerɛkyerɛ anammɔn so
+settings_help_faq	Nsɛmmisa a wɔtaa bisa
+settings_help_contact	Frɛ mmoa
+settings_about_version	Nea ɛtɔ so
+settings_about_credits	Ayeyɛdeɛ
+settings_about_made	Wɔayɛ wɔ Nkran, Ghana
+settings_replay_onboarding	Kyerɛ mfiaseɛ nkyerɛkyerɛ bio
+settings_reset_tips	San hyɛ nkratoɔ
+settings_tips_reset_done	Nkratoɔ bɛba bio
+settings_data_used	Korabea a wɔadi dwuma
+premium_title	Ntoma Premium
+premium_pitch	Ntoma kwa no ma wo kwan sɛ wotwa ntama mfonini, hwɛ adwene nyinaa na sie anikora. Premium yɛ ma nna a worehyehyɛ ntadeɛ bebree.
+premium_benefit_analyses	Ntama nhwehwɛmu a ɛnni ano
+premium_benefit_tryons	Sɔhwɛ 20 ɔsram biara
+premium_benefit_resolution	Mfonini a ɛyɛ fɛ
+premium_benefit_speed	Ntɛmsoɔ
+premium_benefit_styles	Adwene korabea kɛseɛ
+premium_benefit_ads	Dawurubɔ biara nni hɔ
+premium_benefit_history	Abakɔsɛm nyinaa bɛtena hɔ
+premium_price_monthly	%1$s ɔsram biara
+premium_price_yearly	%1$s afe biara
+premium_tab_monthly	Ɔsram biara
+premium_tab_yearly	Afe biara
+premium_subscribe	Kyerɛw din
+premium_restore	San nya deɛ watɔ
+premium_current_plan	Wo nhyehyɛe: %1$s
+premium_billing_notice	Wɔnka sika ho asɛm wɔ saa nkabom yi mu. Saa kratafa yi kyerɛ sika kwan nhyehyɛe nko — wɔngye sika na wɔnyɛ nhyehyɛe biara.
+premium_demo_unlock	Sɔ Premium (nhwɛsoɔ)
+premium_demo_locked	Dum Premium (nhwɛsoɔ)
+premium_demo_activated	Nhwɛsoɔ Premium asɔ. Wɔangye sika biara — sika kwan nni nkabom yi mu.
+premium_already_active	Premium asɔ wɔ firi yi so dedaw.
+premium_unlocked_toast	Premium asɔ wɔ firi yi so (nhwɛsoɔ)
+paywall_sheet_title	Wo kwa no asa
+paywall_sheet_body_analyses	Akawnt kwa nya ntama nhwehwɛmu %1$d da biara. Premium yi ano no fi hɔ.
+paywall_sheet_body_tryons	Akawnt kwa nya sɔhwɛ %1$d ɔsram biara.
+paywall_sheet_alternative	Anaa hwɛ dawurubɔ tiaa bi na nya sɔhwɛ 1
+ads_placeholder_title	Dawurubɔ
+ads_placeholder_body	Dawurubɔ beaeɛ. Fa ad provider ka ho ama dawurubɔ ampa. Premium mma nhunu saa.
+ads_rewarded_label	Dawurubɔ a wɔakata so (nhwɛsoɔ)
+ads_rewarded_playing	Ɛrebɔ dawurubɔ nhwɛsoɔ… %1$d
+ads_rewarded_skip	Fa twa to nkyɛn
+permission_camera_title	Kamera kwan
+permission_camera_body	Ntoma di kamera dwuma sɛ ɛretwa ntama anaa onipa mfonini nko. Mfonini no tena wo firi so gye sɛ wobisa AI mfoniniyɛ.
+permission_camera_denied_title	Kamera adum
+permission_camera_denied_body	Wobɛtumi ayi mfonini dada fi wo mfonini korabea, anaa sɔ kamera wɔ firi nhyehyɛe mu.
+permission_notifications_title	Amanneɛbɔ
+permission_notifications_body	Yɛbɔ wo amanneɛ sɛ biribi a wofii aseɛ wie anaa sɛ wopɛ adwene nkrasɛm nko.
+permission_denied_continue	Toa so a ɛnni ɛno
+permission_open_app_settings	Sɔ wɔ firi nhyehyɛe mu
+error_generic_title	Biribi asɛe
+error_generic_body	Ɛnnyɛɛ adwuma. Sɔ hwɛ bio.
+error_no_internet_title	Intanɛt nni hɔ
+error_no_internet_body	Hwɛ wo intanɛt na sɔ hwɛ bio. Adwene, anikora ne abakɔsɛm di dwuma a intanɛt nni hɔ.
+error_server_title	Dwumadibea no nni hɔ
+error_server_body	Yɛn dwumadibea no mmua mprempren. Sɔ hwɛ bio kakra akyire.
+error_timeout_title	Ɛfaa bere tenten
+error_timeout_body	Abisadeɛ no bere atwa mu. Mfonini tiaa anaa intanɛt pa bɛtumi aboa.
+error_invalid_image_title	Antumi ankenkan saa mfonini no
+error_invalid_image_body	Fael no bɛtumi asɛe anaa ɛyɛ pan. Sɔ mfonini foforɔ hwɛ.
+error_unsupported_image_title	Saa fael ko no nni dwuma
+error_unsupported_image_body	Yi JPG, PNG anaa WebP mfonini.
+error_image_too_large_title	Saa mfonini no so dodo
+error_image_too_large_body	Sɔ mfonini ketewa hwɛ — mfonini a ɛnnu 20 MP na ɛyɛ adwuma yie.
+error_generation_title	Antumi anyɛ saa mfonini no
+error_generation_body	Mfoniniyɛ dwumadibea no antumi anwie. Sɔ mfonini a hann wɔ mu sɔ hwɛ.
+error_rate_limit_title	Bra mmerɛw kakra
+error_rate_limit_body	Woabisa mpɛn pii ntɛmsoɔ. Twɛn simma bi na sɔ hwɛ bio.
+error_analysis_title	Antumi anhwehwɛ saa ntama no mu
+error_analysis_body	Sɔ mfonini a hann wɔ mu sɔ hwɛ, na ma nsɛsɛ no nhyɛ fɔm no ma.
+error_permission_title	Ɛhia kwan
+error_memory_title	Firi no ntumi nnyɛ saa
+error_memory_body	Saa mfonini no so dodo ma firi yi. To app bi mu anaa fa mfonini ketewa.
+notif_channel_processing	Adwuma awie
+notif_channel_processing_desc	Ɛka kyerɛ wo sɛ mfonini bi ayɛ krado.
+notif_channel_recommendations	Adwene a wɔahyɛ
+notif_channel_recommendations_desc	Adwene nkakrankakra a ɛfiri ntama a wɔasie mu.
+notif_channel_updates	Ntoma ho nsakrae
+notif_channel_updates_desc	Nsakrae ne nsesae titiriw.
+notif_look_ready_title	Wo mfonini ayɛ krado
+notif_look_ready_body	%1$s retwɛn wo wɔ Ntoma mu.
+notif_recommendation_title	Adwene bi ama wo
+notif_recommendation_body	%1$s bɛfata ntama te sɛ wo deɛ.
+notif_update_title	Wɔasakra Ntoma
+notif_update_body	Hwɛ deɛ ɛyɛ foforɔ wɔ saa nkabom yi mu.
+share_chooser_title	Kyɛ ne
+share_look_text	Mfonini: %1$s wɔ %2$s mu — Ntoma na ɛyɛɛ.
+share_fabric_text	Ntama: %1$s — %2$s. Ntoma na ɛhunuu.
+share_design_text	Adwene: %1$s — %2$s. Wɔhunuu wɔ Ntoma so.
+share_saved	Ɛyɛ krado sɛ wobɛkyɛ
+privacy_title	Kokoamsɛm
+privacy_intro	Ne tiaa: Ntoma di dwuma wɔ wo firi so. Yɛde mfonini kɔ baabiara sɛ wobisa AI mfoniniyɛ nko, na yɛka kyerɛ wo berɛ a ɛba.
+privacy_images_title	Mfonini bɛn na wɔhwehwɛ mu
+privacy_images_body	Ntama mfonini a wotwa anaa woyi, ne — sɛ wodi sɔhwɛ dwuma nko — onipa mfonini baako. Mfonini a wɔayɛ no tena app no korabea koakoam.
+privacy_device_title	Mfonini firi me firi so?
+privacy_device_body	Firi so nhwehwɛmu: daabi. Wɔhwehwɛ wo ntama mu wɔ firi no so na wɔmfa nkɔ intanɛt so. Cloud nhwehwɛmu ne AI sɔhwɛ: aane — wɔde mfonini no kɔ backend a wɔahyehyɛ no. Wɔda afiri a wɔredi dwuma no adi daa.
+privacy_retention_title	Bere sɛn na wɔkora mfonini so?
+privacy_retention_body	Wɔ wo firi so kɔsi sɛ wobɛpepa. Backend biara yɛ n'ankasa mmara; yɛhyɛ bɛ sɛ nnɔnhwerew 24 na ɛfata mfonini a wɔde akɔ, na nhwɛsoɔ afiri no nkora biribiara so.
+privacy_delete_title	Sɛnea mepopa me nsɛm
+privacy_delete_body	Fa "Pepa me nsɛm" a ɛwɔ aseɛ hɔ di dwuma. Ɛyi skan, nhwehwɛmu, mfonini, abakɔsɛm, anikora ne mfonini a wɔakora so ntɛmsoɔ firi firi yi so.
+privacy_analytics_title	Dwumadie ho nsɛm
+privacy_analytics_body	Saa nkabom yi wɔ debug nkratoɔ nko. Analytics SDK biara nni mu na nneyɛe nsɛm biara mfiri wo firi so.
+privacy_ads_title	Dawurubɔ
+privacy_ads_body	Saa Ntoma yi nni dawurubɔ anaa dawurubɔ SDK. Wɔnnye dawurubɔ nsɛm biara. Sɛ dawurubɔ ba akyire a, wɔbɛkyerɛ no adi pefee na wɔasakra saa mmara yi kan.
+privacy_permissions_title	Akwan
+privacy_permissions_body	Kamera (sɛ wotwa mfonini nko) ne amanneɛbɔ (sɛ wobɛsɔ a nko). Wɔfa Android mfonini yi mu kenkan mfonini, enti wɔmmisa korabea kwan. Yɛmbisa nkontaaɔ, beaeɛ, mikrofon, SMS, firi nkontaaɔ anaa nkitahodi abakɔsɛm da.
+privacy_delete_data_title	Mepɛ sɛ mepopa me nsɛm?
+privacy_delete_data_body	Ɛyi wo ntama, nhwehwɛmu, mfonini, abakɔsɛm ne anikora firi firi yi so koraa. Worentumi nsan.
+privacy_data_deleted	Wɔapopa wo nsɛm
+privacy_keep_history_days	Abakɔsɛm berɛ
+privacy_keep_forever	Fa nyinaa sie
+privacy_keep_days	Nna %1$d
+terms_title	Mmara ne nhyehyɛe
+terms_body_1	Ntoma boa wo sɛ wobɛhwɛ sɛnea ntama bɛtumi ayɛ atadeɛ. Adwene ne mfonini yɛ nsusuwii, ɛnyɛ ntontonnaa afotuo, na nea ɛba no gyina wo ntama, susuwii ne wo ntontonnaa so.
+terms_body_2	Wo na wokra mfonini a wode ba. Wo asɛdeɛ sɛ wonya kwan sɛ wobɛfa onipa foforɔ mfonini adi dwuma, ne sɛnea wobɛkyɛ mfonini a wɔayɛ.
+terms_body_3	Mfonini a wɔayɛ no yɛ nkyerɛkyerɛmu. Mfa nni dwuma sɛ atadeɛ a awie, sɛ ɛbɛfata wo ho ampa, anaa sɛ mfonini ampa.
+terms_body_4	Beta berɛ mu na dwumadibea no wɔ. Premium wɔ saa nkabom yi mu nka sika ho asɛm, na wɔngye sika biara.
+terms_body_5	Frɛ mmoa sɛ wobɛbɔ ɔhaw bi amanneɛ anaa wobɛsrɛ sɛ wɔyi wo nsɛm.
+credits_title	Ayeyɛdeɛ
+credits_body	Ntoma — "ntama" wɔ Akan mu. Wɔde Jetpack Compose ayɛ. Ntama ne adwene nimdeɛ no firi Ghana ntadeɛ amammerɛ mu: kente, adinkra, wax print ne batakari. Mfonini a ɛwɔ saa nkabom yi mu nyinaa firi wo ntama ahosu mu; wɔmfaa mfonini foforɔ biara nkaa ho.
+help_title	Mmoa ne afotuo
+help_how_title	Sɛnea Ntoma di dwuma
+help_how_1	1. Twa ntama mfonini anaa fa kɔ mu.
+help_how_2	2. Kenkan nhwehwɛmu no: ahosu, nsɛsɛ, tebea ne Ghana adwene.
+help_how_3	3. Hwɛ adwene a ɛfata mmaa ne mmarima, a wɔakyekyɛ mu guasodeyɛ so.
+help_how_4	4. Sɛ wopɛ a, hwɛ adwene no onipa mfonini so.
+help_how_5	5. Sie deɛ wopɛ na kyɛ wo ntontonnaa.
+help_tips_title	Mfoninitwa afotuo
+help_tips_body	Ma nsɛsɛ no nhyɛ fɔm no ma, fa owiya hann di dwuma, trɛw ntama no, na kwati esum anaa kanea hann dodo.
+help_faq_title	Nsɛmmisa a wɔtaa bisa
+help_faq_q1	Wɔde me mfonini kɔ intanɛt so?
+help_faq_a1	Sɛ wodi cloud afiri anaa AI sɔhwɛ dwuma nko. Firi so nhwehwɛmu mfiri wo firi so da.
+help_faq_q2	Adɛn nti na ɛka sɛ "ɛbɛtumi ayɛ"?
+help_faq_a2	Ɛfiri sɛ mfonini rentumi nkyerɛ kente ne deɛ wɔatintim nkyemu daa. Yɛpɛ sɛ yɛka nokorɛ sɛ yɛbɛka sɛ yɛgyidi.
+help_faq_q3	Sɔhwɛ no yɛ ampa?
+help_faq_a3	Daabi. Ɛkyerɛ ahosu ne kɛseɛ onipa so. Sɛnea ɛbɛfata wo ho no gyina wo ntontonnaa so.
+help_faq_q4	Ɛdi dwuma a intanɛt nni hɔ?
+help_faq_a4	Adwene hwɛ, anikora, abakɔsɛm ne nhyehyɛe di dwuma a intanɛt nni hɔ. Cloud nhwehwɛmu ne AI sɔhwɛ hia intanɛt.
+help_faq_q5	Mɛtumi de m'ankasa adwene aka ho?
+help_faq_a5	Ɛnnyɛɛ ba. Wɔtwe adwene korabea no firi katalog a wɔbɛtumi asakra afiri backend.
+help_contact_body	Ka deɛ asɛe kyerɛ yɛn na yɛbɛgye so. Fa wo app nkabom ka ho: %1$s.
+help_contact_email	support@ntoma.app
+help_contact_subject	Ntoma mmoa bisadeɛ
+empty_looks_title	Mfonini biara nni hɔ
+empty_looks_body	Sɔ adwene hwɛ wɔ mfonini so na wo nea ɛba bɛda adi wɔ ha.
+empty_fabrics_title	Ntama biara nni hɔ
+empty_fabrics_body	Twa ntama mfonini na fi aseɛ sie.
+empty_history_body	Wo nneyɛe bɛda adi wɔ ha.
+fabric_kente	Kente
+fabric_kente_desc	Ntama a wɔanwene no nsa wɔ Ashanti ne Ewe amammerɛ mu, a ɛwɔ nsɛsɛ a ɛyɛ den.
+fabric_adinkra	Adinkra
+fabric_adinkra_desc	Ntama a wɔde nsɛnkyerɛnne atintim so, a wɔhyɛ wɔ ayitoo ne guasodeyɛ mu.
+fabric_wax	Wax print (Ankara)
+fabric_wax_desc	Ntama a wɔatintim so a ahosu mu yɛ den — Atɔeɛ Afrika ntadeɛ dwumadie ntama.
+fabric_ankara	Ankara ntintim
+fabric_ankara_desc	Ntama a wɔatintim so nyinaa a ahosu mu yɛ den wɔ afãna nyinaa.
+fabric_batik	Batik
+fabric_batik_desc	Ntama a wɔatintim nsa a ne nsa mu yɛ mmerɛw.
+fabric_tiedye	Tie-dye
+fabric_tiedye_desc	Ntama a wɔabɔ mu atintim a ɛwɔ ntwitwa ne ahosu abɔ mu.
+fabric_lace	Lace
+fabric_lace_desc	Ntama a wɔanwene mu a ɛyɛ fɛ ma awareɛ ne asɔre.
+fabric_brocade	Brocade / Bazin
+fabric_brocade_desc	Ntama a ɛyɛ den na ɛhyerɛn a ɛgyina pintinn.
+fabric_cotton_plain	Cotton ntama a ɛyɛ komm
+fabric_cotton_plain_desc	Ntama ahosu baako a ɛyɛ komm — ɛyɛ dwoodwoo na ɛwɔ dwuma bebree.
+fabric_linen	Linen
+fabric_linen_desc	Ntama a mframa fa mu a ɛyɛ mmerɛw.
+fabric_silk	Silk / satin
+fabric_silk_desc	Ntama a ɛhyerɛn na ɛtwe ne ho yie.
+fabric_chiffon	Chiffon
+fabric_chiffon_desc	Ntama a ɛyɛ hwan na mframa fa mu.
+fabric_velvet	Velvet
+fabric_velvet_desc	Ntama a ɛyɛ den na ahosu mu dɔ.
+fabric_denim	Denim
+fabric_denim_desc	Ntama a ɛyɛ den a ɛwɔ bulu.
+fabric_kente_print	Kente ntintim
+fabric_kente_print_desc	Ntama a wɔatintim sɛ kente — ɛbɛtumi ayɛ, ɛnyɛ kente a wɔanwene ampa.
+fabric_unknown	Ntama a wonnim
+fabric_unknown_desc	Antumi ankyerɛ ntama yi mu yie. Ahosu ne nsɛsɛ nkyerɛkyerɛmu no gyina so.
+pattern_striped	Ntintim ntwerɛ
+pattern_checked	Ntwerɛ a ɛbɔ mu
+pattern_geometric	Nsɛsɛ a wɔasusi
+pattern_floral	Nhahan
+pattern_organic	Nsɛsɛ abɔdeɛ
+pattern_symbolic	Nsɛnkyerɛnne
+pattern_dotted	Ntwerɛwa
+pattern_abstract	Abstrakt
+pattern_solid	Ahosu baako
+pattern_gradient	Ahosu abɔ mu
+texture_woven	Ntama a wɔanwene yie
+texture_smooth	Nea ɛyɛ hwee
+texture_slub	Ntokuru ntokuru
+texture_sheer	Nea ɛyɛ hwan
+texture_pile	Nea ɛwɔ nhwi
+texture_stiff	Nea ɛyɛ den
+texture_soft	Nea ɛtwe ne ho
+texture_quilted	Nea wɔapam
+texture_embroidered	Nea wɔanwene so
+style_kaba_slit	Kaba ne slit
+style_kaba_slit_desc	Ghana amammerɛ adwene: soro atadeɛ a ɛtwa mu ne skirt tenten.
+style_modern_kaba	Kaba foforɔ
+style_modern_kaba_desc	Kaba a wɔasakra ne nsa ne ne soro yɛ foforɔ.
+style_maxi_dress	Atadeɛ tenten
+style_maxi_dress_desc	Atadeɛ a ɛduru fam a ne skirt trɛw ma nsɛsɛ no nante.
+style_straight_dress	Atadeɛ a ɛgyina pintinn
+style_straight_dress_desc	Atadeɛ a ɛteɛ a wɔanwene mu kakra.
+style_mermaid_dress	Mermaid atadeɛ
+style_mermaid_dress_desc	Ɛtwa wo ho yie na ɛtrɛw firi ɔboɔ no ase ma anadwo guasodeyɛ.
+style_peplum	Peplum soro ne skirt
+style_peplum_desc	Aboɔ mu a ɛtrɛw wɔ skirt a ɛteɛ anaa ɛtrɛw ase so.
+style_jumpsuit	Ntintim jumpsuit
+style_jumpsuit_desc	Atadeɛ baako a ɛwɔ nan tenten ne aboɔ mu a ɛda adi.
+style_skirt_blouse	Skirt ne blouse
+style_skirt_blouse_desc	Soro ne skirt a wɔatwa nkyɛmu a wobɛtumi afra ne afoforɔ.
+style_african_gown	Afrika ntintim atadeɛ tenten
+style_african_gown_desc	Atadeɛ tenten anuonyam a ɛwɔ soro a ɛyɛ den ne nea ɛtwe akyi.
+style_contemporary_formal	Nnɛyi anuonyam atadeɛ
+style_contemporary_formal_desc	Atadeɛ a wɔatwa yie ma adwumabea, asɔre ne guasodeyɛ.
+style_kaftan	Kaftan
+style_kaftan_desc	Atadeɛ tenten a wɔde hyɛ ti mu a ɛteɛ na ɛwɔ nkyɛnmu.
+style_agbada	Agbada amammerɛ
+style_agbada_desc	Atadeɛ kɛseɛ a ɛtwe a wɔde hyɛ tunic ne trousers so.
+style_print_shirt	Afrika ntintim shirt
+style_print_shirt_desc	Shirt nsa tiaa a ɛwɔ kɔla ntintim a woyi.
+style_senator	Senator amammerɛ
+style_senator_desc	Tunic a ɛteɛ a ɛwɔ nwenee kakra ne trousers a ɛne no bɔ mu.
+style_smock	Batakari amammerɛ (fugu)
+style_smock_desc	Batakari a wɔanwene nsa a ɛwɔ kɔn mu nwenee.
+style_african_suit	Afrika anuonyam suit
+style_african_suit_desc	Jacket ne trousers a ɛwɔ ntintim wɔ n'ano anaa mu.
+style_shirt_trousers	Shirt ne trousers
+style_shirt_trousers_desc	Daa daa ntadeɛ a ɛma ntama no da adi.
+style_modern_traditional	Amammerɛ foforɔ
+style_modern_traditional_desc	Nnɛyi ɔkwan a ɛwɔ amammerɛ nsesaeɛ.
+style_beach_cover	Atadeɛ ahomegye
+style_beach_cover_desc	Atadeɛ mmerɛw a mmaa ne mmarima bɛtumi ahyɛ ma ahomegye nna.
+style_co_ords	Ntadeɛ a ɛbɔ mu
+style_co_ords_desc	Shirt ne shorts anaa trousers a ɛfiri ntama baako mu.
+occasion_wedding	Awareɛ
+occasion_church	Asɔre
+occasion_office	Adwumabea
+occasion_party	Apontoɔ
+occasion_everyday	Daa daa
+occasion_ceremony	Guasodeyɛ
+occasion_mourning	Ayitoo
+occasion_festival	Afaahyɛ
+cd_favorite_on	Yi fi anikora mu
+cd_favorite_off	Fa ka anikora ho
+cd_fabric_image	Ntama mfonini
+cd_person_image	Onipa mfonini
+cd_generated_image	Mfonini a wɔayɛ
+cd_design_image	Adwene mfonini
+cd_color_dot	Ahosu %1$s
+cd_back	San
+cd_more_options	Nhyehyɛe foforɔ
+cd_delete_item	Pepa adeɛ yi
+cd_share_item	Kyɛ adeɛ yi
+cd_clear_search	Pepa nhwehwɛ nsɛm
+cd_open_item	Bue %1$s
+cd_progress	Nkɔsoɔ
+a11y_tab_selected	%1$s, wɔapaw
+a11y_new_content	Foforɔ
+a11y_demo_result	Eyi yɛ nhwɛsoɔ, ɛnyɛ sɔhwɛ ampa
+time_just_now	Seesei ara
+time_minutes_ago	Simma %1$d a atwa mu
+time_hours_ago	Dɔnhwerew %1$d a atwa mu
+time_days_ago	Nna %1$d a atwa mu
+collections_title	Nkabom
+collections_create	Nkabom foforɔ
+collections_name_hint	sɛ nea ɛte: Awareɛ nsusuwii
+collections_empty_title	Nkabom biara nni hɔ
+collections_empty_body	Yɛ nkabom ma wo guasodeyɛ a ɛdi so na fa ntama, adwene ne mfonini ka bom.
+collections_add	Fa ka nkabom ho
+collections_added	Wɔde aka nkabom ho
+collections_delete	Pepa nkabom
+collections_item_count	Nneɛma %1$d
+collections_fabrics	Ntama
+collections_designs	Adwene
+collections_looks	Mfonini
+wardrobe_title	Me Ntadeɛ
+wardrobe_cat_top	Soro atadeɛ
+wardrobe_cat_bottom	Fam atadeɛ
+wardrobe_cat_dress	Atadeɛ
+wardrobe_cat_shoes	Mpaboa
+wardrobe_cat_bag	Kotoku
+wardrobe_cat_accessory	Adeɛ a ɛka ho
+wardrobe_add	Fa ntadeɛ ka ho
+wardrobe_name_hint	Adeɛ no din
+wardrobe_notes_hint	Nkrasɛm (sɛ wopɛ a)
+wardrobe_empty_title	Wo ntadeɛ adan yɛ pan
+wardrobe_empty_body	Twa ntadeɛ, mpaboa ne nneɛma a wɔde hyɛ ho mfonini na fa si wo ntadeɛ adan.
+wardrobe_add_photo	Fa mfonini ka ho
+wardrobe_change_photo	Sesa mfonini
+wardrobe_tab_items	Nneɛma
+wardrobe_tab_outfits	Ntadeɛ nhyehyɛe
+outfit_builder_title	Hyehyɛ ntadeɛ
+outfit_builder_save	Sie ntadeɛ nhyehyɛe
+outfit_builder_name_hint	Ntadeɛ no din
+outfit_builder_empty	Yi adeɛ baako ansa na woasie ntadeɛ nhyehyɛe.
+outfits_empty_title	Ntadeɛ nhyehyɛe biara nni hɔ
+outfits_empty_body	Fa wo ntadeɛ ka bom yɛ ntadeɛ nhyehyɛe a wobɛtumi ahyɛ bio.
+color_match_title	Ahosu nsusuwii
+color_match_subtitle	Ahosu a ɛne saa ntama yi bɔ mu
+color_role_complementary	Abira
+color_role_analogous	Nea ɛbɛn no
+color_role_neutral	Komm
+color_role_metallic	Dadeɛ ahosu
+color_why_complementary	Ɛgyina ahosu twaka no ɔfãna a ɛbɔ abira — ɛma nkonkon.
+color_why_analogous	Ahosu a ɛbɛn — ɛma asomdwoeɛ.
+color_why_neutral_light	Ahosu komm a ɛyɛ fitaa ma ntama no di kan.
+color_why_neutral_dark	Ahosu komm tuntum gyina ahosu hyerɛn ase.
+color_why_gold	Sikakɔkɔɔ ma ntama yi ahosu yɛ hyew.
+color_why_silver	Dwetɛ ma ahosu yi yɛ nwini na ɛyɛ foforɔ.
+color_why_bronze	Kɔbere yɛ dadeɛ ahosu a ɛyɛ mmerɛw daa daa.
+color_accessory_hint	Fa saa ahosu yi di dwuma ma mpaboa, kotoku, dwetɛ, duku ne tie.
+customizer_title	Sesa adwene yi
+customizer_sleeve	Nsa
+customizer_neckline	Kɔn mu
+customizer_length	Ne tenten
+customizer_placement	Ntama no beaeɛ
+customizer_accent	Ahosu a ɛbɔ abira
+customizer_demo_note	Nhwɛsoɔ no kyerɛ ntama beaeɛ ne ahosu. Ntwa ho nsɛm no kɔ wo ntontonnaa nkrasɛm mu.
+custom_sleeve_default	Sɛnea ɛda adi
+custom_sleeve_short	Tiaa
+custom_sleeve_long	Tenten
+custom_sleeve_sleeveless	Nsa biara
+custom_sleeve_puff	Nsa a ɛbɔ
+custom_neck_default	Sɛnea ɛda adi
+custom_neck_round	Atwa mu
+custom_neck_v	V-kɔn
+custom_neck_high	Kɔn tenten
+custom_neck_off_shoulder	A ɛda abɔntire so
+custom_length_default	Sɛnea ɛda adi
+custom_length_mini	Tiaa paa
+custom_length_midi	Nan mfinimfini
+custom_length_maxi	Fam
+custom_place_full	Atadeɛ no nyinaa
+custom_place_full_desc	Ntama no kata adwene no nyinaa so.
+custom_place_top	Soro nko
+custom_place_top_desc	Ntama wɔ soro; fam yɛ ahosu baako anaa abira.
+custom_place_skirt	Skirt nko
+custom_place_skirt_desc	Ntama wɔ skirt so; soro yɛ ahosu baako anaa abira.
+custom_place_panels	Nkyɛnmu
+custom_place_panels_desc	Ntama ne abira nkyɛnmu di akyi akyi.
+custom_place_accents	Ntintim kakra
+custom_place_accents_desc	Atadeɛ ahosu baako a ɛwɔ ntama ntwea ne nsesaeɛ.
+tailors_title	Ntontonnaafoɔ
+tailors_demo_banner	Nhwɛsoɔ din — nhwɛsoɔ nko. Wɔnka adwumayɛbea ampa biara ho asɛm wɔ saa nkabom yi mu.
+tailor_spec_kaba	Kaba ne slit
+tailor_spec_bridal	Awareɛ ntadeɛ
+tailor_spec_kaftan	Kaftan
+tailor_spec_agbada	Agbada
+tailor_spec_smock	Batakari
+tailor_spec_suits	Afrika suit
+tailor_hours_demo	Dwoda–Memeneda, 8:00–18:00 (nhwɛsoɔ)
+tailor_portfolio_demo	Wobetumi abisa adwuma nhwɛsoɔ (nhwɛsoɔ din).
+tailor_price_budget	Boɔ a ɛyɛ mmerɛw
+tailor_price_mid	Mfinimfini
+tailor_price_premium	Premium
+tailor_verified	Wɔagye atom
+tailor_not_verified	Wɔnnye mmaeɛ
+tailor_delivery	Ɔde kɔ ma
+tailor_specialties	Ne nimdeɛ
+tailor_request_quote	Bisa boɔ (nhwɛsoɔ)
+tailor_quote_title	Adwuma nkyerɛkyerɛmu
+tailor_quote_body	Ɛkyɛ adwuma nkyerɛkyerɛmu a wobɛtumi de akɔma ntontonnaa biara. Ntoma nka ntontonnaafoɔ ho asɛm na ɔngye sika wɔ saa nkabom yi mu.
+tailor_quote_share	Kyɛ nkyerɛkyerɛmu
+tailor_filter_all	Nyinaa
+brief_design	Adwene: %1$s
+brief_fabric	Ntama: %1$s
+brief_customizations	Nsesaeɛ: %1$s
+brief_measurements	Susuwii (cm): %1$s
+brief_notes	Nkrasɛm: %1$s
+brief_notes_hint	Fa nkrasɛm ka ho ma ntontonnaa (sɛ nea ɛte "yɛ nsa no tenten")
+brief_include_measurements	Fa me susuwii ka ho
+brief_no_design	Woanyiyi adwene
+brief_no_fabric	Woanyiyi ntama
+measurements_title	Me Susuwii
+measurements_disclaimer	Wo nkontaaɔ ankasa na ɛwɔ ha, na wɔakora so wɔ firi yi so nko. Ntoma nkyɛ nipadua susuwii.
+measurement_height	Tenten (cm)
+measurement_chest	Akɔnmu (cm)
+measurement_waist	Aboɔ mu (cm)
+measurement_hip	Atoɔ (cm)
+measurement_shoulder	Abɔntire (cm)
+measurement_sleeve	Nsa (cm)
+measurement_inseam	Nan mu tenten (cm)
+measurement_neck	Kɔn (cm)
+measurement_notes	Nkrasɛm ma ntontonnaafoɔ
+measurements_saved	Wɔasie susuwii
+result_variations	Yɛ nsakraeɛ 3 foforɔ
+result_variations_progress	Ɛreyɛ nsakraeɛ… (%1$d wɔ 3 mu)
+result_variations_quota	Sɔhwɛ kwa a aka nnso ma nsakraeɛ 3.
+result_compare	Fa toto
+result_compare_original	Deɛ ɛdi kan
+result_compare_result	Nea ɛbaeɛ
+fabric_edit_title	Sesa ntama
+fabric_notes_hint	Nkrasɛm (sɛ nea ɛte: awareɛ ntama)
+fabric_amount_hint	Ne tenten bɛyɛ (cm)
+fabric_wearer_hint	Deɛ ɔbɛhyɛ (sɛ wopɛ a)
+fabric_occasion_hint	Guasodeyɛ (sɛ wopɛ a)
+recs_not_interested	Mempɛ saa
+recs_not_interested_undone	Wɔasan de adwene no aba
+settings_reset_personalization	San hyɛ apɛdeɛ
+settings_personalization_reset_done	Wɔasan ahyɛ apɛdeɛ
+search_intent_applied	Wɔakyekyɛ mu sɛnea wokyerɛɛ no
+settings_data_saver	Data kora
+settings_data_saver_body	Fa mfonini nketewa di dwuma na gyae mfonini kɛseɛ yɛ.
+home_tools_title	Nnwinnade
+tool_color_ideas	Ahosu nsusuwii
+tool_wardrobe	Me ntadeɛ
+tool_tailors	Ntontonnaafoɔ
+tool_collections	Nkabom
+profile_row_measurements	Me Susuwii
+profile_row_wardrobe	Me Ntadeɛ
+favorites_tab_collections	Nkabom
+favorites_tab_tailors	Ntontonnaafoɔ
+analysis_ml_title	ML nhwehwɛmu a ɛwɔ mɔ̃ no so
+analysis_ml_mapped	Ɛkyerɛ ntama: %1$s
+analysis_ml_note	MobileNetV2 a ɛredwima wo mɔ̃ no so no kyerɛ nea ɛhunu. Adwene foforɔ na ɛyɛ, ɛnyɛ nkutaho, na wɔnsoma nneɛma nkɔ baabiara.
+print_trait_woven_strips	Nwenee nkumaa a wɔabobɔ abom
+sample_picker_title	Ntama nni wo nsam?
+sample_picker_body	Fa nhwɛsoɔ ntama yi mu biako sɔ hwɛ, na fa ɔkwan no nyinaa mu adwuma.
+sample_cta	Sɔ nhwsoɔ ntama hw
+brief_pdf_action	PDF krataa
+brief_pdf_design	Adwene
+brief_pdf_fabric	Ntama
+brief_pdf_custom	Nsakrae
+brief_pdf_measurements	Kɔstoma susuwii (cm, susuw kwa)
+brief_pdf_footer	Wɔde Ntoma asiesie yi. Susuwii no yɛ kɔstoma no ankasa ne nkyerɛmu — gye ne nyinaa di wɔ onipa anim.
+settings_cloud_url_hint	Cloud backend URL (sɛ wopɛ)
+settings_engine_saved	Wɔasie nhwehwɛmu afiri no
+looks_section_title	Saa ntama yi ho mfonini
+looks_section_caption	Mfonini a yɛtweeɛ \u2014 nhwɛsoɔ pɛ, ɛnyɛ wo ntama no mfonini
+look_kente_women_1	Kente kaba ne slit
+look_kente_women_2	Kente afahyɛ ntoma
+look_kente_men_1	Kente ayeforɔ ntoma
+look_kente_men_2	Kente agbada
+look_lace_women_1	Lace fitaa ntoma
+look_lace_women_2	Lace amammere ntoma
+look_smock_men_1	Atifi fugu
+look_smock_men_2	Nsaano batakari
+look_ankara_women_1	Ankara ntama mmienu
+look_ankara_women_2	Ankara mermaid
+look_ankara_men_1	Ankara ntoma ne trɔso
+look_ankara_men_2	Ankara daa ntoma
+looks_share_cd	Fa mfonini yi kyɛ
+notif_brief_ready_title	Ɔdefoɔ nkrataa siesie
+notif_brief_ready_body	Wo PDF nkrataa a ɛfa %1$s ho asiesie.
+fabric_fugu	Fugu (batakari ntama)
+fabric_fugu_desc	Ntama a wɔnwen no wɔ Atifi Ghana; taa yɛ bibire, tuntum ne fitaa.
+fabric_gonja	Gonja ntama
+fabric_gonja_desc	Gonja nsaano ntama; taa yɛ kɔkɔɔ anaa werɛ ne fitaa ne tuntum.
+wardrobe_remove_bg	Yi akyi hɔ
+wardrobe_remove_bg_note	Ɛyɛ yiye sɛ akyi hɔ yɛ tee
+contrib_title	Fa ntama mfonini boa
+contrib_body	Fa ampa ntama mfonini boa ma nhwehwɛmu nyɛ yiye ma obiara. Mfonini no bɛtena wo fon so gye sɛ wo na wode akɔ.
+contrib_category	Ntama no mu
+contrib_consent	Me na metwee mfonini yi na mempene sɛ wɔde bɛkyerɛ ntama nhwehwɛmu
+contrib_save	Fa sie
+contrib_saved_count	Mfonini %1$d wɔ fon yi so
+contrib_export	Fa akɔ nkyerɛkyerɛ mu
+contrib_photo_needed	Di kan yi mfonini
+contrib_consent_needed	Ɛsɛ sɛ wopene ansa
+contrib_gallery	Wo mmoa mfonini
+contrib_delete_cd	Yi mfonini yi fi hɔ
+contrib_edit_category	Sesa kuw no
+contrib_delete_confirm	Yi mfonini yi fi hɔ?
+contrib_delete_confirm_body	Wɔbeyi mfonini yi afi wo mmoa no mu.
+contrib_duplicate	Mfonini yi te sɛ nea wode ama dedaw.
+outfit_builder_surprise	Yi bi ma me

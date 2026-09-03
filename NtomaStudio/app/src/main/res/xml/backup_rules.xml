@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Local data (history, favourites, generated looks) is device-only; nothing is auto-backed-up to the cloud. -->
+<full-backup-content>
+    <exclude
+        domain="file"
+        path="media/" />
+    <exclude
+        domain="database"
+        path="ntoma.db" />
+</full-backup-content>

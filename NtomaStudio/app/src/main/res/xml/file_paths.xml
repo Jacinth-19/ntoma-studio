@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Captured / generated media shared through the system share sheet. -->
+    <files-path
+        name="ntoma_media"
+        path="media/" />
+    <cache-path
+        name="ntoma_cache"
+        path="shared/" />
+</paths>

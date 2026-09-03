@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="170dp"
+    android:viewportWidth="220"
+    android:viewportHeight="170">
+    <!-- Onboarding 1: photograph a fabric. Flat "printed illustration" plate so it reads
+         identically in light and dark themes. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M20,10H200A14,14 0,0 1,214 24V146A14,14 0,0 1,200 160H20A14,14 0,0 1,6 146V24A14,14 0,0 1,20 10Z" />
+    <!-- handset -->
+    <path
+        android:fillColor="#14110F"
+        android:pathData="M76,32H144A8,8 0,0 1,152 40V134A8,8 0,0 1,144 142H76A8,8 0,0 1,68 134V40A8,8 0,0 1,76 32Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M76,42H144V132H76Z" />
+    <!-- fabric inside the frame -->
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M86,58H134V116H86Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M86,72H134V80H86Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M86,92H134V98H86Z" />
+    <!-- focus brackets -->
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M80,50H92V54H84V62H80Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M140,50H128V54H136V62H140Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M80,124H92V120H84V112H80Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M140,124H128V120H136V112H140Z" />
+    <!-- daylight rays -->
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M30,44H56V49H30Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M36,58H52V63H36Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M30,72H48V77H30Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M164,96H190V101H164Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M170,110H186V115H170Z" />
+</vector>

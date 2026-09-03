@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Touch targets: WCAG 2.5.5 recommends 48dp minimum. -->
+    <dimen name="touch_target_min">48dp</dimen>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="card_corner">18dp</dimen>
+</resources>

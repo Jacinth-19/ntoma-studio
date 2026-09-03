@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="150">
+    <!-- Empty state: nothing saved yet. A hanger waiting for a garment. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M14,8H186A12,12 0,0 1,198 20V130A12,12 0,0 1,186 142H14A12,12 0,0 1,2 130V20A12,12 0,0 1,14 8Z" />
+    <!-- hanger -->
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M100,28A6,6 0,0 1,106 34C106,38 103,40 100,42L136,62H64Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M98,32A2,2 0,0 1,102 32C102,35 100,36 100,38C100,36 98,35 98,32Z" />
+    <!-- dashed placeholder garment -->
+    <path
+        android:fillColor="#E3D9CD"
+        android:pathData="M74,66H126L134,112H66Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M72,92H128V98H72Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M86,74H94V80H86Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M104,74H112V80H104Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M22,124H56V128H22Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M144,124H178V128H144Z" />
+</vector>

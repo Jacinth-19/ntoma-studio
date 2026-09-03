@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="170dp"
+    android:viewportWidth="220"
+    android:viewportHeight="170">
+    <!-- Onboarding 2: three silhouettes — kaba and slit, kaftan, print shirt. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M20,10H200A14,14 0,0 1,214 24V146A14,14 0,0 1,200 160H20A14,14 0,0 1,6 146V24A14,14 0,0 1,20 10Z" />
+    <path
+        android:fillColor="#E9E1D6"
+        android:pathData="M28,138H192V142H28Z" />
+    <!-- kaba and slit -->
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M44,38L54,34L60,42L66,34L76,38L72,58L78,136L42,136L48,58Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M46,84H74V90H46Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M54,34L60,44L66,34L60,30Z" />
+    <!-- kaftan -->
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M100,36L112,32L124,36L120,60L128,136L96,136L104,60Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M108,44H116V72H108Z" />
+    <!-- print shirt -->
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M146,40L158,34L170,40L180,52L172,58L172,96L144,96L144,58L136,52Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M152,50H164V56H152Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M152,66H164V72H152Z" />
+    <path
+        android:fillColor="#14110F"
+        android:pathData="M156,34L158,46L160,34Z" />
+</vector>

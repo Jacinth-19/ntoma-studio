@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="170dp"
+    android:viewportWidth="220"
+    android:viewportHeight="170">
+    <!-- Onboarding 4: save favourites and share. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M20,10H200A14,14 0,0 1,214 24V146A14,14 0,0 1,200 160H20A14,14 0,0 1,6 146V24A14,14 0,0 1,20 10Z" />
+    <!-- saved look card -->
+    <path
+        android:fillColor="#14110F"
+        android:pathData="M38,30H120A8,8 0,0 1,128 38V132A8,8 0,0 1,120 140H38A8,8 0,0 1,30 132V38A8,8 0,0 1,38 30Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M38,38H120V104H38Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M56,48H102L108,96H50Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M52,74H106V82H52Z" />
+    <path
+        android:fillColor="#3B332E"
+        android:pathData="M38,112H96V118H38Z" />
+    <path
+        android:fillColor="#7A6A62"
+        android:pathData="M38,124H76V130H38Z" />
+    <!-- heart -->
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M166,66C166,66 142,50 142,34C142,24 150,18 158,20C162,21 165,24 166,26C167,24 170,21 174,20C182,18 190,24 190,34C190,50 166,66 166,66Z" />
+    <!-- share -->
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M146,96A9,9 0,1 1,145.9 96Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M186,84A9,9 0,1 1,185.9 84Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M186,124A9,9 0,1 1,185.9 124Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M152,92L180,86L181,91L153,97Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M153,103L181,117L179,122L151,108Z" />
+</vector>

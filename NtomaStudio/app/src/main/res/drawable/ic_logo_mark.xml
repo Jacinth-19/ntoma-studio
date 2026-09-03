@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Compact brand mark used in app bars and the About screen. -->
+    <path
+        android:fillColor="#14110F"
+        android:pathData="M8,8H100A0,0 0,0 1,100 8V100A0,0 0,0 1,100 100H8A0,0 0,0 1,8 100V8A0,0 0,0 1,8 8Z" />
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M30,26H66L80,40V82H30Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M66,26L80,40H66Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M36,52H74V59H36Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M36,64H62V71H36Z" />
+</vector>

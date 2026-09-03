@@ -1,0 +1,557 @@
+favorites_title	Suɔmɔi
+favorites_tab_fabrics	Ntamai
+favorites_tab_designs	Susumɔi
+favorites_tab_looks	Shishifɔɔi
+favorites_empty_title	O suɔmɔi kɛ yɔɔ
+favorites_empty_body	Toɔ ntamai kɛ shishifɔɔi ni osuɔ mli nɔ o bɔɔ mɔ fɛŋ.
+favorites_search_hint	Yitso o suɔmɔi mli
+favorites_removed	Akɛ jɛ suɔmɔi mli
+favorites_count	%1$d ni ato mli
+tooltip_favorites	Toɔ susumɔi kɛ shishifɔɔi fɛŋ.
+history_title	Nɔŋ ni mli
+history_subtitle	Nɔŋ ni o fee ni mli ye o fɔn nɔ.
+history_empty_title	Nɔŋ bɔ mli
+history_empty_body	O shishifɔɔi, susumɔi kɛ shishifɔɔi ni aŋwɛɛ baaŋ shi fɛŋ.
+history_clear	Kɛ nɔŋ ni mli jɛ mli
+history_clear_confirm_title	Kɛ nɔŋ ni mli fɛɛ jɛ mli?
+history_clear_confirm_body	Nɔŋ kɛ o shishifɔɔi, susumɔi kɛ shishifɔɔi ni mli jɛ o fɔn nɔ. O suɔmɔi ba shi.
+history_cleared	Akɛ nɔŋ ni mli jɛ mli
+history_item_deleted	Akɛ nɔ no jɛ mli
+history_event_scan	Akɛ ntama shishifɔɔ
+history_event_analysis	Ayitso %1$s mli
+history_event_design	AYi %1$s
+history_event_look	Aŋwɛɛ shishifɔɔ: %1$s
+profile_title	Mi He Mɔɔ
+profile_guest	Gbɔmɔ
+profile_guest_body	O tsɔɔ Ntoma mɔ nɔ o ye akawnt. Nɔŋ fɛɛ ni o baato mli ye o fɔn nɔ.
+profile_section_you	Bo
+profile_section_activity	Tsuɔmɔi
+profile_section_preferences	Suɔmɔi
+profile_section_support	Bojamɔ
+profile_row_history	Nɔŋ ni mli
+profile_row_settings	Toomɔi
+profile_row_notifications	Shiŋmɔi
+profile_row_premium	Ntoma Premium
+profile_row_help	Bojamɔ kɛ gbɛɛmɔi
+profile_row_privacy	Suɔŋmɔ
+profile_row_about	Ntoma he mɔɔ
+profile_stats_fabrics	Ntamai
+profile_stats_designs	Susumɔi
+profile_stats_looks	Shishifɔɔi
+profile_name_hint	Din ni abɔɔ o
+profile_name_saved	Ato din no mli
+profile_style_preference	Susumɔ suɔmɔ
+profile_preference_womenswear	Ayeŋ dadɔi
+profile_preference_menswear	Anɔŋmɔi dadɔi
+profile_preference_all	Kɛ mɔ fɛɛ
+settings_title	Toomɔi
+settings_section_appearance	Hewɔɔmɔ
+settings_section_language	Gbi
+settings_section_notifications	Shiŋmɔi
+settings_section_privacy	Suɔŋmɔ
+settings_section_account	Akawnt
+settings_section_help	Bojamɔ
+settings_section_about	He mɔɔ
+settings_section_analysis	Yitso fɔn
+settings_theme	Hewɔɔmɔ
+settings_theme_light	Shikaŋ
+settings_theme_dark	Ɛsum
+settings_theme_system	Fɔn no nɔŋ
+settings_language	Gbi
+settings_language_english	Obrifo
+settings_language_twi	Twi
+settings_language_ga	Ga
+settings_language_ewe	Ewe
+settings_language_note	Twi, Ga kɛ Ewe mɔɔ emɔŋ tsɔ. Gbiŋmɔi ni ayɛɛɛ lɛ baaŋ Obrifo mli.
+settings_notif_processing	Tsuɔmɔ na gbe
+settings_notif_processing_body	Ŋwɛɛ mi nɔ shishifɔɔ ko gbe lɛ.
+settings_notif_recommendations	Susumɔi nɔŋ nɔi
+settings_notif_recommendations_body	Susumɔi bibii kɛjɛ ntamai ni ato mli.
+settings_notif_updates	Ntoma tsakemɔi
+settings_notif_updates_body	Tsakemɔi kɛ yɔ ni ba Ntoma mli.
+settings_notif_inspiration	Susumɔi kwɛɛ fɛɛ kwɛɛ
+settings_notif_inspiration_body	Susumɔ kɛkɛ kwɛɛ fɛɛ kwɛɛ. Edum fɛŋ shishifɔɔ.
+settings_notif_permission_needed	Kɛ shiŋmɔi kɛ o bɔɔ mɔ nɔŋ nɔ.
+settings_notif_denied_body	Ato shiŋmɔi fɔn toomɔi mli. O shikaŋ tsɔɔ Ntoma mɔ fɛɛ ni ye.
+settings_privacy_policy	Suɔŋmɔ gbɛɛmɔ
+settings_terms	Mlara kɛ gbɛɛmɔi
+settings_data_controls	Nɔŋ nɔ tumi
+settings_delete_data	Kɛ mi nɔŋ jɛ mli
+settings_clear_history	Kɛ nɔŋ ni mli jɛ mli
+settings_engine	Yitso fɔn
+settings_engine_demo	Fɔn nɔ nɔŋmɔ
+settings_engine_demo_body	Ɛtsɔɔ o fɔn nɔŋ nɔ nɔŋ. Shishifɔɔ bɔ kɛɛ fɔn nɔ.
+settings_engine_cloud	Cloud mli yitso (eyɛɛɛ mli)
+settings_engine_cloud_body	Ɛtsɔɔ shishifɔɔ no kɛɛ o yitso backend. Ɛhia API — yɛtoɔɔ nyɛlɛmɔi mli app mli.
+settings_engine_cloud_unavailable	Cloud endpoint bɔ, lɛɔlɛɔ Ntoma tsɔɔ fɔn nɔ fɔn no di mɔ.
+settings_help_how	Kɛ Ntoma tsɔɔ mɔ
+settings_help_tutorial	Nɔŋmɔ kɛ anɔɔ anɔɔ
+settings_help_faq	Bimɔi ni abɔɔ gbɛɛ gbɛɛ
+settings_help_contact	Bi bojamɔ
+settings_about_version	Nɔŋ ni mli
+settings_about_credits	Yiwalɛmɔ
+settings_about_made	Aŋwɛɛ Nkran, Ghana
+settings_replay_onboarding	Kɛ shishifɔɔ nɔŋmɔ eko
+settings_reset_tips	Shi gbɛɛmɔ bibii eko
+settings_tips_reset_done	Gbɛɛmɔ bibii baaŋ eko
+settings_data_used	Kɛ ni atsɔɔ mli
+premium_title	Ntoma Premium
+premium_pitch	Ntoma femli no kɛɛ o kɛɛ ntama shishifɔɔ, o kɛɛ susumɔi fɛɛ ni o toɔ suɔmɔi. Premium ji gbii ni oɔsiesie dadɔi bii.
+premium_benefit_analyses	Ntama yitsomɔi ni ye mli
+premium_benefit_tryons	Ba-kpɔmɔi 20 fɛɛ nɔ
+premium_benefit_resolution	Shishifɔɔi ni he jɔŋ
+premium_benefit_speed	Mɔŋ tsɔɔmɔ
+premium_benefit_styles	Susumɔi kɛ
+premium_benefit_ads	Shiŋmɔi bɔ
+premium_benefit_history	Nɔŋ ni mli fɛɛ ba shi
+premium_price_monthly	%1$s fɛɛ nɔ
+premium_price_yearly	%1$s afi fɛɛ
+premium_tab_monthly	Fɛɛ nɔ
+premium_tab_yearly	Afi fɛɛ
+premium_subscribe	Toɔ din
+premium_restore	Kɛ nɔŋ ni oŋɔɔ ba eko
+premium_current_plan	O nɔŋmɔ: %1$s
+premium_billing_notice	Yɛɛɛɛ sika mli mɔ nɔŋ nɔ. Kratafa nɔŋ nɔ ŋwɛɛ sika gbɛɛmɔ nɔŋ — yɛŋɔɔɔ sika ni yɛŋwɛɛɔ nɔŋmɔ bi.
+premium_demo_unlock	Kɛ Premium (nɔŋmɔ)
+premium_demo_locked	Dum Premium (nɔŋmɔ)
+premium_demo_activated	Nɔŋmɔ Premium kɛ. Yɛŋɔɔɔ sika bi — sika gbɛɛmɔ bɔ nɔŋ nɔ mli.
+premium_already_active	Premium ye mli fɔn nɔŋ nɔ dɛŋ.
+premium_unlocked_toast	Premium kɛ fɔn nɔŋ nɔ (nɔŋmɔ)
+paywall_sheet_title	O femli nɔŋmɔ na gbe
+paywall_sheet_body_analyses	Akawnt femli bɔɔ ntama yitsomɔi %1$d gbɛɛ fɛɛ gbɛɛ. Premium kɛɛ nɔŋmɔ no jɛ mli.
+paywall_sheet_body_tryons	Akawnt femli bɔɔ ba-kpɔmɔi %1$d fɛɛ nɔ.
+paywall_sheet_alternative	Anaa kɛ shiŋmɔ kɛkɛ nɔ o bɔɔ ba-kpɔmɔ 1
+ads_placeholder_title	Shiŋmɔ
+ads_placeholder_body	Shiŋmɔ shi. Tsɔ ad mɔ ba mli nɔ shiŋmɔi anɔkuale. Premium mɔi bɔɔ nɔŋ gbɛɛ.
+ads_rewarded_label	Shiŋmɔ ni aŋwɛɛ he (nɔŋmɔ)
+ads_rewarded_playing	Emɔŋ bɔ nɔŋmɔ shiŋmɔ… %1$d
+ads_rewarded_skip	Fiŋ
+permission_camera_title	Kamera gbɛɛ
+permission_camera_body	Ntoma tsɔɔ kamera kɛ ntama anaa gbɔmɔ shishifɔɔ nɔŋ. Shishifɔɔi ye o fɔn nɔ o shɔɔŋ AI shishifɔɔŋwɛɛmɔ nɔŋ.
+permission_camera_denied_title	Kamera dum
+permission_camera_denied_body	O shikaŋ yi shishifɔɔ ni ye mli kɛjɛ o kɛ mli, anaa kɛ kamera fɔn toomɔi mli.
+permission_notifications_title	Shiŋmɔi
+permission_notifications_body	Yɛŋwɛɛ o nɔ nɔŋ ni o shi gbe lɛ anaa o shɔɔ susumɔi nɔŋ.
+permission_denied_continue	Tsɔ nɔ nɔŋ bɔ
+permission_open_app_settings	Kɛ fɔn toomɔi mli
+error_generic_title	Nɔ ko tsra
+error_generic_body	Enaŋ tsɔɔ. Kɛ o tsɔɔ eko.
+error_no_internet_title	Intanɛt bɔ
+error_no_internet_body	Kɛ o intanɛt ni o tsɔɔ eko. Susumɔi, suɔmɔi kɛ nɔŋ ni mli tsɔɔ mɔ nɔɔ intanɛt bɔ.
+error_server_title	Tsuɔmɔ shi no bɔ
+error_server_body	Yɛ tsuɔmɔ shi no ŋwɛɛɔ mɔ nɔŋŋ. Kɛ o tsɔɔ eko kɛkɛ.
+error_timeout_title	Ɛfaa gbe kɛ yɔ
+error_timeout_body	Bimɔ no gbe tsɔ. Shishifɔɔ kɛkɛ anaa intanɛt kɛ naa lɛ baaŋ boi.
+error_invalid_image_title	Yɛbɔɔ kɛɛ shishifɔɔ no
+error_invalid_image_body	Fael no baaŋ tsra anaa mli yɔɔ. Kɛ shishifɔɔ nɔŋ nɔ.
+error_unsupported_image_title	Fael ko nɔŋ nɔ etsɔɔ mɔ
+error_unsupported_image_body	Yi JPG, PNG anaa WebP shishifɔɔ.
+error_image_too_large_title	Shishifɔɔ no kɛ yɔ
+error_image_too_large_body	Kɛ shishifɔɔ kɛkɛ — shishifɔɔi ni eye 20 MP lɛ naa tsuɔmɔ kɛ hewɔɔ.
+error_generation_title	Yɛbɔɔ ŋwɛɛ shishifɔɔ no
+error_generation_body	Shishifɔɔŋwɛɛmɔ tsuɔmɔ no bɔɔ gbe. Kɛ shishifɔɔ ni shikaŋ mli di mɔ.
+error_rate_limit_title	Shi o he kɛkɛ
+error_rate_limit_body	Otsɔɔ bimɔi bii o heŋ. Shwɛɛ dakika kɛkɛ ni o tsɔɔ eko.
+error_analysis_title	Yɛbɔɔ yi ntama no mli
+error_analysis_body	Kɛ shishifɔɔ ni shikaŋ mli di mɔ, ni o toɔ nutata no kɛ mli mli.
+error_permission_title	Gbɛɛ hia
+error_memory_title	Fɔn no bɔɔ nɔŋ nɔ
+error_memory_body	Shishifɔɔ no kɛ yɔ fɔn nɔŋ nɔ. Toɔ app bi anaa yi shishifɔɔ kɛkɛ.
+notif_channel_processing	Tsuɔmɔ na gbe
+notif_channel_processing_desc	Ɛŋwɛɛ o nɔ shishifɔɔ ko ji gbe mli.
+notif_channel_recommendations	Susumɔi ni abɔ
+notif_channel_recommendations_desc	Susumɔi bibii kɛjɛ ntamai ni ato mli.
+notif_channel_updates	Ntoma tsakemɔi
+notif_channel_updates_desc	Tsakemɔi kɛ siesiemɔi ni yɔ.
+notif_look_ready_title	O shishifɔɔ ji gbe mli
+notif_look_ready_body	%1$s emɔŋ o heŋ Ntoma mli.
+notif_recommendation_title	Susumɔ ko o
+notif_recommendation_body	%1$s baaŋ naa ntama akɛ o nɔŋ nɔ.
+notif_update_title	Atsake Ntoma
+notif_update_body	Kɛ nɔŋ ni mli yɛ fɔn nɔŋ nɔ.
+share_chooser_title	Kɛɛ mɔ ne
+share_look_text	Shishifɔɔ: %1$s mli %2$s — Ntoma ŋwɛɛ.
+share_fabric_text	Ntama: %1$s — %2$s. Ntoma kɛ.
+share_design_text	Susumɔ: %1$s — %2$s. Akɛ Ntoma nɔ.
+share_saved	Ɛji gbe mli o kɛɛ mɔ
+privacy_title	Suɔŋmɔ
+privacy_intro	Mɔ kɛkɛ: Ntoma tsɔɔ o fɔn nɔ. Yɛtsɔɔ shishifɔɔ kɛɛ shi o shɔɔ AI shishifɔɔŋwɛɛmɔ nɔŋ nɔŋ, ni yɛŋwɛɛ o nɔ lɛ gbe.
+privacy_images_title	Shishifɔɔi nɔŋ ni ayitso mli
+privacy_images_body	Ntama shishifɔɔi ni okɛɛ anaa oyí, kɛ — o tsɔɔ ba-kpɔmɔ nɔŋ nɔŋ — gbɔmɔ shishifɔɔ kɛkɛ. Shishifɔɔi ni aŋwɛɛ lɛ ye app no suɔŋmɔ kɛ mli.
+privacy_device_title	Shishifɔɔi kɛɛ mi fɔn nɔ?
+privacy_device_body	Fɔn nɔ yitso: nato. Ayitso o ntama o fɔn nɔŋ nɔ ni yɛtsɔɔɔ intanɛt nɔ gbɛɛ. Cloud yitso kɛ AI ba-kpɔmɔ: yewaa — atsɔɔ shishifɔɔ no kɛɛ backend ni ayi no nɔ o kɛɛ. Yɛŋwɛɛ fɔn ni atsɔɔ mɔ no daa.
+privacy_retention_title	Gbe sɛ ni ayeɛɛ shishifɔɔi?
+privacy_retention_body	O fɔn nɔŋ nɔ kɛ ya o bɔɔ jɛ mli. Backend fɛɛ ŋwɛɛ lɛ nɔŋ gbɛɛmɔ; yɛbɔɔ gbɛɛmɔ kɛ dɔŋŋ 24 ji kɛ hewɔɔ shishifɔɔi ni atsɔɔ, ni nɔŋmɔ fɔn no yeɛɛɔ nɔŋ bi.
+privacy_delete_title	Kɛ mi bɔɔ kɛ mi nɔŋ jɛ mli?
+privacy_delete_body	Tsɔ "Kɛ mi nɔŋ jɛ mli" ni mli shishi di mɔ. Ɛkɛɛ shishifɔɔi, yitsomɔi, shishifɔɔi ni aŋwɛɛ, nɔŋ ni mli, suɔmɔi kɛ shishifɔɔi ni ato mli jɛ fɔn nɔŋ nɔ mɔŋ.
+privacy_analytics_title	Tsuɔmɔi he mɔɔ
+privacy_analytics_body	Nɔŋ nɔ bɔɔ debug nɔŋmɔ nɔŋ. Analytics SDK bɔ mli ni tsuɔmɔ nɔŋ bɔ kɛɛ o fɔn nɔ.
+privacy_ads_title	Shiŋmɔi
+privacy_ads_body	Ntoma fɔn nɔŋ nɔ bɔɔ shiŋmɔi anaa shiŋmɔ SDK. Yɛŋɔɔɔ shiŋmɔ nɔŋ bi. O shiŋmɔi baaŋ mɔ ni ba nɔŋ lɛ, abɔɔ nyɛlɛmɔ shishi ni yɛtsake gbɛɛmɔ nɔŋ nɔ dɛŋ.
+privacy_permissions_title	Gbɛɛmɔi
+privacy_permissions_body	Kamera (o kɛɛ shishifɔɔ nɔŋ nɔŋ) kɛ shiŋmɔi (o shɔɔ nɔŋ nɔŋ). Yɛkɛɛ shishifɔɔi Android shishifɔɔ yi no mli, lɛɔlɛɔ yɛbiɔɔ kɛ gbɛɛ. Yɛbiɔɔ nɔŋmɔi, shi, mikrofon, SMS, fɔn anaa bimɔi nɔŋ gbɛɛ.
+privacy_delete_data_title	Kɛ mi nɔŋ jɛ mli?
+privacy_delete_data_body	Nɔŋ kɛ o ntamai, yitsomɔi, shishifɔɔi ni aŋwɛɛ, nɔŋ ni mli kɛ suɔmɔi jɛ fɔn nɔŋ nɔ koraa. Oshikaŋ shi eko.
+privacy_data_deleted	Akɛ o nɔŋ jɛ mli
+privacy_keep_history_days	Nɔŋ ni mli gbe
+privacy_keep_forever	Ye mɔ fɛɛ
+privacy_keep_days	Gbii %1$d
+terms_title	Mlara kɛ gbɛɛmɔi
+terms_body_1	Ntoma boɔ o nɔ o kɛɛ kɛ ntama baaŋ dadɔ mɔ. Susumɔi kɛ shishifɔɔi ji nɔŋmɔi, ejjɛŋ tɔɔlɔ gbɛɛmɔ, ni nɔŋ ni ba lɛ shishi o ntama, o kɛkɛmɔi kɛ o tɔɔlɔ nɔ.
+terms_body_2	Bo kɛ shishifɔɔi ni otsɔɔ lɛ tumi. Bo ji mɔ ni oye gbɛɛ nɔ o kɛɛ gbɔmɔ nɔŋ shishifɔɔ, ni o kɛɛ mɔ o shishifɔɔi ni aŋwɛɛ lɛ.
+terms_body_3	Shishifɔɔi ni aŋwɛɛ lɛ ji nɔŋmɔi. O kɛɛ mɔ akɛ dadɔ ni na gbe, akɛ mli baaŋ naa o he, anaa akɛ shishifɔɔ anɔkuale.
+terms_body_4	Tsuɔmɔ no ye beta mli. Premium nɔŋ nɔ mli yɛɛɛ sika mli, ni yɛŋɔɔɔ sika bi.
+terms_body_5	Bi bojamɔ nɔ o bɔɔ shikaŋmɔ anaa o shɔɔ o nɔŋ jɛmɔ.
+credits_title	Yiwalɛmɔ
+credits_body	Ntoma — "ntama" Akan gbi mli. Aŋwɛɛ kɛ Jetpack Compose. Ntama kɛ susumɔi nimɔɔ kɛjɛ Ghana dadɔ kɔɔmɔi: kente, adinkra, wax print kɛ batakari. Shishifɔɔi ni mli nɔŋ nɔ fɛɛ kɛjɛ o ntama ɛjɔŋmɔi; yɛtsɔɔɔ shishifɔɔi nɔŋ nɔi.
+help_title	Bojamɔ kɛ gbɛɛmɔi
+help_how_title	Kɛ Ntoma tsɔɔ mɔ
+help_how_1	1. Kɛ ntama shishifɔɔ anaa tsɔ mli.
+help_how_2	2. Kɛɛ yitso no: ɛjɔŋmɔi, nutata, he mɔɔ kɛ Ghana susumɔ.
+help_how_3	3. Kɛɛ susumɔi ni naa lɛ ayeŋ kɛ anɔŋmɔi, ni ayi lɛ ŋwɛɛ nɔ.
+help_how_4	4. O shɔɔ lɛ, kɛɛ susumɔ no gbɔmɔ shishifɔɔ nɔ.
+help_how_5	5. Toɔ nɔŋ ni osuɔ ni o kɛɛ mɔ o tɔɔlɔ.
+help_tips_title	Shishifɔɔ gbɛɛmɔi
+help_tips_body	Toɔ nutata no kɛ mli mli, tsɔ njɔɔŋ shikaŋ di mɔ, toɔ ntama no nɔɔ yɔɔ, ni o kɛ ɛsum anaa kanɛ shikaŋ kɛ yɔ.
+help_faq_title	Bimɔi ni abɔɔ gbɛɛ gbɛɛ
+help_faq_q1	Atsɔɔ mi shishifɔɔ intanɛt nɔ?
+help_faq_a1	O tsɔɔ cloud fɔn anaa AI ba-kpɔmɔ nɔŋ nɔŋ. Fɔn nɔ yitso kɛɛ o fɔn nɔ gbɛɛ.
+help_faq_q2	Ŋɔɔ nɔ ni eŋwɛɛ "mli baaŋ shikaŋ"?
+help_faq_a2	Shishifɔɔ bɔɔ kɛ ntama kente kɛ nɔŋ ni atintim akɛ lɛ daa. Yɛsuɔɔ anɔkuale nɔ yɛ bɔɔ shishifɔɔ.
+help_faq_q3	Ba-kpɔmɔ no ji anɔkuale?
+help_faq_a3	Nato. Ɛŋwɛɛ ɛjɔŋmɔ kɛ kɛkɛ gbɔmɔ nɔ. Kɛ mli baaŋ naa o he lɛ shishi o tɔɔlɔ nɔ.
+help_faq_q4	Ɛtsɔɔ mɔ nɔɔ intanɛt bɔ?
+help_faq_a4	Susumɔi, suɔmɔi, nɔŋ ni mli kɛ toomɔi tsɔɔ mɔ nɔɔ intanɛt bɔ. Cloud yitso kɛ AI ba-kpɔmɔ hia intanɛt.
+help_faq_q5	Mishikaŋ bɔ mi susumɔi mi nɔŋ ba mli?
+help_faq_a5	Eshikaŋ mli. Susumɔi kɛ no kɛjɛ katalog ni atsɔɔ kɛɛ tsake backend nɔ.
+help_contact_body	Ŋwɛɛ yɛ nɔŋ ni tsra ni yɛbɔɔ nyɛlɛmɔ. Toɔ o app fɔn nɔŋ nɔ ba mli: %1$s.
+help_contact_email	support@ntoma.app
+help_contact_subject	Ntoma bojamɔ bimɔ
+empty_looks_title	Shishifɔɔi bɔ mli
+empty_looks_body	Kɛ susumɔ shishifɔɔ nɔ do kpɔ ni o nɔŋ baaŋ shi fɛŋ.
+empty_fabrics_title	Ntamai bɔ mli
+empty_fabrics_body	Kɛ ntama shishifɔɔ ni o shi o kɛ toomɔ.
+empty_history_body	O tsuɔmɔi baaŋ shi fɛŋ.
+fabric_kente	Kente
+fabric_kente_desc	Ntama ni atɔɔ nɔɔ Ashanti kɛ Ewe kɔɔmɔi mli, ni nutatai ni he jɔŋ ye mli.
+fabric_adinkra	Adinkra
+fabric_adinkra_desc	Ntama ni atsɔɔ nyɛlɛmɔi nɔ, ni abaɔ ayi kɛ ŋwɛɛ mli.
+fabric_wax	Wax print (Ankara)
+fabric_wax_desc	Ntama ni atintim ni ɛjɔŋmɔi he jɔŋ — Atɔɛ Afrika dadɔŋwɛɛmɔ ntama.
+fabric_ankara	Ankara ntama
+fabric_ankara_desc	Ntama ni atintim fɛɛ nɔ ni ɛjɔŋmɔi he jɔŋ afãna fɛɛ nɔ.
+fabric_batik	Batik
+fabric_batik_desc	Ntama ni atɔɔ nɔɔ ni nutatai mli yɔɔ.
+fabric_tiedye	Tie-dye
+fabric_tiedye_desc	Ntama ni abɔɔ ni atintim ni atintim ni nutatai kɛ yɔ.
+fabric_lace	Lace
+fabric_lace_desc	Ntama ni atɔɔ mli ni mli hewɔɔ awarɛ kɛ sɔlemɔ.
+fabric_brocade	Brocade / Bazin
+fabric_brocade_desc	Ntama ni he jɔŋ ni mli hyerɛn ni mli shishi heŋ.
+fabric_cotton_plain	Cotton ntama kɛkɛ
+fabric_cotton_plain_desc	Ntama ɛjɔŋ kɛkɛ ni mli yɔɔ — mli nyɛɛ ni mli ye tsuɔmɔi bii.
+fabric_linen	Linen
+fabric_linen_desc	Ntama ni nyɛlɛ mli kɛɛ mɔ ni mli yɔɔ ŋwɛɛ mɔ.
+fabric_silk	Silk / satin
+fabric_silk_desc	Ntama ni mli hyerɛn ni mli kɛɛ lɛ nɔ.
+fabric_chiffon	Chiffon
+fabric_chiffon_desc	Ntama ni mli hyerɛ nyɛlɛ mɔ ni mli tsɔɔ gbɔmɔ sɛɛ.
+fabric_velvet	Velvet
+fabric_velvet_desc	Ntama ni mli jɔŋ ni ɛjɔŋmɔ mli dɔ.
+fabric_denim	Denim
+fabric_denim_desc	Ntama ni he jɔŋ ni bulu ye mli.
+fabric_kente_print	Kente ntama
+fabric_kente_print_desc	Ntama ni atintim akɛ kente — mli baaŋ shikaŋ, ejjɛŋ kente ni atɔɔ anɔkuale.
+fabric_unknown	Ntama ni aŋmli
+fabric_unknown_desc	Yɛbɔɔ yi ntama nɔŋ nɔ mli kɛkɛ. Ɛjɔŋmɔ kɛ nutata nɔŋmɔi no ye shishi.
+pattern_striped	Ntama ni atintim atɔɔ
+pattern_checked	Atɔɔmɔi ni abɔɔ mli
+pattern_geometric	Nutatai ni ayi mɔ
+pattern_floral	Nnyɛŋmɔi
+pattern_organic	Nutatai ŋwɛɛ mɔ
+pattern_symbolic	Nyɛlɛmɔi
+pattern_dotted	Nutatai bibii
+pattern_abstract	Abstrakt
+pattern_solid	Ɛjɔŋ kɛkɛ
+pattern_gradient	Ɛjɔŋmɔi ni abɔɔ mli
+texture_woven	Ntama ni atɔɔ kɛkɛ
+texture_smooth	Ni mli yɔɔ
+texture_slub	Ni mli tokuru tokuru
+texture_sheer	Ni mli hyerɛ nyɛlɛ
+texture_pile	Ni mli hyerɛ
+texture_stiff	Ni he jɔŋ
+texture_soft	Ni mli kɛɛ
+texture_quilted	Ni atɔɔ mli
+texture_embroidered	Ni atɔɔ nɔ
+style_kaba_slit	Kaba kɛ slit
+style_kaba_slit_desc	Ghana kɔɔmɔ susumɔ: dadɔ ni mli nɔ kɛ skirt kɛ yɔ.
+style_modern_kaba	Kaba nɔŋ nɔ
+style_modern_kaba_desc	Kaba ni atsake lɛ nɔ kɛ nsa kɛ nɔŋ nɔi.
+style_maxi_dress	Dadɔ kɛ yɔ
+style_maxi_dress_desc	Dadɔ ni mli shi ni lɛ skirt trɛw nɔ nutata no tsɔɔ.
+style_straight_dress	Dadɔ ni shishi
+style_straight_dress_desc	Dadɔ ni mli kɛɛ ni atɔɔ mli kɛkɛ.
+style_mermaid_dress	Mermaid dadɔ
+style_mermaid_dress_desc	Ɛbaɔ o heŋ ni mli trɛw kɛjɛ o na nɔ mɔ shwieɛ ŋwɛɛ.
+style_peplum	Peplum nɔ kɛ skirt
+style_peplum_desc	Ali ni mli trɛw skirt ni mli kɛɛ anaa mli trɛw nɔ.
+style_jumpsuit	Ntama jumpsuit
+style_jumpsuit_desc	Dadɔ kɛkɛ ni mli na kɛ yɔ kɛ ali ni mli hewɔɔ.
+style_skirt_blouse	Skirt kɛ blouse
+style_skirt_blouse_desc	Nɔ kɛ skirt ni akɛ nɔɔmɔi ni o shikaŋ bɔɔ kɛ nɔŋ nɔi.
+style_african_gown	Afrika ntama dadɔ kɛ
+style_african_gown_desc	Dadɔ kɛ ŋwɛɛ mɔ ni mli nɔ he jɔŋ kɛ ni mli kɛɛ sɛɛ.
+style_contemporary_formal	Shiŋ dadɔ nɔŋ nɔ
+style_contemporary_formal_desc	Dadɔ ni atɔɔ kɛkɛ tsuɔmɔ shia, sɔlemɔ kɛ ŋwɛɛ.
+style_kaftan	Kaftan
+style_kaftan_desc	Dadɔ kɛ ni abaɔ shi mli ni mli kɛɛ ni mli afãna ye mli.
+style_agbada	Agbada kɔɔmɔ
+style_agbada_desc	Dadɔ kɛ ni mli kɛɛ ni abaɔ tunic kɛ trousers nɔ.
+style_print_shirt	Afrika ntama shɔɔt
+style_print_shirt_desc	Shɔɔt nsa bibii ni mli kɔla ntama ni oyí no.
+style_senator	Senator kɔɔmɔ
+style_senator_desc	Tunic ni mli kɛɛ ni mli tɔɔmɔ bibii kɛ trousers ni naa lɛ.
+style_smock	Batakari kɔɔmɔ (fugu)
+style_smock_desc	Batakari ni atɔɔ nɔɔ ni mli ali tɔɔmɔ ye mli.
+style_african_suit	Afrika ŋwɛɛ suit
+style_african_suit_desc	Jacket kɛ trousers ni ntama ye lɛ afãna anaa mli.
+style_shirt_trousers	Shɔɔt kɛ trousers
+style_shirt_trousers_desc	Gbɛɛ gbɛɛ dadɔ ni mli kɛɛ ntama no hewɔɔ.
+style_modern_traditional	Kɔɔmɔ nɔŋ nɔ
+style_modern_traditional_desc	Shiŋ tɔɔmɔ ni kɔɔmɔ nɔŋmɔi ye mli.
+style_beach_cover	Dadɔ ni mli yɔɔ
+style_beach_cover_desc	Dadɔ ni mli yɔɔ ni ayeŋ kɛ anɔŋmɔi bɔɔ baɔ gbɛɛ gbɛɛ mli.
+style_co_ords	Dadɔi ni abɔɔ mli
+style_co_ords_desc	Shɔɔt kɛ shorts anaa trousers ni kɛjɛ ntama kɛkɛ mli.
+occasion_wedding	Awarɛ
+occasion_church	Sɔlemɔ
+occasion_office	Tsuɔmɔ shia
+occasion_party	Kpaŋmɔ
+occasion_everyday	Gbɛɛ fɛɛ gbɛɛ
+occasion_ceremony	Ŋwɛɛ
+occasion_mourning	Ayi
+occasion_festival	Ŋwɛɛkɛ
+cd_favorite_on	Kɛ jɛ suɔmɔi mli
+cd_favorite_off	Bɔ suɔmɔi mli
+cd_fabric_image	Ntama shishifɔɔ
+cd_person_image	Gbɔmɔ shishifɔɔ
+cd_generated_image	Shishifɔɔ ni aŋwɛɛ
+cd_design_image	Susumɔ shishifɔɔ
+cd_color_dot	Ɛjɔŋ %1$s
+cd_back	Sɛɛ
+cd_more_options	Nɔŋ nɔi bii
+cd_delete_item	Kɛ nɔŋ nɔ jɛ mli
+cd_share_item	Kɛɛ nɔŋ nɔ mɔ
+cd_clear_search	Kɛ yitso gbiŋmɔi jɛ mli
+cd_open_item	Yi %1$s
+cd_progress	Tsɔɔmɔ
+a11y_tab_selected	%1$s, ayi
+a11y_new_content	Nɔŋ nɔ
+a11y_demo_result	Nɔŋ nɔ ji nɔŋmɔ, ejjɛŋ ba-kpɔmɔ anɔkuale
+time_just_now	Mɔŋ nɔŋŋ
+time_minutes_ago	Dakika %1$d ni mli
+time_hours_ago	Dɔŋŋ %1$d ni mli
+time_days_ago	Gbii %1$d ni mli
+collections_title	Nɔŋmɔi
+collections_create	Nɔŋmɔ nɔŋ nɔ
+collections_name_hint	akɛ nɔŋ: Awarɛ susumɔi
+collections_empty_title	Nɔŋmɔi bɔ mli
+collections_empty_body	Ŋwɛɛ nɔŋmɔ o ŋwɛɛ ni ba mli ni o toɔ ntamai, susumɔi kɛ shishifɔɔi kɛ mɔ.
+collections_add	Bɔ nɔŋmɔ mli
+collections_added	Abɔ nɔŋmɔ mli
+collections_delete	Kɛ nɔŋmɔ no jɛ mli
+collections_item_count	Nɔŋ nɔi %1$d
+collections_fabrics	Ntamai
+collections_designs	Susumɔi
+collections_looks	Shishifɔɔi
+wardrobe_title	Mi Dadɔi
+wardrobe_cat_top	Nɔ dadɔ
+wardrobe_cat_bottom	Shishi dadɔ
+wardrobe_cat_dress	Dadɔ
+wardrobe_cat_shoes	Eshwiemɔi
+wardrobe_cat_bag	Kotoku
+wardrobe_cat_accessory	Nɔ ni abɔɔ mli
+wardrobe_add	Bɔ dadɔ mli
+wardrobe_name_hint	Nɔŋ nɔ din
+wardrobe_notes_hint	Nɔŋmɔi (o shɔɔ lɛ)
+wardrobe_empty_title	O dadɔi kɛ yɔɔ
+wardrobe_empty_body	Kɛ dadɔi, eshwiemɔi kɛ nɔŋ nɔi ni oye shishifɔɔi ni o tsɔ o dadɔi kɛ.
+wardrobe_add_photo	Bɔ shishifɔɔ mli
+wardrobe_change_photo	Tsake shishifɔɔ
+wardrobe_tab_items	Nɔŋ nɔi
+wardrobe_tab_outfits	Dadɔ nɔŋmɔi
+outfit_builder_title	Ŋwɛɛ dadɔ nɔŋmɔ
+outfit_builder_save	Toɔ dadɔ nɔŋmɔ no mli
+outfit_builder_name_hint	Dadɔ nɔŋmɔ no din
+outfit_builder_empty	Yi nɔŋ kɛkɛ o shɔɔ o toɔ dadɔ nɔŋmɔ.
+outfits_empty_title	Dadɔ nɔŋmɔi bɔ mli
+outfits_empty_body	Bɔ o dadɔi kɛ mɔ nɔ dadɔ nɔŋmɔi ni o shikaŋ baɔ eko.
+color_match_title	Ɛjɔŋmɔ susumɔi
+color_match_subtitle	Ɛjɔŋmɔi ni naa ntama nɔŋ nɔ
+color_role_complementary	Ni jɔŋ mɔ
+color_role_analogous	Ni mli bɛɛ
+color_role_neutral	Ni mli yɔɔ
+color_role_metallic	Dadeɛ ɛjɔŋmɔ
+color_why_complementary	Ɛye ɛjɔŋmɔi afãna ni mli kɛɛ mɔ — mli kɛɛ shikaŋ.
+color_why_analogous	Ɛjɔŋmɔ ni mli bɛɛ — mli kɛɛ nyɛlɛ mɔ.
+color_why_neutral_light	Ɛjɔŋmɔ ni mli yɔɔ ni mli wɛɛ mli kɛɛ ntama no tsɔɔ dɛŋ.
+color_why_neutral_dark	Ɛjɔŋmɔ ni mli yɔɔ ni mli tsuŋ shishi ɛjɔŋmɔi ni hyerɛn shishi.
+color_why_gold	Sika kɔkɔɔ kɛɛ ntama nɔŋ nɔ ɛjɔŋmɔi hyerɛ.
+color_why_silver	Dadeɛ wɛɛ kɛɛ ɛjɔŋmɔi nɔŋ nɔ shiŋ nɔŋ nɔ.
+color_why_bronze	Kɔbere ji dadeɛ ɛjɔŋmɔ ni mli tsɔɔ gbɛɛ gbɛɛ.
+color_accessory_hint	Tsɔ ɛjɔŋmɔi nɔŋ nɔi eshwiemɔi, kotokui, dadeɛ mɔi, duku kɛ tai.
+customizer_title	Tsake susumɔ nɔŋ nɔ
+customizer_sleeve	Nsa
+customizer_neckline	Ali mli
+customizer_length	Ne kɛ yɔ
+customizer_placement	Ntama no shi
+customizer_accent	Ɛjɔŋmɔ ni mli kɛɛ
+customizer_demo_note	Nɔŋmɔ no ŋwɛɛ ntama shi kɛ ɛjɔŋmɔi. Tɔɔmɔ nɔŋmɔi kɛɛ o tɔɔlɔ shiŋmɔ mli.
+custom_sleeve_default	Akɛ mli ŋwɛɛ
+custom_sleeve_short	Kɛkɛ
+custom_sleeve_long	Kɛ yɔ
+custom_sleeve_sleeveless	Nsa bɔ
+custom_sleeve_puff	Nsa ni mli bɔɔ
+custom_neck_default	Akɛ mli ŋwɛɛ
+custom_neck_round	Ni mli dane
+custom_neck_v	V-ali
+custom_neck_high	Ali kɛ yɔ
+custom_neck_off_shoulder	Ni mli je gbɔŋ nɔ
+custom_length_default	Akɛ mli ŋwɛɛ
+custom_length_mini	Kɛkɛ paa
+custom_length_midi	Na shishi
+custom_length_maxi	Shishi
+custom_place_full	Dadɔ no fɛɛ
+custom_place_full_desc	Ntama no toɔ susumɔ no fɛɛ nɔ.
+custom_place_top	Nɔ nɔŋ
+custom_place_top_desc	Ntama nɔ nɔ; shishi je ɛjɔŋ kɛkɛ anaa ni mli kɛɛ.
+custom_place_skirt	Skirt nɔŋ
+custom_place_skirt_desc	Ntama skirt nɔ; nɔ je ɛjɔŋ kɛkɛ anaa ni mli kɛɛ.
+custom_place_panels	Kɛmɔi
+custom_place_panels_desc	Ntama kɛ ni mli kɛɛ kɛmɔi tsɔɔ nɔɔ nɔɔ.
+custom_place_accents	Ntintim bibii
+custom_place_accents_desc	Dadɔ ɛjɔŋ kɛkɛ ni ntama atɔɔmɔi kɛ nɔŋmɔi ye mli.
+tailors_title	Tɔɔlɔi
+tailors_demo_banner	Nɔŋmɔ nɔŋmɔi — nɔŋmɔi nɔŋ. Yɛbiɔɔ tsuɔmɔ shishifɔɔi anɔkuale nɔŋ nɔ mli.
+tailor_spec_kaba	Kaba kɛ slit
+tailor_spec_bridal	Awarɛ dadɔi
+tailor_spec_kaftan	Kaftanmɔi
+tailor_spec_agbada	Agbada
+tailor_spec_smock	Batakari
+tailor_spec_suits	Afrika suitmɔi
+tailor_hours_demo	Dzuŋ–Soji, 8:00–18:00 (nɔŋmɔ)
+tailor_portfolio_demo	O shikaŋ bi tsuɔmɔ shishifɔɔi (nɔŋmɔ).
+tailor_price_budget	Shikaŋ ni mli tsɔɔ
+tailor_price_mid	Shishi
+tailor_price_premium	Premium
+tailor_verified	Amli kɛ shishi
+tailor_not_verified	Amli kɛɛ shishi
+tailor_delivery	Ɛkɛɛ mɔ
+tailor_specialties	Ne nimɔɔ
+tailor_request_quote	Bi shikaŋ (nɔŋmɔ)
+tailor_quote_title	Tsuɔmɔ nɔŋmɔ
+tailor_quote_body	Ɛkɛɛ tsuɔmɔ nɔŋmɔ ni o shikaŋ tsɔɔ tɔɔlɔ bi. Ntoma biɔɔ tɔɔlɔi nɔ ni eŋɔɔɔ sika fɔn nɔŋ nɔ mli.
+tailor_quote_share	Kɛɛ nɔŋmɔ no mɔ
+tailor_filter_all	Fɛɛ
+brief_design	Susumɔ: %1$s
+brief_fabric	Ntama: %1$s
+brief_customizations	Tsakemɔi: %1$s
+brief_measurements	Kɛkɛmɔi (cm): %1$s
+brief_notes	Nɔŋmɔi: %1$s
+brief_notes_hint	Toɔ nɔŋmɔi o tɔɔlɔ (akɛ nɔŋ "tɔɔ nsa no kɛ yɔ")
+brief_include_measurements	Toɔ mi kɛkɛmɔi mli
+brief_no_design	Ayiɔɔ susumɔ
+brief_no_fabric	Ayiɔɔ ntama
+measurements_title	Mi Kɛkɛmɔi
+measurements_disclaimer	O nɔŋmɔi nɔŋ ye fɛŋ, ni ato mli fɔn nɔŋ nɔ nɔŋ. Ntoma ŋwɛɛɔ gbɔmɔ gbɛɛ kɛkɛmɔi.
+measurement_height	Kɛ yɔ (cm)
+measurement_chest	Nu (cm)
+measurement_waist	Ali (cm)
+measurement_hip	Klo (cm)
+measurement_shoulder	Gbɔŋ (cm)
+measurement_sleeve	Nsa (cm)
+measurement_inseam	Na shishi kɛ yɔ (cm)
+measurement_neck	Ali (cm)
+measurement_notes	Nɔŋmɔi tɔɔlɔi
+measurements_saved	Ato kɛkɛmɔi mli
+result_variations	Ŋwɛɛ tsakemɔi 3 nɔŋ nɔi
+result_variations_progress	Emɔŋ ŋwɛɛ tsakemɔi… (%1$d yɛ 3 mli)
+result_variations_quota	Ba-kpɔmɔi femli eyɔɔɔ nɔ tsakemɔi 3.
+result_compare	Bɔɔ mɔ
+result_compare_original	Ni mli dɛŋ
+result_compare_result	Ni mli ba
+fabric_edit_title	Tsake ntama
+fabric_notes_hint	Nɔŋmɔi (akɛ nɔŋ: awarɛ ntama)
+fabric_amount_hint	Ne kɛ yɔ bɔɔ (cm)
+fabric_wearer_hint	Gbɔmɔ ni bɔɔ (o shɔɔ lɛ)
+fabric_occasion_hint	Ŋwɛɛ (o shɔɔ lɛ)
+recs_not_interested	Misuɔɔ
+recs_not_interested_undone	Abɔ susumɔ no ba eko
+settings_reset_personalization	Shi suɔmɔi eko
+settings_personalization_reset_done	Ashi suɔmɔi
+search_intent_applied	Ayi lɛ o gbiŋmɔi nɔ
+settings_data_saver	Data toomɔ
+settings_data_saver_body	Tsɔ shishifɔɔi bibii ni o kɛ shishifɔɔi kɛ yɔi ŋwɛɛmɔ.
+home_tools_title	Tsuɔmɔ nɔŋ nɔi
+tool_color_ideas	Ɛjɔŋmɔ susumɔi
+tool_wardrobe	Mi dadɔi
+tool_tailors	Tɔɔlɔi
+tool_collections	Nɔŋmɔi
+profile_row_measurements	Mi Kɛkɛmɔi
+profile_row_wardrobe	Mi Dadɔi
+favorites_tab_collections	Nɔŋmɔi
+favorites_tab_tailors	Tɔɔlɔi
+analysis_ml_title	ML shikamɔ ni yɔ mɔ̃ lɛ nɔ
+analysis_ml_mapped	Etsɔɔmɔ ntama: %1$s
+analysis_ml_note	MobileNetV2 ni tsuɔ o mɔ̃ lɛ nɔ no eee nɔ ni eekpɔ. Susumɔ arare ji, edaŋ shishi mli, acɛ mɔ ekoookɛ efee shika.
+print_trait_woven_strips	Kɛkɛi nwenei bibioo ni akpaashie
+sample_picker_title	Ntama koookɛ ni yɔ odɛŋ?
+sample_picker_body	Kɛ nhwɛsoɔ ntama yei mli ko sɔ hwɛ, ni tsuɔ o dɔɔmɔ nyinaa.
+sample_cta	Sɔ nhwɛsoɔ ntama hwɛ
+brief_pdf_action	PDF krataa
+brief_pdf_design	Susumɔ
+brief_pdf_fabric	Ntama
+brief_pdf_custom	Nsakramɔi
+brief_pdf_measurements	Kɔstoma kɛkɛmɔi (cm, susumɔ kwa)
+brief_pdf_footer	Ntoma ji ni atsɔɔ nɔŋmɔ nɛɛ. Kɛkɛmɔi nɛɛ kɔstoma lɛ ji ji ehi eesusu — kɛ gbɔmɔ kadiemɔ hwɛ nɔŋ fɛɛ.
+settings_cloud_url_hint	Cloud backend URL (o taomɔ)
+settings_engine_saved	Atsɔɔ yitso fɔn lɛ mli
+looks_section_title	Nɔɔ nɔ fɔtoi ni ji enɔɔ nɔ
+looks_section_caption	Niŋmɔi ni awie mli \u2014 shikpoŋ niŋmɔi, ji bo nɔɔ fɔtoi looo
+look_kente_women_1	Kente kaba kɛ slit
+look_kente_women_2	Kente odɔ fɔtoi
+look_kente_men_1	Kente aŋweyir fɔtoi
+look_kente_men_2	Kente agbada
+look_lace_women_1	Lace tɛklɛ fɔtoi
+look_lace_women_2	Ladeŋ fɔtoi
+look_smock_men_1	Atifi fugu
+look_smock_men_2	Dɔŋmɔ batakari
+look_ankara_women_1	Ankara enɔɔ mɔi
+look_ankara_women_2	Ankara mermaid
+look_ankara_men_1	Ankara fɔtoi kɛ trɔsi
+look_ankara_men_2	Ankara nitsɔɔmɔ fɔtoi
+looks_share_cd	Ha mɔɔ nɔŋ fɔtoi nɛ
+notif_brief_ready_title	Tailor wɔlɔ ba ŋɔ
+notif_brief_ready_body	Bo PDF wɔlɔ ni ji %1$s he ba ŋɔ.
+fabric_fugu	Fugu (batakari nɔɔ)
+fabric_fugu_desc	Nɔɔ ni a dɔŋ lɛ yɛ Gana Yigbeŋ; pii ji blutɔɔ, sɔŋ kɛ tɛklɛ.
+fabric_gonja	Gonja nɔɔ
+fabric_gonja_desc	Gonja nɔɔ ni a dɔŋɔ; pii ji kɔkɔɔloo anaa ɩɔŋ kɛ tɛklɛ kɛ sɔŋ.
+wardrobe_remove_bg	Kɛ shikpoŋ
+wardrobe_remove_bg_note	Ebɔɔ nii shikpoŋ ni ji tɛklɛ
+contrib_title	Ha nɔɔ fɔtoi
+contrib_body	Ha nɔɔ nɔ fɔtoi anɔɔmɔ koni nɔɔ niŋmɔ baŋ ŋɔ. Fɔtoi lɛ ba hi bo fonŋ lɛ mɔŋ ji bo nɔŋ kɛmɔɔ.
+contrib_category	Nɔɔ nɔ
+contrib_consent	Mi nɔŋ tsɔɔ fɔtoi nɛŋ kɛ mi ŋɔɔ ni a nɔɔtsɔɔmɔ nɔŋ
+contrib_save	Kɛ ŋɔ
+contrib_saved_count	Fɔtoi %1$d hi fon nɛŋ mli
+contrib_export	Kɛ ya niŋmɔ mli
+contrib_photo_needed	Tsɔɔ fɔtoi jiŋ
+contrib_consent_needed	Ŋɔɔmɔ lɛ hiɔ
+contrib_gallery	Bo nɔŋmɔ fɔtoi
+contrib_delete_cd	Kɛ fɔtoi nɛŋ jɛ
+contrib_edit_category	Tsakemɔ shishirii
+contrib_delete_confirm	Ojie foto nɔŋ?
+contrib_delete_confirm_body	Aaji foto nɔŋ kɛjɔ oboɔmɔ mli.
+contrib_duplicate	Foto nɔŋ lɛ nɔŋ dedaw.
+outfit_builder_surprise	Kɛmɔ bɔ mɔ

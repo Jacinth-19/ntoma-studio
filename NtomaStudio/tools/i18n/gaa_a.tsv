@@ -1,0 +1,267 @@
+app_name	Ntoma
+app_tagline	Tsɔ ntama ni oye lɛ kɛ o tsake no kɛ o shikaŋ shishifɔɔ ni mli.
+cd_app_logo	Ntoma shishifɔɔ
+action_retry	Kɛ o tsɔɔ eko
+action_cancel	Kwra mli
+action_back	Sɛɛ
+action_close	To mli
+action_confirm	Kɛ shishi
+action_save	To mli
+action_saved	Ato mli
+action_share	Kɛɛ mɔ
+action_delete	Jɛ mli
+action_remove	Kɛ jɛ mli
+action_done	Na gbe
+action_got_it	Miŋ nɔ
+action_continue	Tsɔ nɔ
+action_see_all	Kɛ mɔ fɛɛ
+action_learn_more	Kase mɔ bii
+action_open_settings	Yi toomɔi
+action_not_now	Jjɛŋ ŋɔɔ
+action_yes	Yewaa
+action_no	Nato
+action_search	Yitso
+action_clear	Kɛ jɛ mli
+action_apply	Tsɔ nɔ
+label_loading	Emɔŋ ba…
+label_offline	O ye intanɛt mli
+label_offline_short	Intanɛt bɔ
+label_online_short	Intanɛt mli
+label_demo_badge	Nɔŋmɔ
+label_free	Femli
+label_premium	Premium
+label_advertisement	Shiŋmɔ
+nav_home	Shia
+nav_discover	Yitso
+nav_create	Ŋwɛɛ nɔŋ nɔ
+nav_favorites	Suɔmɔi
+nav_profile	Mi he mɔɔ
+cd_bottom_navigation	Kpɔɔmɔ kɛ yɔ
+onboarding_welcome_title	O ba Ntoma mli
+onboarding_welcome_body	Ntoma ji Akan gbi ni ŋwɛɛ "ntama". Kɛ o ntama shishifɔɔ ni oye, ni yɛba ŋwɛɛ o mɔ ni mli baaŋ — kɛjɛ kaba kɛ slit mli ya kaftan nɔŋ nɔ.
+onboarding_step1_title	Kɛ ntama shishifɔɔ anaa tsɔ mli
+onboarding_step1_body	Kɛ o ntama shishifɔɔ, anaa kɛ ba mli kɛjɛ o shishifɔɔ kɛ mli. Ntama nɔŋ ji mɔ fɛɛ shishifɔɔ.
+onboarding_step2_title	Kɛ susumɔi ni naa lɛ
+onboarding_step2_body	Yɛkɛɛ ɛjɔŋmɔi, nutata kɛ ntama he mɔɔ, ni yɛŋwɛɛ Ghana kɛ shiŋ shisusumɔi yɛ ayeŋ kɛ anɔŋmɔi.
+onboarding_step3_title	Kɛ o shishifɔɔ nɔ
+onboarding_step3_body	O shikaŋ: kɛ o shishifɔɔ ba mli ni o kɛ susumɔ no gbɔmɔ nɔ bɔ o maŋ o tɔɔlɔ shi.
+onboarding_step4_title	To mli ni o kɛɛ mɔ
+onboarding_step4_body	To ntama kɛ shishifɔɔi ni osuɔ mli kɛ Suɔmɔi mli, ni o kɛɛ mɔ o tɔɔlɔ anaa o bii.
+onboarding_started_title	Ba, yɛshi shishifɔɔ
+onboarding_started_body	O shishifɔɔ kɛ dɔŋŋ ji gbe mli nɔ o shi gbe.
+onboarding_cta_scan	Kɛ mi ntama shishifɔɔ
+onboarding_cta_skip	Fiŋ ŋɔɔ
+onboarding_page_indicator	Kratafa %1$d yɛ %2$d mli
+onboarding_next	Ni mli
+onboarding_privacy_note	Shikaŋ bɔ akawnt. O shishifɔɔi ba o fɔn nɔ bɔ o shɔ AI shishifɔɔŋwɛɛmɔ nɔŋ.
+home_greeting_morning	Oba
+home_greeting_afternoon	Oba nɔŋ
+home_greeting_evening	Shwieɛ? Evening greeting Ga = "Oshwie"? use Oshwie
+home_subtitle	Kɛ mɔ ni o ntama baaŋ.
+home_cta_scan	Kɛ ntama shishifɔɔ
+home_cta_upload	Kɛ kɛjɛ shishifɔɔi mli
+home_section_recent_fabrics	O ntamai ni mli
+home_section_recommended	Abɔ o mɔ
+home_section_continue	Tsɔ nɔ ŋwɛɛ
+home_section_favorites	Shishifɔɔi ni ato mli
+home_section_tips	Mɔɔ ni he hia
+home_tip_1_title	Toɔ shishifɔɔ no mli
+home_tip_1_body	Ba o heŋ nɔ nɔɔ nutata no mli skrin mli — nɔŋ ji mɔ ni mli baaŋ kɛ o kɛɛ.
+home_tip_2_title	Tsɔ njɔɔŋ shikaŋ di mɔ
+home_tip_2_body	Shikaŋ kɛ naa lɛ hewɔɔ ɛjɔŋmɔi kɛ anɔkuale. Shiatso kanɛi baaŋ tsake o ntama ɛjɔŋmɔ.
+home_tip_3_title	Toɔ lɛ nɔɔ yɔɔ
+home_tip_3_body	Toɔ ntama no nɔɔ yɔɔ ni o kɛ shishifɔɔ no.
+home_empty_recent	Ntama bɔ mli
+home_empty_recent_body	O shishifɔɔi baaŋ shi fɛŋ nɔ nɔ o tsɔ nɔ.
+home_quota_note	%1$d yɛ %2$d shishifɔɔŋwɛɛmɔi femli ni ye nɔŋŋ
+home_quota_exhausted	O shishifɔɔŋwɛɛmɔi femli ni ye nɔŋŋ na gbe. Premium kɛɛ shishifɔɔi ni ye mli.
+cd_scan_fabric	Kɛ ntama shishifɔɔ kɛ kamera
+tooltip_create	Shi shishifɔɔ fɛŋ: kɛ o ntama shishifɔɔ. O shikaŋ yi shishifɔɔ ni ye mli ba mli.
+create_title	Ŋwɛɛ Nɔŋ Nɔ
+create_subtitle	Nɔŋ nɔ ni yɛtsɔ nɔ mɔ nɔŋŋ?
+create_option_camera_title	Kɛ shishifɔɔ
+create_option_camera_body	Tsɔ o kamera kɛ ntama ni mli o hɛŋ shishifɔɔ.
+create_option_gallery_title	Yi shishifɔɔ
+create_option_gallery_body	Yi ntama shishifɔɔ ni mli o fɔn nɔ.
+create_option_person_title	Kɛ susumɔ no gbɔmɔ nɔ
+create_option_person_body	Kɛ ntama kɛ susumɔ ni ato mli shishifɔɔ nɔ.
+create_recent_title	Tsuɔmɔ ni mli
+create_empty_body	Nɔŋ bɔ mli fɛŋ — o ntamai kɛ shishifɔɔi baaŋ fɛŋ.
+create_guidance_header	Kɛ o bɔɔ mɔ ni hewɔɔ
+camera_title	Kɛ ntama shishifɔɔ
+camera_guidance	Toɔ ntama no kɛ mli mli
+camera_guidance_far	Ba o heŋ kɛkɛ nɔɔ nutata no mli kɛ mli mli
+camera_guidance_dark	Ɛsum mli — toɔ shikaŋ ba mli anaa kɛ kanɛ no
+camera_capture	Kɛ shishifɔɔ
+camera_switch_lens	Tsake kamera
+camera_flash_on	Kanɛ: kɛ
+camera_flash_off	Kanɛ: dum
+camera_flash_auto	Kanɛ: lɛ nɔŋ
+camera_focus_hint	Kɛ o nɔ fɛŋ nɔ nɔ o kɛ hɛŋ
+camera_capturing	Emɔŋ kɛ…
+camera_no_device	Kamera bɔ fɔn nɔŋ nɔ
+camera_no_device_body	O shikaŋ yi ntama shishifɔɔ kɛjɛ o shishifɔɔ kɛ mli.
+camera_capture_failed	Yɛbɔɔ kɛ shishifɔɔ no. Kɛ o tsɔɔ eko.
+edit_title_fabric	Tsake o ntama shishifɔɔ
+edit_title_person	Tsake shishifɔɔ no
+edit_hint	Kɛ o nɔɔmɔi nɔɔmɔ kɛ anaa kɛkɛi, hee kɛ shishifɔɔ, ni o kɛ shishi.
+edit_rotate	Dane
+edit_reset	Shi eko
+edit_ratio_free	Fɛɛ
+edit_ratio_square	Ahinanan
+edit_ratio_portrait	3:4
+edit_ratio_full	Fɛɛ mli
+edit_retake	Kɛ eko
+edit_use_photo	Tsɔ shishifɔɔ no di mɔ
+edit_saving	Emɔŋ siesie o shishifɔɔ…
+analysis_title	Emɔŋ yi o ntama mli…
+analysis_stage_preparing	Emɔŋ siesie o ntama…
+analysis_stage_colors	Emɔŋ kɛɛ ɛjɔŋmɔi…
+analysis_stage_pattern	Emɔŋ kase nutata no…
+analysis_stage_styles	Emɔŋ yitso susumɔi ni naa lɛ…
+analysis_stage_finishing	Siesiemɔ ni mli gbe…
+analysis_result_title	Ntama mli yitso
+analysis_match_confident	Mli baaŋ kɛ mli
+analysis_match_possible	Mli baaŋ shikaŋ
+analysis_match_uncertain	Enaŋ shishi mli
+analysis_confidence	Kɛkɛmɔ %1$d%%
+analysis_section_colors	Ɛjɔŋmɔi kɛ yɔ
+analysis_section_pattern	Nutata
+analysis_section_texture	Ntama he mɔɔ
+analysis_section_print	Ntama shishifɔɔ he mɔɔ
+analysis_section_category	Ntama ko ni mli baaŋ
+analysis_section_style	Ghana susumɔ ni mli baaŋ
+analysis_section_uses	Tsuɔmɔi ni abɔ
+analysis_honesty_note	Nɔŋ ji mɔ ni mli baaŋ, ejjɛŋ shishifɔɔ krataa. Ntamai nɔɔmɔi baaŋ sɛ shishifɔɔ nɔ. O shɔɔŋ nɔɔ lɛ, bi o ntama shishifɔɔlɔ.
+analysis_engine_on_device	Fɔn nɔ yitso (nɔŋmɔ)
+analysis_engine_on_device_note	O fɔn nɔŋ nɔ naa lɛ yɛkɛɛ ɛjɔŋmɔi kɛ nutata. Yɛtsɔɔ nɔŋ kɛɛ intanɛt nɔ. Tsɔ cloud mɔ ba mli toomɔi mli.
+analysis_engine_cloud	Cloud mli yitso
+analysis_engine_cloud_note	Yɛtsɔ o shishifɔɔ kɛɛ yitso tsuɔmɔ shi.
+analysis_action_view_designs	Kɛ susumɔi ni naa lɛ
+analysis_action_save_favorite	To ntama no mli
+analysis_action_rescan	Kɛ ntama nɔŋ nɔ shishifɔɔ
+print_trait_high_contrast	Ntama ni ɛjɔŋmɔi he jɔŋ
+print_trait_low_contrast	Ntama ni ɛjɔŋmɔi he ejjɛŋ jɔŋ
+print_trait_large_scale	Nutatai kɛ yɔ
+print_trait_small_repeat	Nutatai bibii ni mli mli
+print_trait_multicolour	Ɛjɔŋmɔi bii
+print_trait_two_tone	Ɛjɔŋmɔi nɔɔmɔ
+print_trait_directional	Ntama ni mli kpanɔ
+print_trait_all_over	Ntama ni mli fɛɛ nɔ
+analysis_unnamed	Ntama shishifɔɔ
+analysis_rename_title	Toɔ din ntama nɔŋ nɔ
+analysis_rename_hint	akɛ nɔŋ: Kente kɛjɛ Bonwire
+cd_color_swatch	Ɛjɔŋmɔ shishifɔɔ
+color_name_red	Kɔkɔɔ
+color_name_orange	Orenge
+color_name_gold	Sika kɔkɔɔ
+color_name_yellow	Kɔɔshishi
+color_name_green	Gblɛɛ
+color_name_teal	Tiil
+color_name_blue	Bulu
+color_name_indigo	Indigo
+color_name_purple	Papul
+color_name_pink	Pink
+color_name_brown	Bɛɛre
+color_name_black	Tsuŋ
+color_name_grey	Grey
+color_name_white	Wɛɛ
+color_name_cream	Krim
+recs_title	Susumɔi ni aŋwɛɛ o ntama
+recs_subtitle	Susumɔi %1$d naa ntama nɔŋ nɔ
+recs_filter_women	Ayeŋ
+recs_filter_men	Anɔŋmɔi
+recs_filter_unisex	Ayeŋ kɛ anɔŋmɔi
+recs_filter_casual	Gbɛɛ gbɛɛ
+recs_filter_formal	Ŋwɛɛŋwɛɛ
+recs_filter_traditional	Kɔɔmɔi
+recs_filter_wedding	Awarɛ
+recs_filter_church	Sɔlemɔ
+recs_filter_office	Tsuɔmɔ shia
+recs_filter_party	Kpaŋmɔ
+recs_filter_everyday	Gbɛɛ fɛɛ gbɛɛ
+recs_filters_label	Yitsomɔi
+recs_clear_filters	Kɛ yitsomɔi fɛɛ jɛ mli
+recs_empty_title	Susumɔ bɔ ni naa yitsomɔi nɔŋ nɔ
+recs_empty_body	Kɛ yitso ko jɛ mli anaa tsake ayeŋ kɛ anɔŋmɔi susumɔi.
+recs_try_on	Ba kpɔ
+recs_view_design	Kɛ susumɔ no
+recs_match_score	Ɛnaa %1$d%%
+recs_why_title	Ŋɔɔ nɔ ni mli naa o ntama
+recs_favorite_added	Abɔ Suɔmɔi mli
+recs_favorite_removed	Akɛ jɛ Suɔmɔi mli
+recs_for_fabric	%1$s
+why_pattern_structured	Nutatai ni he jɔŋ shishi heŋ mli akɛ nɔŋ nɔ.
+why_pattern_flowing	Nutata ni mli kɛ susumɔ nɔŋ nɔ tsɔɔmɔ sɛɛ.
+why_scale_large	Nutatai kɛ yɔ hia kɛmɔi kɛ yɔ, ni susumɔ nɔŋ nɔ kɛɛ mɔ.
+why_scale_small	Nutatai bibii ni mli fɛɛ nɔ hewɔɔ mli kɛ shishifɔɔ ni aŋwɛɛ mli.
+why_texture_heavy	Ntama ni he jɔŋ naa susumɔ ni atɔɔ kɛkɛ nɔŋ nɔ.
+why_texture_light	Ntama ni mli kɛ naa susumɔ ni mli tsɔɔ nɔŋ nɔ.
+why_colors_rich	Ɛjɔŋmɔi ni he jɔŋ naa ŋwɛɛ ni aŋwɛɛ susumɔ nɔŋ nɔ.
+why_colors_muted	Ɛjɔŋmɔi ni he yɔɔ mli kɛ susumɔ nɔŋ nɔ gbɛɛ gbɛɛ mli mɔ tsɔɔmɔ.
+why_occasion	Ɛhewɔɔ mɔ %1$s.
+why_tradition	Ghana ŋwɛɛmɔ susumɔ ni aŋwɛɛ nɔŋ nɔ.
+why_gender	Atɔɔ %1$s.
+tryon_title	Ba kpɔ
+tryon_step_person	Mɔ ni bɔɔ?
+tryon_step_photo	Bɔ shishifɔɔ mli
+tryon_step_design	Yi susumɔ
+tryon_step_apply	Tsɔ ntama no di mɔ
+tryon_gender_woman	Yoo
+tryon_gender_man	Ŋuŋ
+tryon_gender_auto	Lɛ nɔŋ
+tryon_photo_camera	Kɛ shishifɔɔ
+tryon_photo_gallery	Yi shishifɔɔ
+tryon_photo_guidance_title	Kɛ o bɔɔ mɔ ni hewɔɔ
+tryon_photo_guidance	Tsɔ gbɔmɔ gbɛɛ anaa gbɔmɔ nɔ shishifɔɔ ni shikaŋ mli. Shi shishi ni o kɛ nɔŋ bii o sɛɛ.
+tryon_photo_replace	Tsake shishifɔɔ
+tryon_design_current	Susumɔ ni mli
+tryon_design_change	Tsake susumɔ
+tryon_fabric_current	Ntama
+tryon_fabric_change	Tsake ntama
+tryon_start	Tsɔ ntama no di mɔ
+tryon_state_idle	Emɔŋ o heŋ
+tryon_state_uploading	Emɔŋ tsɔ o shishifɔɔ…
+tryon_state_processing	Emɔŋ siesie o ntama…
+tryon_state_generating	Emɔŋ ŋwɛɛ o shishifɔɔ…
+tryon_state_finishing	Siesiemɔ ni mli gbe…
+tryon_state_success	O shishifɔɔ ji gbe mli
+tryon_state_error	Yɛbɔɔ ŋwɛɛ shishifɔɔ no
+tryon_quota_note	%1$d yɛ %2$d ba-kpɔmɔi femli ni ye nɔŋŋ fɛɛ nɔ
+tryon_quota_exhausted	O ba-kpɔmɔi femli ni ye nɔŋŋ na gbe.
+tryon_rewarded_offer	Kɛ shiŋmɔ kɛkɛ ni o bɔɔ ba-kpɔmɔ 1 nɔŋ nɔ
+tryon_rewarded_granted	Hewɔɔ — ba-kpɔmɔ 1 ba mli.
+tryon_needs_connection	Do-kpɔmɔ hia intanɛt
+tryon_demo_notice	Shishifɔɔ mli ŋwɛɛmɔ
+tryon_demo_notice_body	Shishifɔɔ nɔŋ nɔ, o fɔn nɔŋ nɔ naa lɛ aŋwɛɛ kɛjɛ ɛjɔŋmɔi kɛ nutata ni akɛ mli. Ɛŋwɛɛ ɛjɔŋmɔ kɛ kɛkɛ nɔŋ, ejjɛŋ ba-kpɔmɔ anɔkuale. Tsɔ generation backend ba mli nɔ anɔkuale.
+tooltip_tryon	Tsɔ shishifɔɔ kɛ naa lɛ di mɔ nɔ o bɔɔ ŋwɛɛmɔ kɛ hewɔɔ.
+result_title	O shishifɔɔ
+result_ai_disclaimer	AI shishifɔɔ
+result_demo_disclaimer	Nɔŋmɔ — ɛjɔŋmɔ kɛ kɛkɛ nɔŋ
+result_summary	%1$s mli %2$s
+result_action_save	To mli
+result_action_favorite	Suɔmɔ
+result_action_share	Kɛɛ mɔ
+result_action_another_design	Kɛ susumɔ nɔŋ nɔ do kpɔ
+result_action_change_fabric	Tsake ntama
+result_action_another_person	Ba kpɔ gbɔmɔ nɔŋ nɔ nɔ
+result_action_start_over	Shi eko
+result_saved_to_gallery	Ato mli o fɔn nɔ
+result_zoom_hint	Kɛ o nɔɔmɔi nɔɔmɔ kɛ
+discover_title	Yitso
+discover_tab_styles	Susumɔi
+discover_tab_fabrics	Ntamai
+discover_tab_looks	Shishifɔɔi
+discover_search_hint	Yitso susumɔi, ntamai anaa shishifɔɔi
+discover_section_trending	Susumɔi ni aŋmli
+discover_section_fabric_library	Ntama kɛ
+discover_section_editorial	Susumɔi ni ayi
+discover_empty_search	Nɔŋ bɔ “%1$s” he
+discover_empty_search_body	Kɛ gbiŋmɔi no anaa tsɔ gbi kɛkɛ di mɔ.
+discover_offline_note	Susumɔi ni mli o fɔn nɔ lɛ yɛŋwɛɛ.
+design_detail_title	Susumɔ
+design_detail_about	Susumɔ nɔŋ nɔ he mɔɔ
+design_detail_occasions	Ɛhewɔɔ mɔ
+design_detail_fabrics	Ɛnaa ntama nɔŋ nɔ
+design_detail_tryon	Ba kpɔ shishifɔɔ nɔ
+design_detail_pick_fabric	Yi ntama

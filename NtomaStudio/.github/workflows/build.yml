@@ -1,0 +1,59 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Gradle cache
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Unit tests + debug build
+        run: ./gradlew :app:testDebugUnitTest :app:assembleDebug
+
+      - name: Upload test reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: app/build/reports/tests/testDebugUnitTest
+
+  # Opt-in device QA: run the DeepLabV3 instrumented test on an emulator.
+  # macOS runners only (Linux GH runners lack KVM); trigger manually or tag a release.
+  device-qa:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Gradle cache
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: DeepLabV3 person-segmentation QA on emulator
+        uses: reactivecircus/android-emulator-runner@v3
+        with:
+          api-level: 33
+          target: default
+          arch: x86_64
+          script: >
+            ./gradlew :app:connectedDebugAndroidTest
+            -Pandroid.testInstrumentationRunnerArguments.class=com.ntoma.studio.data.ml.PersonSegmenterDeviceTest

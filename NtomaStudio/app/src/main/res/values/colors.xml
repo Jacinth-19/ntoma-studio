@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand accents used by artwork and the launcher icon. -->
+    <color name="ntoma_ink">#14110F</color>
+    <color name="ntoma_cream">#FDF8F2</color>
+    <color name="ntoma_madder">#8C2F39</color>
+    <color name="ntoma_gold">#C8952B</color>
+    <color name="ntoma_teal">#1F5450</color>
+
+    <!-- Light surface used behind the splash screen (see values-night for dark). -->
+    <color name="splash_background">#FFFBF7</color>
+</resources>

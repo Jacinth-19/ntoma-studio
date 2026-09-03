@@ -1,0 +1,267 @@
+app_name	Ntoma
+app_tagline	Fa ntama a wowɔ no dan wo hwɛbea a ɛdi so.
+cd_app_logo	Ntoma mfonini
+action_retry	Sɔ hwɛ bio
+action_cancel	Gyae
+action_back	San
+action_close	To mu
+action_confirm	Si so
+action_save	Sie
+action_saved	Wɔasie
+action_share	Kyɛ
+action_delete	Pepa
+action_remove	Yi fi hɔ
+action_done	Awie
+action_got_it	Mate ase
+action_continue	Toa so
+action_see_all	Hwɛ nyinaa
+action_learn_more	Sua pii
+action_open_settings	Bue nhyehyɛe
+action_not_now	Ɛnyɛ seesei
+action_yes	Aane
+action_no	Daabi
+action_search	Hwehwɛ
+action_clear	Yi hɔ
+action_apply	Fa di dwuma
+label_loading	Ɛretwe…
+label_offline	Wonni intanɛt
+label_offline_short	Intanɛt nni hɔ
+label_online_short	Intanɛt wɔ hɔ
+label_demo_badge	Nhwɛsoɔ
+label_free	Kwa
+label_premium	Premium
+label_advertisement	Dawurubɔ
+nav_home	Fie
+nav_discover	Hwehwɛ
+nav_create	Yɛ Foforɔ
+nav_favorites	Anikora
+nav_profile	Me Ho Nsɛm
+cd_bottom_navigation	Akwankyerɛ titiriw
+onboarding_welcome_title	Akwaaba ba Ntoma
+onboarding_welcome_body	Ntoma yɛ Akan asɛm a ɛkyerɛ ntama. Fa ntama a wowɔ no twa mfonini na yɛbɛkyerɛ wo deɛ ɛbɛtumi ayɛ — efi kaba ne slit so kɔsi kaftan foforɔ so.
+onboarding_step1_title	Twa ntama mfonini anaa fa kɔ mu
+onboarding_step1_body	Fa wo ntama no twa mfonini, anaa fa bi fi wo mfonini korabea. Ntama no so na biribiara fi.
+onboarding_step2_title	Hu adwene a ɛfata
+onboarding_step2_body	Yɛkenkan ahosu, nsɛsɛ ne ntama no mu tebea, na yɛkyerɛ Ghana amammerɛ ne nnɛyi adwene mmaa ne mmarima.
+onboarding_step3_title	Hwɛ wo mfonini so
+onboarding_step3_body	Sɛ wopɛ a, fa wo mfonini ka ho na hwɛ adwene no wɔ onipa so ansa na woakɔ wo ntontonnaa nkyɛn.
+onboarding_step4_title	Sie na kyɛ wo mfonini
+onboarding_step4_body	Fa ntama ne mfonini a wopɛ sie wɔ Anikora mu, na kyɛ wo ntontonnaa anaa wo nnamfo.
+onboarding_started_title	Bra, yɛnfi ase
+onboarding_started_body	Wo skan a ɛdi kan no ayɛ krado sɛ wo nso woyɛ krado.
+onboarding_cta_scan	Twa me ntama mfonini
+onboarding_cta_skip	Fa twa to nkyɛn mprempren
+onboarding_page_indicator	Kratafa %1$d wɔ %2$d mu
+onboarding_next	Dea ɛdi so
+onboarding_privacy_note	Ɛho nhia sɛ woyɛ akawnt. Wo mfonini bɛtena wo firi so gye sɛ wobisa AI mfoniniyɛ.
+home_greeting_morning	Maakyɛ
+home_greeting_afternoon	Ɛna
+home_greeting_evening	Maadwo
+home_subtitle	Hu deɛ wo ntama bɛtumi ayɛ.
+home_cta_scan	Twa ntama mfonini
+home_cta_upload	Fa fi mfonini mu
+home_section_recent_fabrics	Wo ntama a ɛyɛ foforɔ
+home_section_recommended	Wɔahyɛ wo nsa
+home_section_continue	Toa so yɛ
+home_section_favorites	Mfonini a wɔasie
+home_section_tips	Nsɛm a ɛho hia
+home_tip_1_title	Hyɛ mfonini no ma
+home_tip_1_body	Bra bɛn sɛnea nsɛsɛ no bɛhyɛ skrin no ma — ɛno na ɛma ɛyɛ mmerɛw sɛ wobɛkenkan.
+home_tip_2_title	Fa owiya hann di dwuma
+home_tip_2_body	Hann pa ma ahosu no yɛ nokorɛ. Dan mu kanea fitaa bɛtumi asesa wo ntama ahosu.
+home_tip_3_title	Trɛw na ɛnyɛ hwee
+home_tip_3_body	Trɛw ntama no na yi nkokoɔ nyinaa ansa na woatwa mfonini.
+home_empty_recent	Wonni ntama biara
+home_empty_recent_body	Wo skan bɛda adi wɔ ha sɛnea wobɛtumi akɔ so.
+home_quota_note	%1$d wɔ %2$d nhwehwɛmu kwa a aka nnɛ
+home_quota_exhausted	Wo nhwehwɛmu kwa a ɛwɔ nnɛ no asa. Premium de skan a ɛnni ano brɛ wo.
+cd_scan_fabric	Fa kamera twa ntama mfonini
+tooltip_create	Fi ase ha: fa wo ntama twa mfonini. Wobɛtumi nso ayi mfonini dada bi.
+create_title	Yɛ Foforɔ
+create_subtitle	Ɛdeɛn na yɛde bɛyɛ adwuma nnɛ?
+create_option_camera_title	Twa mfonini
+create_option_camera_body	Fa wo kamera twa ntama a ɛwɔ w'anim no mfonini.
+create_option_gallery_title	Yi mfonini
+create_option_gallery_body	Yi ntama mfonini a ɛda so wɔ wo firi so.
+create_option_person_title	Sɔ adwene hwɛ wɔ onipa so
+create_option_person_body	Hwɛ ntama ne adwene a wɔasie wɔ mfonini so.
+create_recent_title	Adwuma a ɛyɛ foforɔ
+create_empty_body	Biribiara nni ha — wo ntama ne mfonini bɛba ha.
+create_guidance_header	Sɛnea wobɛnya nea ɛyɛ pa
+camera_title	Twa ntama mfonini
+camera_guidance	Fa ntama no to fɔm no mu
+camera_guidance_far	Bra bɛn kakra sɛnea nsɛsɛ no bɛhyɛ fɔm no ma
+camera_guidance_dark	Ɛsum — fa hann ka ho anaa sɔ kanea
+camera_capture	Twa mfonini
+camera_switch_lens	Sesa kamera
+camera_flash_on	Kanea: sɔ
+camera_flash_off	Kanea: dum
+camera_flash_auto	Kanea: ankasa
+camera_focus_hint	Fa wo nsa ka baabiara na ɛnhwɛ hɔ
+camera_capturing	Ɛretwa…
+camera_no_device	Kamera nni firi yi so
+camera_no_device_body	Wobɛtumi ayi ntama mfonini fi wo mfonini korabea.
+camera_capture_failed	Antumi antwa mfonini no. Sɔ hwɛ bio.
+edit_title_fabric	Sesa wo ntama mfonini
+edit_title_person	Sesa mfonini no
+edit_hint	Fa wo nsa mmienu trɛw anaa nketewa, twe kɔ beaeɛ, na si so.
+edit_rotate	Dane
+edit_reset	San hyɛ
+edit_ratio_free	Biara
+edit_ratio_square	Ahinanan
+edit_ratio_portrait	3:4
+edit_ratio_full	Ne nyinaa
+edit_retake	San twa
+edit_use_photo	Fa mfonini no di dwuma
+edit_saving	Ɛresiesie wo mfonini…
+analysis_title	Ɛrehwehwɛ wo ntama mu…
+analysis_stage_preparing	Ɛresiesie wo ntama…
+analysis_stage_colors	Ɛrekenkan ahosu…
+analysis_stage_pattern	Ɛresua nsɛsɛ no…
+analysis_stage_styles	Ɛrehwehwɛ adwene a ɛfata…
+analysis_stage_finishing	Nsiesie a ɛtwa toɔ…
+analysis_result_title	Ntama nhwehwɛmu
+analysis_match_confident	Ɛbɛyɛ sɛ ɛyɛ
+analysis_match_possible	Ɛbɛtumi ayɛ
+analysis_match_uncertain	Ɛnnya nna adi
+analysis_confidence	Ahotoso %1$d%%
+analysis_section_colors	Ahosu titiriw
+analysis_section_pattern	Nsɛsɛ
+analysis_section_texture	Ntama no tebea
+analysis_section_print	Ntintim su
+analysis_section_category	Ntama ko a ɛbɛtumi ayɛ
+analysis_section_style	Ghana adwene a ɛbɛtumi ayɛ
+analysis_section_uses	Dwuma a wɔahyɛ
+analysis_honesty_note	Eyi yɛ deɛ ɛbɛtumi ayɛ, ɛnyɛ adanseɛ krataa. Ntama mmienu bɛtumi ayɛ sɛ mfonini so. Sɛ wonnye nni a, bisa wo ntama tɔnfoɔ.
+analysis_engine_on_device	Firi so nhwehwɛmu (nhwɛsoɔ)
+analysis_engine_on_device_note	Wo firi no so na wɔkenkan ahosu ne nsɛsɛ. Wɔmfaa biribiara nkɔɔ intanɛt so. Fa cloud model ka ho wɔ nhyehyɛe mu.
+analysis_engine_cloud	Cloud nhwehwɛmu
+analysis_engine_cloud_note	Wɔde wo mfonini kɔɔ nhwehwɛmu dwumadibea no.
+analysis_action_view_designs	Hwɛ adwene a ɛfata
+analysis_action_save_favorite	Sie ntama no
+analysis_action_rescan	Twa ntama foforɔ mfonini
+print_trait_high_contrast	Ntintim a ahosu mu yɛ den
+print_trait_low_contrast	Ntintim a ahosu mu nyɛ den
+print_trait_large_scale	Nsɛsɛ akɛseɛ
+print_trait_small_repeat	Nsɛsɛ nketewa a ɛtwa mu
+print_trait_multicolour	Ahosu bebree
+print_trait_two_tone	Ahosu mmienu
+print_trait_directional	Ntintim a ɛwɔ kwan
+print_trait_all_over	Ntintim a ɛtrɛw nyinaa
+analysis_unnamed	Ntama skan
+analysis_rename_title	To din ma ntama yi
+analysis_rename_hint	sɛ nea ɛte: Kente firi Bonwire
+cd_color_swatch	Ahosu nhwɛsoɔ
+color_name_red	Kɔkɔɔ
+color_name_orange	Orenge
+color_name_gold	Sikakɔkɔɔ
+color_name_yellow	Akokɔsradeɛ
+color_name_green	Ahabammono
+color_name_teal	Tiil
+color_name_blue	Bulu
+color_name_indigo	Indigo
+color_name_purple	Papul
+color_name_pink	Pink
+color_name_brown	Bɛɛre
+color_name_black	Tuntum
+color_name_grey	Grey
+color_name_white	Fitaa
+color_name_cream	Krim
+recs_title	Adwene a wɔayɛ ama wo ntama
+recs_subtitle	Adwene %1$d na ɛfata ntama yi
+recs_filter_women	Mmaa
+recs_filter_men	Mmarima
+recs_filter_unisex	Mmaa ne mmarima
+recs_filter_casual	Ahomegye
+recs_filter_formal	Anuonyam
+recs_filter_traditional	Amammerɛ
+recs_filter_wedding	Awareɛ
+recs_filter_church	Asɔre
+recs_filter_office	Adwumabea
+recs_filter_party	Apontoɔ
+recs_filter_everyday	Daa daa
+recs_filters_label	Nhwehwɛdeɛ
+recs_clear_filters	Yi nhwehwɛdeɛ nyinaa
+recs_empty_title	Adwene biara mfata saa nhwehwɛdeɛ yi
+recs_empty_body	Yi nhwehwɛdeɛ bi anaa sesa fa mmaa ne mmarima adwene ntam.
+recs_try_on	Sɔ hwɛ
+recs_view_design	Hwɛ adwene no
+recs_match_score	Ɛfata %1$d%%
+recs_why_title	Adɛn nti na ɛfata wo ntama
+recs_favorite_added	Wɔde aka anikora ho
+recs_favorite_removed	Wɔayi afi anikora mu
+recs_for_fabric	%1$s deɛ
+why_pattern_structured	Nsɛsɛ a ɛyɛ den gyina pintinn wɔ saa ɔkwan yi so.
+why_pattern_flowing	Nsɛsɛ a ɛtwe ne ho di adwene yi nanteɛ akyi.
+why_scale_large	Nsɛsɛ akɛseɛ hia nkyɛnmu akɛseɛ, na saa adwene yi ma ɛno.
+why_scale_small	Nsɛsɛ nketewa a ɛtrɛw nyinaa da adi yie wɔ atadeɛ a ɛtwa mu no so.
+why_texture_heavy	Ntama a ɛyɛ den fata saa ɔkwan a wɔatwa no yie yi.
+why_texture_light	Ntama no tɔ fam yie ma saa ɔkwan a ɛtwe yi.
+why_colors_rich	Ahosu a ɛyɛ den fata guasodeyɛ a wɔayɛ saa adwene yi ama no.
+why_colors_muted	Ahosu a ɛyɛ komm ma saa adwene yi yɛ mmerɛw daa daa.
+why_occasion	Ɛyɛ pa ama %1$s.
+why_tradition	Ghana amammerɛ adwene a wɔayɛ no foforɔ.
+why_gender	Wɔatwa ama %1$s.
+tryon_title	Sɔ hwɛ
+tryon_step_person	Hena na ɔbɛhyɛ?
+tryon_step_photo	Fa mfonini ka ho
+tryon_step_design	Yi adwene
+tryon_step_apply	Fa ntama no di dwuma
+tryon_gender_woman	Ɔbaa
+tryon_gender_man	Ɔbarima
+tryon_gender_auto	Ɛno ankasa
+tryon_photo_camera	Twa mfonini
+tryon_photo_gallery	Yi mfonini
+tryon_photo_guidance_title	Sɛnea wobɛnya nea ɛyɛ pa
+tryon_photo_guidance	Fa nipadua nyinaa anaa soro nipadua mfonini a hann wɔ mu. Gyina pintinn na kwati nneɛma bebree wɔ w'akyi.
+tryon_photo_replace	Sesa mfonini
+tryon_design_current	Adwene a ɛwɔ hɔ
+tryon_design_change	Sesa adwene
+tryon_fabric_current	Ntama
+tryon_fabric_change	Sesa ntama
+tryon_start	Fa ntama no di dwuma
+tryon_state_idle	Ɛretwɛn wo
+tryon_state_uploading	Ɛde wo mfonini rekɔ…
+tryon_state_processing	Ɛresiesie wo ntama…
+tryon_state_generating	Ɛreyɛ wo mfonini…
+tryon_state_finishing	Nsiesie a ɛtwa toɔ…
+tryon_state_success	Wo mfonini ayɛ krado
+tryon_state_error	Antumi anyɛ saa mfonini no
+tryon_quota_note	%1$d wɔ %2$d sɔhwɛ kwa a aka ɔsram yi
+tryon_quota_exhausted	Wo sɔhwɛ kwa a ɛwɔ ɔsram yi no asa.
+tryon_rewarded_offer	Hwɛ dawurubɔ tiaa bi na nya sɔhwɛ 1 foforɔ
+tryon_rewarded_granted	Yie — sɔhwɛ 1 aka ho.
+tryon_needs_connection	Sɔhwɛ no hia intanɛt
+tryon_demo_notice	Nhwɛsoɔ mfonini
+tryon_demo_notice_body	Saa mfonini yi, wo firi no ara so na wɔayɛ firi ahosu ne nsɛsɛ a wohunuiɛ mu. Ɛkyerɛ ahosu ne kɛseɛ nko, ɛnyɛ sɔhwɛ ampa. Fa generation backend ka ho ama nea ɛyɛ ampa.
+tooltip_tryon	Fa mfonini pa di dwuma na nya nhwɛsoɔ pa.
+result_title	Wo mfonini
+result_ai_disclaimer	AI mfonini
+result_demo_disclaimer	Nhwɛsoɔ — ahosu ne kɛseɛ nko
+result_summary	%1$s wɔ %2$s mu
+result_action_save	Sie
+result_action_favorite	Anikora
+result_action_share	Kyɛ
+result_action_another_design	Sɔ adwene foforɔ hwɛ
+result_action_change_fabric	Sesa ntama
+result_action_another_person	Sɔ hwɛ wɔ onipa foforɔ so
+result_action_start_over	Fi ase foforɔ
+result_saved_to_gallery	Wɔasie wɔ wo firi so
+result_zoom_hint	Fa wo nsa mmienu trɛw
+discover_title	Hwehwɛ
+discover_tab_styles	Akwan
+discover_tab_fabrics	Ntama
+discover_tab_looks	Mfonini
+discover_search_hint	Hwehwɛ adwene, ntama anaa mfonini
+discover_section_trending	Adwene a agye din
+discover_section_fabric_library	Ntama korabea
+discover_section_editorial	Adwene a wɔapaw
+discover_empty_search	Biribiara nni “%1$s” ho
+discover_empty_search_body	Hwɛ nkyerɛwee no anaa fa asɛm tiaa sɔ hwɛ.
+discover_offline_note	Adwene a ɛda wo firi so na yɛrekyerɛ.
+design_detail_title	Adwene
+design_detail_about	Adwene yi ho asɛm
+design_detail_occasions	Ɛyɛ pa ama
+design_detail_fabrics	Ɛne saa ntama yi bɔ mu
+design_detail_tryon	Sɔ hwɛ wɔ mfonini so
+design_detail_pick_fabric	Yi ntama

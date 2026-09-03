@@ -1,0 +1,21 @@
+# Deploy from this directory:  cd tools/mock_server && fly deploy
+# (fly.io free tier is enough for the mock; swap for your own VPS via DEPLOY.md Option C.)
+app = "ntoma-mock-server"
+primary_region = "lhr"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop = true
+  auto_start = true
+  min_machines_running = 0
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]

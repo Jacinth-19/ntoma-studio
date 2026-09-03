@@ -1,0 +1,19 @@
+# Built artifacts
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.keystore
+!demo-release.keystore
+tools/dataset/raw/
+tools/dataset/augmented/
+tools/dataset/out/
+tools/dataset/work/

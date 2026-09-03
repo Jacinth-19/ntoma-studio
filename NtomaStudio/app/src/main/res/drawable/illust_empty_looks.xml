@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="150">
+    <!-- Empty state: no generated looks yet. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M14,8H186A12,12 0,0 1,198 20V130A12,12 0,0 1,186 142H14A12,12 0,0 1,2 130V20A12,12 0,0 1,14 8Z" />
+    <!-- person outline -->
+    <path
+        android:fillColor="#E3D9CD"
+        android:pathData="M100,24A14,14 0,1 1,99.9 24Z" />
+    <path
+        android:fillColor="#E3D9CD"
+        android:pathData="M80,48H120L128,88L120,130H80L72,88Z" />
+    <!-- dashed garment guide -->
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M82,52H118L124,88H76Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M78,80H122V86H78Z" />
+    <!-- swatches waiting to be used -->
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M20,96H44V120H20Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M20,104H44V109H20Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M156,96H180V120H156Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M156,108H180V113H156Z" />
+</vector>

@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="150dp"
+    android:viewportWidth="200"
+    android:viewportHeight="150">
+    <!-- Empty state: no activity yet. A quiet clock beside folded cloth. -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M14,8H186A12,12 0,0 1,198 20V130A12,12 0,0 1,186 142H14A12,12 0,0 1,2 130V20A12,12 0,0 1,14 8Z" />
+    <!-- clock face -->
+    <path
+        android:fillColor="#FDF8F2"
+        android:pathData="M64,74A30,30 0,1 1,63.9 74Z" />
+    <path
+        android:fillColor="#14110F"
+        android:pathData="M64,42A32,32 0,1 1,63.9 42ZM64,48A26,26 0,1 0,64.1 48Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M62,58H66V74H78V78H62Z" />
+    <!-- folded cloth -->
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M112,54H178V78H112Z" />
+    <path
+        android:fillColor="#8C2F39"
+        android:pathData="M112,62H178V68H112Z" />
+    <path
+        android:fillColor="#1F5450"
+        android:pathData="M120,86H170V110H120Z" />
+    <path
+        android:fillColor="#C8952B"
+        android:pathData="M120,94H170V100H120Z" />
+</vector>

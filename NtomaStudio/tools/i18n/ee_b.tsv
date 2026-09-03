@@ -1,0 +1,557 @@
+favorites_title	Lɔlɔ̃nuwo
+favorites_tab_fabrics	Avɔwo
+favorites_tab_designs	Ɖoɖowo
+favorites_tab_looks	Nɔnɔmeɖeɖewo
+favorites_empty_title	Wò awuɖoɖo nuƒoƒu le ƒuƒu
+favorites_empty_body	Dzra avɔwo kɔ nɔnɔmeɖeɖe siwo nèlɔ̃ ɖo ne nàkpɔ wo afii emegbe.
+favorites_search_hint	Di wò lɔlɔ̃nuwo
+favorites_removed	Woɖee ɖa le lɔlɔ̃nuwo me
+favorites_count	%1$d siwo nèdzra ɖo
+tooltip_favorites	Dzra ɖoɖowo kɔ nɔnɔmeɖeɖe siwowɔ la ɖe afii.
+history_title	Ŋutinya
+history_subtitle	Wò dɔwɔwɔ yeyewo tsia mɔ̃ sia dzi.
+history_empty_title	Dɔwɔwɔ aɖeke meli haɖe o
+history_empty_body	Wò ɖeɖewo, ɖoɖo tiatiawo kɔ nɔnɔmeɖeɖe siwowɔ adze afii.
+history_clear	Ɖe ŋutinya ɖa
+history_clear_confirm_title	Ɖe ŋutinya blibo ɖa?
+history_clear_confirm_body	Esia ɖea wò ɖeɖewo, ɖoɖowo kɔ nɔnɔmeɖeɖewo ƒe ŋutinya ɖa tso mɔ̃ sia dzi. Woagblẽ wò lɔlɔ̃nuwo o.
+history_cleared	Woɖe ŋutinya ɖa
+history_item_deleted	Woɖe nu la ɖa
+history_event_scan	Woɖe avɔ
+history_event_analysis	Wodzro %1$s me
+history_event_design	Woʋu %1$s
+history_event_look	Wowɔ nɔnɔmeɖeɖe: %1$s
+profile_title	Nye Ŋuti
+profile_guest	Amedzro
+profile_guest_body	Èle Ntoma zãm akaŋti manɔmee. Nu si nèdzra ɖo la katã tsia mɔ̃ sia dzi.
+profile_section_you	Wò
+profile_section_activity	Dɔwɔwɔ
+profile_section_preferences	Tiatia
+profile_section_support	Kpekpeɖeŋu
+profile_row_history	Ŋutinya
+profile_row_settings	Ɖoɖowo
+profile_row_notifications	Nyatakakawo
+profile_row_premium	Ntoma Premium
+profile_row_help	Kpekpeɖeŋu kɔ aɖaŋuɖoɖo
+profile_row_privacy	Ameŋutinyawo ƒe nya
+profile_row_about	Ntoma ŋuti
+profile_stats_fabrics	Avɔwo
+profile_stats_designs	Ɖoɖowo
+profile_stats_looks	Nɔnɔmeɖeɖewo
+profile_name_hint	Ŋkɔ si nàɖe fia
+profile_name_saved	Wodzra ŋkɔ la ɖo
+profile_style_preference	Awuɖoɖo tiatia
+profile_preference_womenswear	Nyɔnuwo ƒe awu
+profile_preference_menswear	Ŋutsuwo ƒe awu
+profile_preference_all	Ɖe nuwo katã fia
+settings_title	Ɖoɖowo
+settings_section_appearance	Dzedzeme
+settings_section_language	Gbe
+settings_section_notifications	Nyatakakawo
+settings_section_privacy	Ameŋutinyawo
+settings_section_account	Akaŋti
+settings_section_help	Kpekpeɖeŋu
+settings_section_about	Ŋuti
+settings_section_analysis	Dzroɖeƒe
+settings_theme	Dzedzeme
+settings_theme_light	Kɛkɛ
+settings_theme_dark	Viviti
+settings_theme_system	Mɔ̃a ƒe ɖokui
+settings_language	Gbe
+settings_language_english	Yevugbe
+settings_language_twi	Twi
+settings_language_ga	Ga
+settings_language_ewe	Ewe
+settings_language_note	Wole Twi, Ga kɔ Ewe dzi wɔm. Woɖea nya siwo womeɖe gɔme o la le Yevugbe me.
+settings_notif_processing	Dɔwɔwɔ wu enu
+settings_notif_processing_body	Gblɔe nam ne nɔnɔmeɖeɖe aɖe ƒe wɔwɔ wu enu.
+settings_notif_recommendations	Ɖoɖo yeyewo
+settings_notif_recommendations_body	Awuɖoɖo susuwɔ ɣeaɖewoɣi siwo tso avɔ siwo medzra ɖo la me.
+settings_notif_updates	Ntoma ƒe tɔtrɔ
+settings_notif_updates_body	Tɔtrɔ veviwo le Ntoma me.
+settings_notif_inspiration	Ŋkeke ƒe susu nyui
+settings_notif_inspiration_body	Susu nyui ɖeka kwasiɖa sia kwasiɖa. Womeʋunɛ tso gɔmeɖoanyia o.
+settings_notif_permission_needed	Ɖe mɔ na nyatakakawo ne nàkpɔ esiawo.
+settings_notif_denied_body	Woxe nyatakakawo le mɔ̃a ƒe ɖoɖowo me. Àte ŋu azã Ntoma ƒe akpa bubuwo katã boŋ.
+settings_privacy_policy	Ameŋutinyawo ƒe ɖoɖo
+settings_terms	Sedede kɔ ɖoɖowo
+settings_data_controls	Nyatakaka dzi ɖuɖu
+settings_delete_data	Ɖe nye nyatakaka ɖa
+settings_clear_history	Ɖe ŋutinya ɖa
+settings_engine	Dzroɖeƒe
+settings_engine_demo	Mɔ̃a dzi kpɔɖeŋu
+settings_engine_demo_body	Ewɔa dɔ le wò mɔ̃a dzi bliboe. Nɔnɔmeɖeɖe aɖeke medzoa mɔ̃a dzi o.
+settings_engine_cloud	Cloud dzi dzodzro (womeka ɖe eŋu o)
+settings_engine_cloud_body	Eɖoa nɔnɔmeɖeɖe la ɖa na wò dzroɖeƒe. API hiã — womedzraa safuiwo ɖo ɖe app la me o.
+settings_engine_cloud_unavailable	Cloud ƒe teƒe aɖeke meli o, eya ta Ntoma le mɔ̃a dzi ɖoɖo zãm.
+settings_help_how	Ale si Ntoma wɔa dɔ
+settings_help_tutorial	Nufiafia ɖe afɔɖeɖe nu
+settings_help_faq	Biabia siwo wobiana zi geɖe
+settings_help_contact	Bia kpekpeɖeŋu
+settings_about_version	Version
+settings_about_credits	Ɖeɖe fiafia
+settings_about_made	Wowɔe le Accra, Ghana
+settings_replay_onboarding	Ɖe gɔmedzedze nufiafia ake
+settings_reset_tips	Gadze aɖaŋuɖoɖo kpuikpuiwo gɔme
+settings_tips_reset_done	Aɖaŋuɖoɖo kpuikpuiwo agadze ake
+settings_data_used	Teƒe si wozã
+premium_title	Ntoma Premium
+premium_pitch	Ntoma femaxe la nana nèɖea avɔwo, nèkpɔa ɖoɖo katã, eye nèdzraa lɔlɔ̃nuwo ɖo. Premium nye na ŋkeke siwo nèle awu geɖe ɖom ɖa le.
+premium_benefit_analyses	Avɔ dzroɖewɔwɔ si me seɖoƒe meli o
+premium_benefit_tryons	Dodokpɔ 20 ɣleti sia ɣleti
+premium_benefit_resolution	Nɔnɔmeɖeɖe kɔkɔwo
+premium_benefit_speed	Dɔwɔwɔ kaba
+premium_benefit_styles	Awuɖoɖo ɖoɖoƒe gã
+premium_benefit_ads	Adzɔnu aɖeke o
+premium_benefit_history	Ŋutinya blibo dzi dzadzraɖo
+premium_price_monthly	%1$s ɣleti sia
+premium_price_yearly	%1$s ƒe sia
+premium_tab_monthly	Ɣleti sia
+premium_tab_yearly	Ƒe sia
+premium_subscribe	Ŋlɔ ŋkɔ
+premium_restore	Gbugbɔ nuƒlewo xɔ
+premium_current_plan	Ɖoɖo si le eme: %1$s
+premium_billing_notice	Wometsɔ akɔntabubu ka ɖe eŋu le version sia me o. Anyigba sia fia xeƒeɖoɖo ƒe ɖoɖo ko — womexɔa ga eye womewɔa ŋkɔŋlɔɖi aɖeke o.
+premium_demo_unlock	Ɖe Premium (kpɔɖeŋu dzesi)
+premium_demo_locked	Tsɔ Premium ƒe dzesi ɖa (kpɔɖeŋu)
+premium_demo_activated	Kpɔɖeŋu Premium le ʋuʋu. WOMEXƆ GA AÐEKE O — akɔntabubu mele version sia me o.
+premium_already_active	Premium le dɔ wɔm le mɔ̃ sia dzi xoxo.
+premium_unlocked_toast	Premium le ʋuʋu le mɔ̃ sia dzi (kpɔɖeŋu)
+paywall_sheet_title	Èɖo femaxe ƒe seɖoƒe
+paywall_sheet_body_analyses	Akaŋti femaxewo xɔa avɔ dzroɖewɔwɔ %1$d le ŋkeke ɖeka me. Premium ɖea seɖoƒe la ɖa.
+paywall_sheet_body_tryons	Akaŋti femaxewo xɔa dodokpɔ %1$d le ɣleti ɖeka me.
+paywall_sheet_alternative	Alo kpɔ adzɔnu kpuie aɖe nàkpɔ dodokpɔ bubu ɖeka
+ads_placeholder_title	Adzɔnu
+ads_placeholder_body	Adzɔnu teƒe. Tsɔ adzɔnu ɖoɖo kpe ɖe eŋu nàna adzɔnu ŋutɔŋutɔ. Premium me tɔwo mekpɔa esia gbeɖe o.
+ads_rewarded_label	Adzɔnu si wokpɔ (kpɔɖeŋu)
+ads_rewarded_playing	Emɔŋ le kpɔɖeŋu adzɔnu ƒom… %1$d
+ads_rewarded_skip	Dze edzi
+permission_camera_title	Kamera ƒe mɔɖeɖe
+permission_camera_body	Ntoma zãa kamera ne wòle avɔ alo ame si nètia ƒe nɔnɔmeɖeɖe ɖem ko. Nɔnɔmeɖeɖewo tsia mɔ̃ sia dzi negbe ɖe nèbia AI wɔwɔ ko.
+permission_camera_denied_title	Kamera tsi
+permission_camera_denied_body	Àte ŋu atia nɔnɔmeɖeɖe xoxo tso wò nɔnɔmeɖeɖewo me, alo nàʋu kamera le mɔ̃a ƒe ɖoɖowo me.
+permission_notifications_title	Nyatakakawo
+permission_notifications_body	Míedea asi ɖe nya ŋu na wò ne nu si nèdze egɔme la wu enu, alo ne èlɔ̃ ɖe awuɖoɖo susuwo dzi ko.
+permission_denied_continue	Yi edzi evelia
+permission_open_app_settings	Ɖe mɔ le mɔ̃a ƒe ɖoɖowo me
+error_generic_title	Nane gblẽ
+error_generic_body	Emete ŋu o. Gadze agbagba ake.
+error_no_internet_title	Internet meli o
+error_no_internet_body	Kpɔ wò internet dzi nàgadze agbagba. Ɖoɖo kpɔkpɔ, lɔlɔ̃nuwo kɔ ŋutinya gadzea dɔ internet manɔmee.
+error_server_title	Dɔwɔƒe meli o
+error_server_body	Yɛyɔƒe mele ŋuɖoɖo nam azɔ o. Gadze agbagba ake le ɣeyiɣi kpui aɖe megbe.
+error_timeout_title	Exɔ ɣeyiɣi didi akpa
+error_timeout_body	Biabia la ƒe ɣeyiɣi wu enu. Nɔnɔmeɖeɖe kpuie alo internet nyui ate ŋu akpe ɖe ŋu.
+error_invalid_image_title	Míete ŋu xlẽ nɔnɔmeɖeɖe ma o
+error_invalid_image_body	Ðewohi fael la gblẽ alo ele ƒuƒu. Tsɔ nɔnɔmeɖeɖe bubu adze agbagba.
+error_unsupported_image_title	Fael ƒomevi ma medze o
+error_unsupported_image_body	Tia JPG, PNG alo WebP nɔnɔmeɖeɖe.
+error_image_too_large_title	Nɔnɔmeɖeɖe ma lolo akpa
+error_image_too_large_body	Tsɔ nɔnɔmeɖeɖe sue aɖe adze agbagba — nɔnɔmeɖeɖe si mede 20 MP o la wɔa dɔ nyuitɔ.
+error_generation_title	Míete ŋu wɔ nɔnɔmeɖeɖe ma o
+error_generation_body	Nɔnɔmeɖeɖewɔƒe la mete ŋu wu enu o. Tsɔ nɔnɔmeɖeɖe nyui si me kɛkɛ le adze agbagba.
+error_rate_limit_title	Dzudzɔ vie
+error_rate_limit_body	Èɖo biabia geɖe ɖa le ɖeka nu. Dzra ɖi miniti ɖeka nàgadze agbagba.
+error_analysis_title	Míete ŋu dzro avɔ ma me o
+error_analysis_body	Tsɔ nɔnɔmeɖeɖe nyui si me kɛkɛ le adze agbagba, ne nutata la naxɔ agbadzi la katã.
+error_permission_title	Mɔɖeɖe hiã
+error_memory_title	Ŋkuɖoɖoƒe mede o
+error_memory_body	Nɔnɔmeɖeɖe ma lolo akpa na mɔ̃ sia. Ɖe app ɖeka alo eve ɖa alo tsɔ nɔnɔmeɖeɖe sue.
+notif_channel_processing	Dɔwɔwɔ wu enu
+notif_channel_processing_desc	Ɛgblɔe na wò ne nɔnɔmeɖeɖe si wowɔ la le klalo.
+notif_channel_recommendations	Awuɖoɖo susuwɔ
+notif_channel_recommendations_desc	Ɖoɖo susu ɣeaɖewoɣi tso avɔ siwo nèdzra ɖo me.
+notif_channel_updates	Ntoma ƒe tɔtrɔ
+notif_channel_updates_desc	Tɔtrɔ kɔ ɖɔɖɔɖo veviwo.
+notif_look_ready_title	Wò nɔnɔmeɖeɖe le klalo
+notif_look_ready_body	%1$s le wò lalam le Ntoma me.
+notif_recommendation_title	Awuɖoɖo susu na wò
+notif_recommendation_body	%1$s asɔ avɔ abe tɔwò ene.
+notif_update_title	Wotrɔ Ntoma
+notif_update_body	Kpɔ nu yeye siwo le version sia me.
+share_chooser_title	Ma kɔ
+share_look_text	Nɔnɔmeɖeɖe: %1$s le %2$s me — Ntoma wɔe.
+share_fabric_text	Avɔ: %1$s — %2$s. Ntoma kpe ɖe eŋu.
+share_design_text	Ɖoɖo: %1$s — %2$s. Wokpɔe le Ntoma dzi.
+share_saved	Eklalo na mɔmɔ
+privacy_title	Ameŋutinyawo
+privacy_intro	Ɖoɖo kpuie: Ntoma wɔa dɔ le wò mɔ̃a dzi. Míeɖoa nɔnɔmeɖeɖe ɖa afi aɖeke negbe ɖe nèbia AI wɔwɔ ko, eye míegblɔnae ne edzɔ.
+privacy_images_title	Nɔnɔmeɖeɖe kawoe wowɔa dɔ ɖo
+privacy_images_body	Avɔ ƒe nɔnɔmeɖeɖe siwo nèɖe alo nètia, kɔ — ne èzã dodokpɔ ko — ame ƒe nɔnɔmeɖeɖe ɖeka. Nɔnɔmeɖeɖe siwo wowɔ la le app la ƒe teƒe ŋutɔ me.
+privacy_device_title	Ðe nɔnɔmeɖeɖewo dzoa nye mɔ̃a dzia?
+privacy_device_body	Mɔ̃a dzi dzodzro: ao. Wodzroa wò avɔ ƒe nɔnɔmeɖeɖe me le mɔ̃a dzi eye womeɖonɛ ɖa gbeɖe o. Cloud dzi dzodzro kɔ AI dodokpɔ: ɛ̃ — woɖoa nɔnɔmeɖeɖe la ɖa na teƒe si woɖo ɖi la be ɖoɖoa nawɔ dɔ ɖe edzi. Woɖea ɖoɖo si wozã la fia le dzroɖeƒea gbesiagbe.
+privacy_retention_title	Ɣeyiɣi didi sɔŋ ka woadzra nɔnɔmeɖeɖewo ɖo?
+privacy_retention_body	Le mɔ̃a dzi, vaseɖe ɣesiɣi nàɖe wo ɖa. Teƒe si woka ɖe eŋu la ɖoa eya ŋutɔ ƒe ɣeyiɣi; míeɖo aɖaŋu be gaƒoƒo 24 ko nasɔ na nɔnɔmeɖeɖe siwo woɖo ɖa, eye kpɔɖeŋu ɖoɖoa medzraa naneke ɖo o.
+privacy_delete_title	Alekee maɖe nye nyatakaka ɖae?
+privacy_delete_body	Zã "Ɖe nye nyatakaka ɖa" si le ete la. Eɖea ɖeɖewo, dzroɖewɔwɔwo, nɔnɔmeɖeɖewo, ŋutinya, lɔlɔ̃nuwo kɔ nɔnɔmeɖeɖe siwo le adzɔgbe la ɖa le mɔ̃ sia dzi enumake.
+privacy_analytics_title	Dɔwɔwɔ ŋuti nyatakaka
+privacy_analytics_body	Version sia kpe debug ƒe nuŋlɔɖi ko. Analytics SDK aɖeke mele eme o eye dɔwɔwɔ ŋuti nyatakaka aɖeke medzoa wò mɔ̃a dzi o.
+privacy_ads_title	Adzɔnuwo
+privacy_ads_body	Ntoma ƒe version sia me adzɔnuwo alo adzɔnu SDK aɖeke mele o. Womexɔa adzɔnu ŋuti nyatakaka aɖeke o. Ne adzɔnuwo va le version aɖe me le etsɔme la, woaɖe wo fia kɔtɛ eye woaɖɔ ɖoɖo sia ŋu gbã.
+privacy_permissions_title	Mɔɖeɖewo
+privacy_permissions_body	Kamera (ne èle ɖeɖe alo nɔnɔmeɖeɖe ɖem ko) kɔ nyatakakawo (ne èʋu wo ko). Woxlẽa nɔnɔmeɖeɖewo to Android ƒe nɔnɔmeɖeɖe tiamɔ̃ dzi, eya ta womediadzraɖoƒe ƒe mɔɖeɖe o. Míebiana amewo ŋuti nyatakaka, teƒe, mikrofon, SMS, kaƒoƒo alo kaƒoƒo ŋutinya gbeɖe o.
+privacy_delete_data_title	Ɖe nye nyatakaka ɖa?
+privacy_delete_data_body	Esia ɖea wò avɔwo, dzroɖewɔwɔwo, nɔnɔmeɖeɖe siwowɔ, ŋutinya kɔ lɔlɔ̃nuwo ɖa le mɔ̃ sia dzi keŋkeŋ. Màte ŋu agbugbɔe o.
+privacy_data_deleted	Woɖe wò nyatakaka ɖa le mɔ̃a dzi
+privacy_keep_history_days	Ŋutinya ƒe ɣeyiɣi
+privacy_keep_forever	Dzra nuwo katã ɖo
+privacy_keep_days	Ŋkeke %1$d
+terms_title	Sedede kɔ ɖoɖowo
+terms_body_1	Ntoma kpena ɖe ŋuwò nàkpɔ ale si avɔ ate ŋu adze le awu me. Susuwɔ kɔ nɔnɔmeɖeɖewo nye susu, menye tɔla ƒe aɖaŋuɖoɖo o, eye kpɔɖeŋu la tso wò avɔ, wò dzidzeme kɔ wò tɔla dzi.
+terms_body_2	Wòe lé nɔnɔmeɖeɖe siwo nètsɔ vɛ la ƒe gomenɔamesi. Wòe wòle be wòakpɔ mɔɖeɖe be yeazã ame bubu ƒe nɔnɔmeɖeɖe, eye wòe kpɔa ale si nàma nɔnɔmeɖeɖe siwo wowɔ la dzi.
+terms_body_3	Nɔnɔmeɖeɖe siwo wowɔ la nye nufiafia. Mègatsɔ wo afia abe awu si wowu enu, alo kakaɖedzi be ewɔ ɖeka kɔ ŋutilã, alo nɔnɔmeɖeɖe ŋutɔŋutɔ o.
+terms_body_4	Beta ƒe ɣeyiɣi mee dɔwɔƒe la le. Premium ƒe dɔwɔwɔ le version sia me nyaa akɔntabubu ŋu o, eye womexɔa ga aɖeke o.
+terms_body_5	Bia kpekpeɖeŋu be nàgblɔ kuxi alo nàbia wò nyatakaka ɖeɖeɖa.
+credits_title	Ɖeɖe fiafia
+credits_body	Ntoma — "avɔ" le Akan gbe me. Woɖoe kɔ Jetpack Compose. Avɔ kɔ awuɖoɖo ŋuti nyanya tso Ghana ƒe awuɖoɖo kɔnyinyi me: kente, adinkra, wax print kɔ batakari. Kpɔɖeŋu nɔnɔmeɖeɖe siwo katã le version sia me tso wò avɔ ƒe amadedewo me; wometsɔ ame bubu ƒe nɔnɔmeɖeɖewo ɖe eŋu o.
+help_title	Kpekpeɖeŋu kɔ aɖaŋuɖoɖo
+help_how_title	Ale si Ntoma wɔa dɔ
+help_how_1	1. Ɖe avɔ ƒe nɔnɔmeɖeɖe alo tsɔe ɖo ɖa.
+help_how_2	2. Xlẽ dzodzro la: amadedewo, nutata, nɔnɔme kɔ Ghana ƒe awuɖoɖo.
+help_how_3	3. Kpɔ awuɖoɖo siwo sɔ na nyɔnuwo kɔ ŋutsuwo, siwo woma ɖe ŋkekenyuinu.
+help_how_4	4. Ne èdi la, kpɔ ɖoɖo la ame ƒe nɔnɔmeɖeɖe dzi.
+help_how_5	5. Dzra nu si nèlɔ̃ ɖo nàmae kɔ wò tɔla.
+help_tips_title	Nɔnɔmeɖeɖeɖeɖe ƒe aɖaŋuɖoɖo
+help_tips_body	Na nutata la naxɔ agbadzi la katã, zã ŋdɔkɛkɛ, na avɔ la nanɔ anyi sɔsɔe, eye nàƒo asa na vɔvɔli sesẽ alo kɛklẽ ƒe dzedzeme.
+help_faq_title	Biabia siwo wobiana zi geɖe
+help_faq_q1	Ðe woɖoa nye nɔnɔmeɖeɖe ɖa?
+help_faq_a1	Ne èzã cloud ƒe ɖoɖo alo AI dodokpɔ ko. Mɔ̃a dzi dzodzro medzoa wò mɔ̃a dzi gbeɖe o.
+help_faq_q2	Nu ka tae wògblɔna be "ate ŋu anye esia"?
+help_faq_a2	Elabena nɔnɔmeɖeɖe mete ŋu ɖea vovototo si le kete kɔ esi wota la me gbeɖe o. Míedi be míanye nugblɔla wu kakaɖedzitɔ.
+help_faq_q3	Ðe dodokpɔ la nye dodokpɔ ŋutɔŋutɔa?
+help_faq_a3	Ao. Eɖea amadede kɔ didime fia ame dzi. Ale si wòawɔ ɖeka kɔ ŋutilã la tso wò tɔla dzi.
+help_faq_q4	Ðe ewɔa dɔ internet manɔmea?
+help_faq_a4	Ɖoɖo kpɔkpɔ, lɔlɔ̃nuwo, ŋutinya kɔ ɖoɖowo wɔa dɔ internet manɔmee. Cloud dzi dzodzro kɔ AI dodokpɔ hiã internet.
+help_faq_q5	Ðe mate ŋu atsɔ nye ɖoɖo ŋutɔ akpe ɖe eŋua?
+help_faq_a5	Meka o haɖe. Woɖoa awuɖoɖo ɖoɖoƒe la tso agbalẽ me si woate ŋu atrɔ tso teƒe bubu.
+help_contact_body	Gblɔ nu si gblẽ la na mí eye míaɖo ŋu. Tsɔ wò app version kpe ɖe eŋu: %1$s.
+help_contact_email	support@ntoma.app
+help_contact_subject	Ntoma kpekpeɖeŋu biabia
+empty_looks_title	Nɔnɔmeɖeɖe aɖeke meli haɖe o
+empty_looks_body	Do ɖoɖo kpɔ nɔnɔmeɖeɖe dzi eye wò kpɔɖeŋu adze afii.
+empty_fabrics_title	Avɔ aɖeke meli haɖe o
+empty_fabrics_body	Ɖe avɔ nàdze wò nuƒoƒu gɔme.
+empty_history_body	Wò dɔwɔwɔ adze afii.
+fabric_kente	Kete
+fabric_kente_desc	Avɔ si wotsɔ asi lɔ̃ le Ashanti kɔ Ewe ƒe kɔnyinyi me, si nyanya le eƒe nutata gãwo ta.
+fabric_adinkra	Adinkra
+fabric_adinkra_desc	Avɔ si woɖe dzesiwo ɖo, si woɖona le konyifafa kɔ ŋkekenyuiwo me le kɔnyinyi nu.
+fabric_wax	Wax print (Ankara)
+fabric_wax_desc	Avɔ si wota amadede sesẽwo ɖo — Yevuƒe Afrika ƒe awuɖoɖo ƒe avɔ.
+fabric_ankara	Ankara avɔ
+fabric_ankara_desc	Avɔ si wota nyuie le eƒe akpa evea katã kɔ amadede sesẽwo.
+fabric_batik	Batik
+fabric_batik_desc	Avɔ si wotsɔ asi ɖe amadede ɖo si ƒe nuwo fa nyuie.
+fabric_tiedye	Tie-dye
+fabric_tiedye_desc	Avɔ si wobla heɖe amadede ɖo si ƒe kpɔɖeŋuwo le keklẽm.
+fabric_lace	Lace
+fabric_lace_desc	Avɔ si wotsɔ nu ɖo nyuie, si dze ŋu na srɔ̃ɖeɖe kɔ sɔleme.
+fabric_brocade	Brocade / Bazin
+fabric_brocade_desc	Avɔ sesẽ si keklẽna si tsia eɖokui nyuie.
+fabric_cotton_plain	Cotton avɔ ƒuƒu
+fabric_cotton_plain_desc	Avɔ amadede ɖeka si le faa — efa eye wòate ŋu awɔ nu geɖe.
+fabric_linen	Linen
+fabric_linen_desc	Avɔ si ya tona eme si ƒe nɔnɔme le ŋutɔme.
+fabric_silk	Silk / satin
+fabric_silk_desc	Avɔ si keklẽna eye wòzɔna nyuie.
+fabric_chiffon	Chiffon
+fabric_chiffon_desc	Avɔ henhene si zɔna kɔ ŋutilã.
+fabric_velvet	Velvet
+fabric_velvet_desc	Avɔ si ƒe fu le edzi kɔ amadede sesẽ.
+fabric_denim	Denim
+fabric_denim_desc	Avɔ sesẽ bulu si ƒe lɔlɔ dze nyuie.
+fabric_kente_print	Kete ƒe ta
+fabric_kente_print_desc	Avɔ si wota abe kete ene — ate ŋu anye mɔsɔsɔ, menye kete si wolɔ̃ o.
+fabric_unknown	Avɔ si womenya o
+fabric_unknown_desc	Míete ŋu ɖe avɔ sia me kɔtɛ o. Amadede kɔ nutata ŋuti nyawo gale eteƒe.
+pattern_striped	Kɔɖiwo
+pattern_checked	Kɔɖi siwo do alɔ̃me
+pattern_geometric	Geometri ƒe nutata
+pattern_floral	Seƒoƒo
+pattern_organic	Ŋutɔme nutata
+pattern_symbolic	Dzesiwo
+pattern_dotted	Togbɛviwo
+pattern_abstract	Abstrakt
+pattern_solid	Amadede ɖeka
+pattern_gradient	Amadede siwo tsaka
+texture_woven	Lɔlɔ̃ sesẽ
+texture_smooth	Fafa
+texture_slub	Togbɛvi suewo
+texture_sheer	Henhene
+texture_pile	Fu
+texture_stiff	Sesẽ
+texture_soft	Zɔzɔ le bɔbɔe
+texture_quilted	Quilt
+texture_embroidered	Ŋutɔɖoɖo
+style_kaba_slit	Kaba kɔ ɛɖɛ
+style_kaba_slit_desc	Ghana ƒe awu xoxo: awu si woɖe ɖe ŋutilã nu kɔ ɛɖɛ kɛkɛ.
+style_modern_kaba	Kaba yeye
+style_modern_kaba_desc	Kaba ƒe ɖoɖo yeye kɔ abɔwo yeyewo.
+style_maxi_dress	Awu kɛkɛ
+style_maxi_dress_desc	Awu si ɖo anyigba si ƒe ete trɛw ne nutata la naɖo zɔ.
+style_straight_dress	Awu tɔtɔ
+style_straight_dress_desc	Awu si tso ɖe ɖeka si me lɔlɔ̃ geɖe mele o.
+style_mermaid_dress	Mermaid awu
+style_mermaid_dress_desc	Eɖea ŋutilã eye wòtrɛna le afɔklo teƒe na fiẽ ƒe ŋkekenyui.
+style_peplum	Peplum dzi kɔ ete
+style_peplum_desc	Eƒoƒo le ali dzi le awu si tɔ ɖe ɖeka alo si trɛna la dzi.
+style_jumpsuit	Nutata jumpsuit
+style_jumpsuit_desc	Awu ɖeka si ƒe afɔ kɛ eye ali dze nyuie.
+style_skirt_blouse	Ete kɔ dzi
+style_skirt_blouse_desc	Dzi kɔ ete vovovo siwo nàte ŋu atsaka kɔ bubuwo.
+style_african_gown	Afrika nutata awu kɛkɛ
+style_african_gown_desc	Awu kɛkɔ ŋkekenyui si ƒe dzi sesẽ eye eƒe nu le megbe.
+style_contemporary_formal	Ɖoɖo ŋkekenyui awu yeye
+style_contemporary_formal_desc	Awu si wolɔ̃ nyuie na dɔwɔƒe, sɔleme kɔ ŋkekenyuinuwo.
+style_kaftan	Kaftan
+style_kaftan_desc	Awu kɛkɛ si wotsɔna do le ta si tɔ ɖe ɖeka eye akpa le eƒe akpa.
+style_agbada	Agbada ƒe awuɖoɖo
+style_agbada_desc	Awu gã si zɔna si wodo le tunic kɔ awɔviwo dzi.
+style_print_shirt	Afrika nutata hem
+style_print_shirt_desc	Hem si ƒe abɔ kpuie eye kɔla le eƒe kɔdzi le avɔ si nètia me.
+style_senator	Senator ƒe awuɖoɖo
+style_senator_desc	Tunic kpuie si me ŋutɔɖoɖo sue le kɔ awɔvi siwo sɔ kplii.
+style_smock	Batakari ƒe awuɖoɖo (fugu)
+style_smock_desc	Batakari si wolɔ̃ kɔ asi si ƒe kɔdzi wolɔ̃ nyuie.
+style_african_suit	Afrika ƒe suit ŋkekenyui
+style_african_suit_desc	Jaket kɔ awɔvi siwo me nutata le le woƒe dzi alo wo me.
+style_shirt_trousers	Hem kɔ awɔvi
+style_shirt_trousers_desc	Gbesiagbe ƒe awu si nana avɔ la ɖea eɖokui fia.
+style_modern_traditional	Kɔnyinyi yeye
+style_modern_traditional_desc	Ɖoɖo yeye kɔ kɔnyinyi ƒe ɖoɖoɖi.
+style_beach_cover	Awu fafawu
+style_beach_cover_desc	Awu ƒoƒu si nyɔnuwo kɔ ŋutsuwo ate ŋu ado le ŋkeke fafawo me.
+style_co_ords	Awu siwo sɔ kɔ wo nɔewo
+style_co_ords_desc	Hem kɔ awɔvi kpuikpui alo hem kɔ awɔvi kɛkɛ tso avɔ ɖeka me.
+occasion_wedding	Srɔ̃ɖeɖe
+occasion_church	Sɔleme
+occasion_office	Dɔwɔƒe
+occasion_party	Kplɔ̃
+occasion_everyday	Gbesiagbe
+occasion_ceremony	Wɔna
+occasion_mourning	Konyifafa
+occasion_festival	Aza
+cd_favorite_on	Ɖe ɖa le lɔlɔ̃nuwo me
+cd_favorite_off	Tsɔ kpe ɖe lɔlɔ̃nuwo ŋu
+cd_fabric_image	Avɔ ƒe nɔnɔmeɖeɖe
+cd_person_image	Ame ƒe nɔnɔmeɖeɖe
+cd_generated_image	Nɔnɔmeɖeɖe si wowɔ
+cd_design_image	Ɖoɖo ƒe nɔnɔmeɖeɖe
+cd_color_dot	Amadede %1$s
+cd_back	Yi megbe
+cd_more_options	Tiatia bubuwo
+cd_delete_item	Ɖe nu sia ɖa
+cd_share_item	Ma nu sia
+cd_clear_search	Ɖe didi ƒe nyawo ɖa
+cd_open_item	Ɖe %1$s
+cd_progress	Yiyi
+a11y_tab_selected	%1$s, wotiae
+a11y_new_content	Yeye
+a11y_demo_result	Esia nye kpɔɖeŋu nɔnɔmeɖeɖe, menye dodokpɔ ŋutɔŋutɔ o
+time_just_now	Ɖeɖeɖi sia
+time_minutes_ago	Aɖabaƒoƒo %1$d si va yi
+time_hours_ago	Gaƒoƒo %1$d si va yi
+time_days_ago	Ŋkeke %1$d si va yi
+collections_title	Nuƒoƒuwo
+collections_create	Nuƒoƒu yeye
+collections_name_hint	le kpɔɖeŋu me: Srɔ̃ɖeɖe ƒe susuwo
+collections_empty_title	Nuƒoƒu aɖeke meli haɖe o
+collections_empty_body	Wɔ nuƒoƒu na wò wɔna si gbɔna nàdzra avɔwo, ɖoɖowo kɔ nɔnɔmeɖeɖewo ɖe ɖeka.
+collections_add	Tsɔ kpe ɖe nuƒoƒu ŋu
+collections_added	Wotsɔ kpe ɖe nuƒoƒu ŋu
+collections_delete	Ɖe nuƒoƒu ɖa
+collections_item_count	Nu %1$d
+collections_fabrics	Avɔwo
+collections_designs	Ɖoɖowo
+collections_looks	Nɔnɔmeɖeɖewo
+wardrobe_title	Nye Awuwo
+wardrobe_cat_top	Dzi awu
+wardrobe_cat_bottom	Anyi awu
+wardrobe_cat_dress	Awu blibo
+wardrobe_cat_shoes	Afɔkpa
+wardrobe_cat_bag	Akotoku
+wardrobe_cat_accessory	Nu kpeɖeŋu
+wardrobe_add	Tsɔ awu kpe ɖe eŋu
+wardrobe_name_hint	Nu ƒe ŋkɔ
+wardrobe_notes_hint	Nya ŋɔŋlɔ (ne èdi)
+wardrobe_empty_title	Wò awuwo le ƒuƒu
+wardrobe_empty_body	Ɖe awu, afɔkpa kɔ nu kpeɖeŋu siwo le asiwò xoxo ƒe nɔnɔmeɖeɖe nàwɔ wò awuwo ƒe nuƒoƒu.
+wardrobe_add_photo	Tsɔ nɔnɔmeɖeɖe kpe ɖe eŋu
+wardrobe_change_photo	Trɔ nɔnɔmeɖeɖe
+wardrobe_tab_items	Nuwo
+wardrobe_tab_outfits	Awuɖoɖowo
+outfit_builder_title	Ɖo awuɖoɖo
+outfit_builder_save	Dzra awuɖoɖo ɖo
+outfit_builder_name_hint	Awuɖoɖo ƒe ŋkɔ
+outfit_builder_empty	Tia nu ɖeka ya teti hafi nàdzra awuɖoɖo ɖo.
+outfits_empty_title	Awuɖoɖo aɖeke meli haɖe o
+outfits_empty_body	Tsɔ wò awuwo ƒo ƒu wɔ awuɖoɖo blibo si nàte ŋu ado ake.
+color_match_title	Amadede ƒe susuwo
+color_match_subtitle	Amadede siwo wɔ ɖeka kɔ avɔ sia
+color_role_complementary	Amadede si kɔtɔ
+color_role_analogous	Amadede si le eteƒe
+color_role_neutral	Amadede fafa
+color_role_metallic	Gakpe ƒe amadede
+color_why_complementary	Ele ɖoɖo ƒe akpa kemɛ — esia naa vovototo nyui.
+color_why_analogous	Amadede si le eteƒe — esia naa ŋutifafa.
+color_why_neutral_light	Amadede fafa kɛkɛ nana avɔ la ɖea eɖokui fia.
+color_why_neutral_dark	Amadede fafa viviti tsia amadede keklẽwo teƒe.
+color_why_gold	Sikawo ɖea dzoxɔxɔ ɖe avɔ sia ƒe amadedewo me.
+color_why_silver	Dadeɖi ɖea fafa ɖe amadede mawo me eye wònaa wo nya kpɔna.
+color_why_bronze	Akɔbli nye gakpe ƒe amadede si nɔna bɔbɔe gbesiagbe.
+color_accessory_hint	Zã esiawo na afɔkpa, akotoku, sikawɔ, duku kɔ tai.
+customizer_title	Trɔ ɖoɖo sia
+customizer_sleeve	Abɔ
+customizer_neckline	Kɔnu
+customizer_length	Didime
+customizer_placement	Avɔ ƒe teƒe
+customizer_accent	Amadede si kɔtɔ
+customizer_demo_note	Kpɔɖeŋua ɖea avɔ ƒe teƒe kɔ amadedewo fia. Lɔlɔ̃ ƒe ɖoɖoɖi siwo yia wò tɔla ƒe nyatakaka me.
+custom_sleeve_default	Abe ale si wòdze ene
+custom_sleeve_short	Kpuie
+custom_sleeve_long	Kɛkɛ
+custom_sleeve_sleeveless	Abɔ mele o
+custom_sleeve_puff	Abɔ ƒoƒu
+custom_neck_default	Abe ale si wòdze ene
+custom_neck_round	Kɔ nɔnɔ
+custom_neck_v	V-kɔ
+custom_neck_high	Kɔ kɛkɛ
+custom_neck_off_shoulder	Eɖe le abɔta dzi
+custom_length_default	Abe ale si wòdze ene
+custom_length_mini	Kpuikpui
+custom_length_midi	Afɔklo dome
+custom_length_maxi	Anyigba
+custom_place_full	Awu blibo
+custom_place_full_desc	Avɔ la tsyɔ ɖoɖo blibo la dzi.
+custom_place_top	Dzi ko
+custom_place_top_desc	Avɔ le dzi; anyi nye amadede ɖeka alo si kɔtɔ.
+custom_place_skirt	Ete ko
+custom_place_skirt_desc	Avɔ le ete; dzi nye amadede ɖeka alo si kɔtɔ.
+custom_place_panels	Akpa
+custom_place_panels_desc	Avɔ kɔ akpa siwo kɔtɔ dze wo yome.
+custom_place_accents	Ɖeɖe sue
+custom_place_accents_desc	Awu amadede ɖeka si me avɔ ƒe kɔɖiwo kɔ ɖoɖoɖi le.
+tailors_title	Tɔlawo kɔ ɖoɖowɔlawo
+tailors_demo_banner	Kpɔɖeŋu ƒe ŋkɔwo — kpɔɖeŋuwo ko. Yɔƒe aɖeke mele dɔwɔwɔ me kɔ dɔwɔƒe ŋutɔŋutɔ aɖeke o le version sia me.
+tailor_spec_kaba	Kaba kɔ ɛɖɛ
+tailor_spec_bridal	Srɔ̃ɖeɖe ƒe awu
+tailor_spec_kaftan	Kaftanwo
+tailor_spec_agbada	Agbada
+tailor_spec_smock	Batakari
+tailor_spec_suits	Afrika ƒe suitwo
+tailor_hours_demo	Dzoɖa–Memleɖa, 8:00–18:00 (kpɔɖeŋu)
+tailor_portfolio_demo	Àte ŋu abia dɔwɔwɔ ƒe nɔnɔmeɖeɖewo (kpɔɖeŋu).
+tailor_price_budget	Aɖaŋu si le bɔbɔe
+tailor_price_mid	Dome
+tailor_price_premium	Premium
+tailor_verified	Woɖe kpe ɖe edzi
+tailor_not_verified	Womeɖe kpe ɖe edzi o
+tailor_delivery	Ɛɖoa ɖa
+tailor_specialties	Ɛƒe nunya
+tailor_request_quote	Bi xɔ (kpɔɖeŋu)
+tailor_quote_title	Dɔwɔwɔ ƒe nyatakaka
+tailor_quote_body	Esia maa dɔwɔwɔ ƒe nyatakaka si nàte ŋu atsɔ aɖo ɖa na tɔla aɖeke. Ntoma meyɔa tɔlawo alo xɔa ga le version sia me o.
+tailor_quote_share	Ma nyatakaka
+tailor_filter_all	Katã
+brief_design	Ɖoɖo: %1$s
+brief_fabric	Avɔ: %1$s
+brief_customizations	Tɔtrɔwo: %1$s
+brief_measurements	Dzidzemewo (cm): %1$s
+brief_notes	Nya ŋɔŋlɔ: %1$s
+brief_notes_hint	Tsɔ nya kpe ɖe eŋu na tɔla (le kpɔɖeŋu me "wɔ abɔwo kɛkɛ wu")
+brief_include_measurements	Tsɔ nye dzidzemewo kpe ɖe eŋu
+brief_no_design	Wometia ɖoɖo aɖeke o
+brief_no_fabric	Wometia avɔ aɖeke o
+measurements_title	Nye Dzidzemewo
+measurements_disclaimer	Wò ŋutɔ wò nɔnɔmewoe le afi sia, eye wodzra wo ɖo ɖe mɔ̃ sia dzi ko. Ntoma mebua ŋutilã ƒe dzidzeme o.
+measurement_height	Kɔkɔme (cm)
+measurement_chest	Akɔta (cm)
+measurement_waist	Ali (cm)
+measurement_hip	Klo (cm)
+measurement_shoulder	Abɔta (cm)
+measurement_sleeve	Abɔ (cm)
+measurement_inseam	Afɔdome (cm)
+measurement_neck	Kɔ (cm)
+measurement_notes	Nya ŋɔŋlɔ na tɔlawo
+measurements_saved	Wodzra dzidzemewo ɖo
+result_variations	Wɔ tɔtrɔ 3 bubuwo
+result_variations_progress	Emɔŋ le tɔtrɔwo wɔm… (%1$d le 3 me)
+result_variations_quota	Dodokpɔ femaxe susɔwo mede tɔtrɔ 3 o.
+result_compare	Tsɔ sɔ
+result_compare_original	Gbãtɔ
+result_compare_result	Esi do tso eme
+fabric_edit_title	Trɔ avɔ
+fabric_notes_hint	Nya ŋɔŋlɔ (le kpɔɖeŋu me: srɔ̃ɖeɖe ƒe avɔ)
+fabric_amount_hint	Didime (cm)
+fabric_wearer_hint	Ame si ado (ne èdi)
+fabric_occasion_hint	Ŋkekenyui (ne èdi)
+recs_not_interested	Nye metsɔ ɖeke le eme o
+recs_not_interested_undone	Wogbugbɔ susu la ɖo
+settings_reset_personalization	Gadze tiatia gɔme
+settings_personalization_reset_done	Wogadze tiatia gɔme
+search_intent_applied	Womae ɖe wò nyawo nu
+settings_data_saver	Nyatakaka dzraɖo
+settings_data_saver_body	Zã nɔnɔmeɖeɖe suewo eye nàdze aɖaŋu nɔnɔmeɖeɖe kɔkɔwo wɔwɔ dzi.
+home_tools_title	Dɔwɔnu
+tool_color_ideas	Amadede ƒe susuwo
+tool_wardrobe	Nye awuwo
+tool_tailors	Tɔlawo
+tool_collections	Nuƒoƒuwo
+profile_row_measurements	Nye dzidzemewo
+profile_row_wardrobe	Nye awuwo
+favorites_tab_collections	Nuƒoƒuwo
+favorites_tab_tailors	Tɔlawo
+analysis_ml_title	ML dzodzro si le wò mɔ̃a dzi
+analysis_ml_mapped	Eɖea av fia: %1$s
+analysis_ml_note	MobileNetV2 si le dɔ wɔm wò mɔ̃a dzi la gblɔa nu si wòkpɔna. Susu eveliae, menye ʋɔnudɔdrɔ̃ o, eye womedoa naneke ɖa o.
+print_trait_woven_strips	Avɔba kpuikpui siwo wolɔ̃
+sample_picker_title	Avɔ mele asiwò oa?
+sample_picker_body	Zã avɔ siwo wona be nàtsɔ wɔ dɔ awɔ la dometɔ ɖeka nàkpɔ mɔ nyinaa.
+sample_cta	Dze agbagba kple avɔ kpɔɖeŋu
+brief_pdf_action	PDF agbalẽ
+brief_pdf_design	Ɖoɖo
+brief_pdf_fabric	Avɔ
+brief_pdf_custom	Tɔtrɔwo
+brief_pdf_measurements	Kɔstama ƒe dzidzemewo (cm, lɔlɔ̃dzedze)
+brief_pdf_footer	Ntoma wɔ esia ɖo. Dzidzemewo nye kɔstama ŋutɔ ƒe xexlẽdzesi lɔlɔ̃dzedzewo — ka ɖe wo dzi le ame ŋutɔ ŋkume.
+settings_cloud_url_hint	Cloud backend URL (ne èdi)
+settings_engine_saved	Wodzra dzroɖeƒe ƒe tiatia ɖo
+looks_section_title	Awu siawo ƒe foto
+looks_section_caption	Nɔnɔmetata siwo míewɔ \u2014 kpɔɖeŋu ko, menye wò avɔ la ƒe foto o
+look_kente_women_1	Kente kaba kple slit
+look_kente_women_2	Kente ɖuɖuɣi awu
+look_kente_men_1	Kente srɔ̃ɖeɖe awu
+look_kente_men_2	Kente agbada
+look_lace_women_1	Lace ɣi awu
+look_lace_women_2	Lace ɖoɖoɖi awu
+look_smock_men_1	Dziehe fugu
+look_smock_men_2	Asinufɔ batakari
+look_ankara_women_1	Ankara evea
+look_ankara_women_2	Ankara mermaid
+look_ankara_men_1	Ankara awu kple awutavɔ
+look_ankara_men_2	Ankara gbesiagbe awu
+looks_share_cd	Fa foto sia ɖe
+notif_brief_ready_title	Tailor ƒe agbawo dzadzraɖo
+notif_brief_ready_body	Wò PDF %1$s ŋuti agbawo dzadzraɖo.
+fabric_fugu	Fugu (batakari avɔ)
+fabric_fugu_desc	Avɔ si wɔlɔna le Ghana ƒe dziehe; zi geɖe yɔwɔ, blɔ kple ɣi.
+fabric_gonja	Gonja avɔ
+fabric_gonja_desc	Gonja asinufɔ avɔ; zi geɖe dɔtsɔ alo ɣi kple yɔwɔ.
+wardrobe_remove_bg	Ɖe megbe ɖa
+wardrobe_remove_bg_note	Enyona nyuie ne megbe le dza
+contrib_title	Na avɔ foto
+contrib_body	Na avɔ ŋutɔŋutɔ ƒe foto be woatrɔ dɔwɔwɔ na amewo katã. Foto la tsoa wò kaɖimasia dzi va se ɖe esime wòatsɔ wo adoe go.
+contrib_category	Avɔ ƒomevi
+contrib_consent	Nyee ɖe foto sia alo enye tɔnye eye meɖe mɔ be woazãe le avɔ dzedzeme ŋu nusese me
+contrib_save	Ŋlɔe ɖi
+contrib_saved_count	Foto %1$d le kaɖimasia dzi
+contrib_export	Tsɔe do go hena hehe
+contrib_photo_needed	Tia foto gbã
+contrib_consent_needed	Mɔɖeɖe hiã hafi
+contrib_gallery	Wò ŋutɔ wò foto
+contrib_delete_cd	Ɖe foto sia ɖa
+contrib_edit_category	Trɔ hatsotsoe
+contrib_delete_confirm	Woaɖe foto sia ɖa?
+contrib_delete_confirm_body	Woaɖe foto sia le wò kpekpeɖeŋuwo me.
+contrib_duplicate	Foto sia tɔgbe li xoxo.
+outfit_builder_surprise	Tia ɖeka nam
