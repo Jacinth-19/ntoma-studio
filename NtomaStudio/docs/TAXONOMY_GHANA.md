@@ -202,6 +202,112 @@ contribute the new classes, because the contribution picker reads
 `FabricCategory.values()`. The alias map and the ordering constraint are both recorded in
 the schema's `aliases` and `migration_from_v1` blocks.
 
+### 4.2 The app enum — done, and done additively
+
+**Status: applied.** `FabricCategory` now has **26 members**, one per schema class, via the
+mapping in `tools/check_taxonomy_sync.py` (`SCHEMA_TO_ENUM`).
+
+The critical property is that the change is **purely additive**: all 18 v1 members keep
+their exact names and their exact order, and the 8 new members were inserted between them.
+Verified mechanically — the v1 member set is a strict subset of the v2 member set, with
+zero removals and zero renames.
+
+That single property is what makes §4.1's trap irrelevant *here*. `category` is persisted
+as a plain `String` in `FabricEntity`, `DressStyleEntity` and `PlatformEntities`, and
+`DbMappers.enumOrDefault` resolves it with `firstOrNull { it.name == this } ?: default`. So
+a rename would not crash — it would silently rewrite a user's saved kente into `UNKNOWN`.
+Because nothing was renamed:
+
+- no Room migration is needed (`NtomaDatabase` stays at `version = 2`, with no `Migration`)
+- no stored row is orphaned or degraded
+- `enumOrDefault` never sees an unresolvable name
+
+The 8 new classes, each with an English label + description and procedural fallback
+artwork (no catalog photo, so the 15 unlicensed swatches stay untouched):
+
+`KETE_EWE`, `NWOMU`, `OBAMA_EMBROIDERY`, `JAVA_PRINT`, `SEERSUCKER`, `CREPE`,
+`ORGANZA_TULLE`, `TAPESTRY_JACQUARD`.
+
+#### Strings: English now, translated later — deliberately
+
+The labels exist in `values/strings.xml` (840 English keys) but **not** in
+`values-ee`, `values-gaa` or `values-tw`. Android resolves resources per key, so those
+three locales fall back to English for these 16 keys and the shipped translations are
+left byte-for-byte unchanged.
+
+They are listed in `tools/i18n/untranslated.txt`, which `generate.py` honours by omitting
+them from the generated files. That mechanism exists because the obvious approaches are
+both wrong here:
+
+- **Writing English into the locale files** would ship English text labelled as Twi, Ga or
+  Ewe. Worse, `generate.py` *preserves* whatever is already in those files, so the English
+  placeholder would keep winning even after a real translation landed in the TSV — a
+  silent trap that would swallow the translation.
+- **Writing empty strings** (what `generate.py` did by default) produces blank labels in
+  the UI. `generate.py` already validated against this: any English key with no pack entry
+  was written as `""` and counted as an extra failure. Empty is not an acceptable
+  translation either.
+
+`generate.py` now also fails if a key is on the skip list *and* has a real translation in
+the TSV, so the list cannot silently go stale.
+
+Fabric names are trade vocabulary, not literal descriptions. They should be translated by
+a native speaker, and the marker comment in `untranslated.txt` says so.
+
+`asset` is nullable and already had null holders (`FUGU`, `GONJA`), and the one consumer
+(`DiscoverScreen`) branches on null, so new members fall back to procedural artwork. The 15
+unlicensed catalog photos are untouched.
+
+Two `when` blocks were **not** exhaustive and had no `else`, so they would have failed to
+compile the moment a member was added:
+
+- `media/ColorPatternAnalyzer.kt` — `usesFor()`, now covering all 26 arms
+- `ui/screens/discover/DiscoverScreen.kt` — the palette `when`, now covering all 26 arms
+
+`DiscoverScreen`'s pattern `when` already had an `else` and was extended rather than fixed.
+
+**This could not be compiled locally** — the build sandbox has no JDK, no Android SDK and
+no network to `dl.google.com` / `repo1.maven.org`. So instead of asserting it works,
+`tools/check_taxonomy_sync.py` was written to verify what a compiler would, statically and
+without a toolchain. It is proven to have teeth: **9/9 deliberately injected faults were
+caught** — a dropped arm, a misspelled `FabricCategory` reference, a missing string, an
+un-stubbed member, locale drift, an unmapped schema class, two misspelled references in
+*other* enums (`Occasion.CHURCHH`, `PatternType.FLORALL`) and a duplicated arm.
+
+It also discovered a fact that reasoning had missed: there is a **fourth** `when` over
+`FabricCategory` (`ColorPatternAnalyzer.kt:462`) that a hand scan had not flagged. It
+already carried an `else`, so it was safe — but that is precisely the kind of thing reading
+the code does not reliably surface.
+
+Run it after any taxonomy edit:
+
+```
+python3 tools/check_taxonomy_sync.py     # exit 0 clean, 1 errors, 2 warnings
+```
+
+### 4.3 Two build-blocking bugs that were already there
+
+Wiring the check into CI turned up two pre-existing faults, neither related to the
+taxonomy, either of which would have broken the build:
+
+1. **The workflow had never run.** `build.yml` lived at
+   `NtomaStudio/.github/workflows/build.yml`. GitHub only reads `.github/workflows/` at
+   the **repository root**, and this repo's root is one level above `NtomaStudio/`, so
+   the file was invisible to Actions. Confirmed: `gh workflow list` and `gh run list` both
+   return empty, and the file has never existed at the root in any commit. It now lives at
+   `.github/workflows/build.yml` with `working-directory: NtomaStudio`.
+2. **`gradlew` was not executable.** Git had it as mode `100644`, so a fresh checkout
+   could not run `./gradlew` at all — the `verify` job would have failed on its first step
+   even once the path was fixed. Now `100755`, along with `tools/setup_toolchain.sh`.
+
+A third, unavoidable limitation: **the Kotlin still has not been compiled.** The build
+sandbox has no JDK and no Android SDK, and the egress firewall blocks the toolchain hosts
+at TLS level (`SSL_ERROR_SYSCALL` on `api.adoptium.net`, `dl.google.com`,
+`repo1.maven.org`, `services.gradle.org`) even though `pypi.org` is reachable — so
+`tools/setup_toolchain.sh` cannot provision anything here. `check_taxonomy_sync.py` is a
+substitute for the compiler, not a replacement, and the first real `assembleDebug` should
+be treated as the confirmation.
+
 ---
 
 ## 5. Does 50,000 photographs cover it?

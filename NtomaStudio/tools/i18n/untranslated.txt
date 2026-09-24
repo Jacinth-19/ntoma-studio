@@ -1,0 +1,34 @@
+# Strings that are deliberately NOT translated yet.
+#
+# Why this file exists: `generate.py` writes every English key into values-*/strings.xml,
+# so an untranslated key used to become an empty string (a blank label in the UI) or, if
+# filled with English, a fake "translation". Worse, generate.py *preserves* whatever is
+# already in values-*/strings.xml, so an English placeholder written once would keep
+# winning even after someone supplied a real translation in the TSV.
+#
+# Keys listed here are omitted from the generated locale files entirely. Android then
+# falls back to values/strings.xml per key, so the user sees correct English instead of a
+# blank label — and the moment a real translation lands in the TSV, deleting the key from
+# this file is all that is needed for it to appear.
+#
+# Format: one resource name per line. `#` starts a comment.
+#
+# Added 2026-09-24 with the v2 fabric taxonomy (8 new fabric classes). These need a
+# native-speaker translator for Ewe / Ga / Twi — please do not machine-translate fabric
+# names, which are trade vocabulary rather than literal descriptions.
+fabric_kete_ewe
+fabric_kete_ewe_desc
+fabric_nwomu
+fabric_nwomu_desc
+fabric_obama_embroidery
+fabric_obama_embroidery_desc
+fabric_java_print
+fabric_java_print_desc
+fabric_seersucker
+fabric_seersucker_desc
+fabric_crepe
+fabric_crepe_desc
+fabric_organza_tulle
+fabric_organza_tulle_desc
+fabric_tapestry_jacquard
+fabric_tapestry_jacquard_desc

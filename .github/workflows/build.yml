@@ -1,10 +1,19 @@
 name: build
 
+# NOTE: this file must live at the repository root. It previously sat at
+# NtomaStudio/.github/workflows/build.yml, one directory too deep, where GitHub
+# never reads it — so no workflow had ever been registered or run for this repo.
+# The Android project lives in NtomaStudio/, hence the working-directory defaults.
+
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
+
+defaults:
+  run:
+    working-directory: NtomaStudio
 
 jobs:
   verify:
@@ -21,6 +30,13 @@ jobs:
       - name: Gradle cache
         uses: gradle/actions/setup-gradle@v3
 
+      # Cheap, toolchain-free guard and deliberately first: it needs no JDK, so a
+      # taxonomy inconsistency fails in seconds instead of after a Gradle build.
+      # The fabric taxonomy is written down in the enum, the `when` blocks, four
+      # strings.xml files and the training schema. Nothing else checks they agree.
+      - name: Taxonomy consistency
+        run: python3 tools/check_taxonomy_sync.py
+
       - name: Unit tests + debug build
         run: ./gradlew :app:testDebugUnitTest :app:assembleDebug
 
@@ -29,7 +45,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-reports
-          path: app/build/reports/tests/testDebugUnitTest
+          path: NtomaStudio/app/build/reports/tests/testDebugUnitTest
 
   # Opt-in device QA: run the DeepLabV3 instrumented test on an emulator.
   # macOS runners only (Linux GH runners lack KVM); trigger manually or tag a release.
@@ -54,6 +70,8 @@ jobs:
           api-level: 33
           target: default
           arch: x86_64
+          # `uses` steps ignore the run working-directory default, so cd explicitly.
           script: >
+            cd NtomaStudio &&
             ./gradlew :app:connectedDebugAndroidTest
             -Pandroid.testInstrumentationRunnerArguments.class=com.ntoma.studio.data.ml.PersonSegmenterDeviceTest
