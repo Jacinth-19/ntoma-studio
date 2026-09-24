@@ -17,3 +17,4 @@ tools/dataset/raw/
 tools/dataset/augmented/
 tools/dataset/out/
 tools/dataset/work/
+tools/dataset/splits/

@@ -88,6 +88,32 @@ Exit 2 on a suspicious class, so it can gate a Kaggle upload. See
 `docs/SYNTHETIC_DATA_POLICY.md` for the measurements and why the dataset was not
 generated.
 
+## Write the split and the dataset statistics
+
+```bash
+python3 tools/dataset/split_dataset.py                 # dry run
+python3 tools/dataset/split_dataset.py --write         # manifest + statistics
+python3 tools/dataset/split_dataset.py --write --link  # + symlink trees
+```
+
+Writes `tools/dataset/splits/manifest.csv` (one row per photo: `file, class,
+group, split, source, session, view, lighting`) and `dataset_statistics.json`
+(counts, groups, per-class progress, attribute distributions and fill rates).
+
+**The split rule is not defined here** — it imports `split_sessions` from
+`kaggle/train_kaggle.py`, so the manifest can never disagree with training. The
+leakage property is asserted, not assumed: no group may appear in two splits, and
+the script fails if one does.
+
+A **manifest, not copied folders.** Copying `train/val/test` duplicates every
+photo and goes stale the moment `raw/` changes; the manifest is a few KB and any
+loader can consume it (`pandas.read_csv` → group by `split`). `--link` builds
+symlink trees for tools that insist on real directories — no disk, no drift.
+`dataset_statistics.json` carries a `raw_fingerprint`, so a stale manifest is
+detectable rather than silently wrong.
+
+Derived output: `splits/` is gitignored, like `raw/`.
+
 ## Health-check a batch (run this every session)
 
 ```bash

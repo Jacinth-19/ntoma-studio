@@ -188,9 +188,20 @@ python3 tools/dataset/init_dataset.py --check      # exit 1 = not ready
 # 4. counts against the plan
 python3 tools/dataset/track_collection.py          # 68 counted, 49,932 to go
 
-# 5. package for Kaggle (ships metadata.csv inside the zip)
+# 5. the split + statistics (imports the split rule, does not restate it)
+python3 tools/dataset/split_dataset.py --write     # splits/manifest.csv
+
+# 6. package for Kaggle (ships metadata.csv inside the zip)
 python3 tools/dataset/kaggle/make_kaggle_dataset.py --write
 ```
+
+`split_dataset.py` materialises the grouping as a **manifest**, not as copied
+`train/val/test` folders: copies duplicate every photo and go stale the moment
+`raw/` changes, while a manifest is a few KB and any loader can read it. `--link`
+builds symlink trees for tools that demand real directories. The leakage rule is
+asserted on the way out — no group may appear in two splits — and
+`dataset_statistics.json` carries a `raw_fingerprint` so a stale split is
+detectable rather than silently wrong.
 
 `--check` fails on: a class not in the schema, a class that disagrees with its
 folder, a missing image, a duplicate row, a leftover template example row, an
