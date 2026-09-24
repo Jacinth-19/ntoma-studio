@@ -99,6 +99,30 @@ Counts `raw/` only — augmented images are reported separately because counting
 would inflate the dataset with information already in it. Also flags classes fed from a
 single capture session (a generalisation *and* train/val leakage risk). Read-only.
 
+## Fix legacy folder names before training
+
+```bash
+python3 tools/dataset/fix_folder_names.py            # dry run (default)
+python3 tools/dataset/fix_folder_names.py --apply    # rename
+```
+
+The trainer reads the class name from the **folder name**, and a folder that is not a
+class in `label_schema.json` is skipped *silently*. Photos sitting in a v1-named folder
+therefore never reach training, and nothing fails — they simply are not there. This is
+easy to miss: an upload of 83 photos counted as 50 until this ran.
+
+The mapping comes from the `aliases` block of `label_schema.json` — the same map
+`ingest.py` uses — so there is one source of truth for what a v1 name means. Names mapped
+to `@REVIEW` are left alone on purpose: those are cases where the v1 label does not
+determine the v2 class, so a human has to look at the cloth. Guessing would poison the
+training set.
+
+Safety: dry-run by default; every file's MD5 is compared before and after; a name
+collision keeps both files rather than clobbering one; byte-identical duplicates are
+reported; and the script is idempotent, so re-running it after re-extracting `raw.rar`
+restores the correct names. It needs to be re-runnable because `raw/` is gitignored — the
+rename is not captured by git.
+
 ## Taxonomy (v2, Ghana only)
 
 `label_schema.json` v2 defines **25 fabric classes + UNKNOWN**, up from 17. Eight

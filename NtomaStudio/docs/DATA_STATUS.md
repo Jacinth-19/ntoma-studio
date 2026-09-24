@@ -20,28 +20,32 @@ Snapshot taken 2026-09-24, after extracting `tools/dataset/raw.rar`.
 All 83 are real photographs. `raw/` is gitignored, so this stays out of the repository;
 the archive itself is the committed copy.
 
-### But only 50 of the 83 count
+### 68 of the 83 count toward the target
 
 `train_kaggle.py` reads the class name from the **folder name**. Seven of the 17 folders
-carry v1 names that are not classes in `label_schema.json`, and the trainer skips them
-without complaint — so 33 of the 83 photographs are currently invisible to training.
-`track_collection.py` says so plainly:
+arrived carrying v1 names that are not classes in `label_schema.json`, and the trainer
+skips such a folder without complaint — 33 of the 83 photographs were invisible to
+training, and `track_collection.py` reported only 50.
 
-```
-! raw/KENTE/ holds 5 photos but is not a class in label_schema.json - they will never be trained on
-```
-
-(the same for `ANKARA`, `BROCADE`, `CHIFFON`, `FUGU`, `SILK`, `WAX`). Four of them rename
-across losslessly — 18 photos recovered in one command:
+**Four of those seven folders have been renamed** (commit for the rename script), which
+recovered 18 photographs. `track_collection.py` now reports **68**:
 
 ```bash
-cd tools/dataset/raw
-mv BROCADE BROCADE_BAZIN && mv SILK SATIN_SILK
-mv CHIFFON CHIFFON_GEORGETTE && mv FUGU FUGU_BATAKARI
+python3 tools/dataset/fix_folder_names.py            # show what would change
+python3 tools/dataset/fix_folder_names.py --apply    # do it
 ```
 
-The remaining three cannot be renamed, because the v1 name genuinely does not determine
-the v2 class:
+The mapping is not hard-coded in that script — it is read from the `aliases` block of
+`label_schema.json`, the same map `ingest.py` applies to contribution zips, so there is
+one source of truth for what a v1 name means. The rename was verified by comparing the
+multiset of MD5 hashes before and after: **83 files in, 83 files out, content identical**,
+and all 13,721,621 bytes preserved.
+
+That script matters because `raw/` is gitignored. Re-extracting `raw.rar` restores the v1
+folder names, so the fix has to be re-runnable rather than a one-off `mv`.
+
+The other three folders cannot be renamed, because the v1 name genuinely does not
+determine the v2 class:
 
 | Folder | Photos | Re-file as |
 |---|---|---|
@@ -127,11 +131,11 @@ python3 tools/dataset/track_collection.py
 ```
 
 
-**`Have` above is what the trainer actually sees** — v2-named folders only. The 18
-photos in the four renameable folders are *not* in it, and neither are the 15 awaiting a
-human decision. Renaming the four folders moves the total from 50 to 68, and re-filing the
-other three would take it to 83. Nothing about the 50,000 changes either way; 83 vs 50 is
-the difference between 0.17% and 0.10%.
+**`Have` above is what the trainer actually sees** — v2-named folders only, so it already
+includes the 18 photos recovered by the rename. The 15 in `KENTE`, `WAX` and `ANKARA` are
+still excluded, pending a human decision; re-filing them would take the count from 68 to
+83. Nothing about the 50,000 changes either way — 68 vs 83 is the difference between
+0.14% and 0.17%.
 
 ## Two things that change what can be claimed
 
@@ -154,6 +158,6 @@ robust to *capture condition*; they cannot teach it a fabric it has never seen, 
 every variant is derived from an existing photo. `track_collection.py` counts `raw/` only
 and reports variants separately, and the table above is `raw/` only.
 
-The honest headline: **50 / 50,000 = 0.10%** as the trainer counts it, or 83 / 50,000 =
-0.17% once the four folders above are renamed. Either way, nine classes still have nothing
-at all, and the field work has not meaningfully started.
+The honest headline: **68 / 50,000 = 0.14%**. Nine classes still have nothing at all, and
+the field work has not meaningfully started. The four renamed folders moved the number by
+18 photos — real, but the shape of the problem is unchanged.
