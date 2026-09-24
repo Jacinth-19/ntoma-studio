@@ -30,6 +30,23 @@ Exit 0 = clean, 1 = a label points at a missing/orphan asset, 2 = warnings only
 (uncovered classes, unlicensed assets, thin dataset). See `docs/DATASET_AUDIT.md`
 (2026-09-24) for the findings this tool was written from.
 
+## Gate against synthetic / under-diverse data
+
+```bash
+python3 tools/dataset/audit_diversity.py --data tools/dataset/raw
+```
+
+AI-generated fabric images pass visual inspection **and** defeat texture heuristics (a
+synthetic kente set measured *higher* on the app's own GLCM noise metric than real
+photographs). The signal that does separate is diversity: generated images from one prompt
+are far more mutually similar than real photos of the same cloth, which collapses the
+effective sample size — and because the same bias sits in train and val, the validation
+set cannot detect it.
+
+Exit 2 on a suspicious class, so it can gate a Kaggle upload. See
+`docs/SYNTHETIC_DATA_POLICY.md` for the measurements and why the dataset was not
+generated.
+
 ## Track collection progress
 
 ```bash
