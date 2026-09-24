@@ -30,6 +30,47 @@ Exit 0 = clean, 1 = a label points at a missing/orphan asset, 2 = warnings only
 (uncovered classes, unlicensed assets, thin dataset). See `docs/DATASET_AUDIT.md`
 (2026-09-24) for the findings this tool was written from.
 
+## Expand photos into lighting / size / angle / sensor variants
+
+```bash
+python3 tools/dataset/make_variants.py                              # plan only, writes nothing
+python3 tools/dataset/make_variants.py --per-image 12 --write
+python3 tools/dataset/make_variants.py --catalog-demo --write        # exercise with no data
+```
+
+Applies colour temperature, exposure, contrast, gamma, directional shadow, vignette,
+sheen, saturation, rotation, zoom-crop, keystone, motion blur, sensor noise, and cycles
+output sizes (224/320/512) — the conditions a real phone photo of cloth will have.
+
+**These are variants, not photographs.** Every one derives from a source photo already in
+`raw/`, so 2,000 photos expanded 10× contain the information of 2,000 photos. They make
+the model robust to *condition*, never to a fabric it has never seen. `track_collection.py`
+counts `raw/` only and reports `variants/` separately; the output folder gets a
+`README_DO_NOT_COUNT.txt` saying so.
+
+Variant filenames **preserve the source capture date** so `train_kaggle.py`'s session
+split still holds — every variant of one source photo lands in the same split. Never
+rename variant outputs; the name is the mechanism that prevents leakage.
+
+Two bugs found and fixed while building this, both worth knowing because either would
+have silently produced a useless expansion:
+
+- **Compounding exposure.** Independent exposure, gamma, shadow and vignette multiplied
+  to 0.55 × 0.55 × 0.60 × 0.70 — removing ~87% of the light. Measured mean luminance
+  collapsed to 15.7 against a 109.4 source, with the darkest variant at 0.8% brightness.
+  There is now exactly **one** global exposure control (0.70–1.35×, the real range of
+  capture variation) and a `normalize_exposure` floor that guarantees every variant stays
+  legible.
+- **Black-filled perspective.** The keystone transform passed 8 arbitrary random integers
+  to `Image.PERSPECTIVE`. PIL treats those as the output→input matrix, so random values
+  blew up the denominator and mapped most output pixels outside the source, which PIL
+  fills black. It now jitters the *source* quad and clamps every corner inside the image,
+  so no black band is possible. Rotation and perspective also fill from the cloth's own
+  median edge colour rather than black.
+
+Verified on the 15 catalog swatches (180 variants): luminance ratios 0.58–1.29 of source,
+no black-fill artefacts, all 180 files pixel-distinct.
+
 ## Gate against synthetic / under-diverse data
 
 ```bash
