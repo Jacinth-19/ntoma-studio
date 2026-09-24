@@ -52,15 +52,17 @@ def main() -> int:
 
     schema = json.loads(SCHEMA.read_text())
     classes = set(schema.get("classes", []))
+    aliases = {k: v for k, v in schema.get("aliases", {}).items() if not k.startswith("_")}
+    review_reason = schema.get("review_reason", {})
 
     pool = {}  # hash of every existing raw image
-    for f in RAW.rglob("*.jpg"):
+    for f in list(RAW.rglob("*.jpg")) + list(RAW.rglob("*.png")) + list(RAW.rglob("*.webp")):
         try:
             pool[f.name] = dhash(Image.open(f))
         except Exception:
             pass
 
-    accepted, dupes, errors = [], [], []
+    accepted, dupes, errors, queued, remapped = [], [], [], [], []
     batch_hashes = {}
 
     with zipfile.ZipFile(args.zip) as z:
@@ -75,15 +77,20 @@ def main() -> int:
             return 2
 
         for entry in entries:
-            cat, rel = entry.get("category"), entry.get("file")
-            if cat not in classes:
-                errors.append(f"{rel}: unknown category {cat!r}")
-                continue
-            if rel not in names and f"{cat}/{rel}" not in names:
-                member = rel if rel in names else f"{cat}/{rel}"
+            raw_cat, rel = entry.get("category"), entry.get("file")
+            # Resolve shipped-v1 category names before anything else, so a contribution
+            # zip from an older build is never rejected as an unknown category.
+            cat = aliases.get(raw_cat, raw_cat)
+            if cat == "@REVIEW":
+                if raw_cat not in classes:
+                    remapped.append(raw_cat)
+            elif raw_cat != cat:
+                remapped.append(raw_cat)
+
+            if rel not in names and f"{raw_cat}/{rel}" not in names:
                 errors.append(f"{rel}: listed in manifest but missing from zip")
                 continue
-            member = rel if rel in names else f"{cat}/{rel}"
+            member = rel if rel in names else f"{raw_cat}/{rel}"
             try:
                 img = Image.open(io.BytesIO(z.read(member)))
             except Exception as e:
@@ -95,12 +102,31 @@ def main() -> int:
                 dupes.append(f"{rel} ~ {near[0]}")
                 continue
             batch_hashes[rel] = h
-            accepted.append((cat, rel, member))
+
+            if cat == "@REVIEW":
+                # Ambiguous legacy label: keep the photo, park it for a human rather than
+                # guessing a class. See schema "review_reason" for why these are ambiguous.
+                queued.append((raw_cat, rel, member))
+            elif cat not in classes:
+                errors.append(f"{rel}: unknown category {raw_cat!r} (no alias mapping)")
+            else:
+                accepted.append((cat, rel, member))
 
     print(f"manifest entries: {len(entries)}")
+    if remapped:
+        uniq = sorted(set(remapped))
+        print(f"legacy v1 categories remapped via schema aliases: {', '.join(uniq)}")
     print(f"accepted: {len(accepted)}")
     for cat, rel, _ in accepted:
         print(f"  + {cat}/{pathlib.Path(rel).name}")
+    if queued:
+        print(f"queued for human review: {len(queued)}  (kept, NOT discarded)")
+        for raw_cat, rel, _ in queued:
+            print(f"  ? {raw_cat}/{pathlib.Path(rel).name} -> raw/_REVIEW/{raw_cat}/")
+        for raw_cat in sorted({q[0] for q in queued}):
+            why = review_reason.get(raw_cat)
+            if why:
+                print(f"    why {raw_cat}: {why}")
     print(f"duplicates skipped: {len(dupes)}")
     for d in dupes:
         print(f"  = {d}")
@@ -113,7 +139,7 @@ def main() -> int:
         print("\ndry run — pass --apply to write.")
         return 0
 
-    for cat, rel, member in accepted:
+    def write(cat, rel, member):
         with zipfile.ZipFile(args.zip) as z:
             data = z.read(member)
         out_dir = RAW / cat
@@ -126,6 +152,15 @@ def main() -> int:
             n += 1
         out.write_bytes(data)
         print(f"wrote {out.relative_to(HERE)}")
+
+    for cat, rel, member in accepted:
+        write(cat, rel, member)
+    for raw_cat, rel, member in queued:
+        write(f"_REVIEW/{raw_cat}", rel, member)
+
+    if queued:
+        print(f"\n{len(queued)} photo(s) parked in raw/_REVIEW/ - resolve them before training.")
+        print("They are excluded from counts by track_collection.py until re-filed.")
     return 0
 
 

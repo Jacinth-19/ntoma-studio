@@ -30,6 +30,45 @@ Exit 0 = clean, 1 = a label points at a missing/orphan asset, 2 = warnings only
 (uncovered classes, unlicensed assets, thin dataset). See `docs/DATASET_AUDIT.md`
 (2026-09-24) for the findings this tool was written from.
 
+## Track collection progress
+
+```bash
+python3 tools/dataset/track_collection.py            # progress vs the 50k plan
+python3 tools/dataset/track_collection.py --verbose  # + capture dates per class
+```
+
+Counts `raw/` only — augmented images are reported separately because counting them
+would inflate the dataset with information already in it. Also flags classes fed from a
+single capture session (a generalisation *and* train/val leakage risk). Read-only.
+
+## Taxonomy (v2, Ghana only)
+
+`label_schema.json` v2 defines **25 fabric classes + UNKNOWN**, up from 17. Eight
+Ghanaian fabric forms the v1 schema had no name for (Ewe kete, nwomu, Obama embroidery,
+java print, crepe, organza/tulle, seersucker, kente tapestry) are now explicit, and the
+two classes the Ghanaian market actually discriminates by construction rather than name
+— `WAX_REAL` vs `FANCY_PRINT` (double-sided vs single-sided) and `KENTE_ASHANTI` vs
+`KENTE_PRINT` (woven vs printed) — are now separate. `docs/TAXONOMY_GHANA.md` has the
+sources and the reasoning.
+
+**Migration:** adding classes is harmless, but *renaming* them is not — a contribution zip
+from the shipped v1 build carries v1 names, and 7 of 17 v1 categories would be rejected as
+unknown. The schema's `aliases` map fixes this: `ingest.py` resolves every incoming
+category through it first. Four renames (`BROCADE`, `SILK`, `CHIFFON`, `FUGU`) map straight
+across; three (`KENTE`, `WAX`, `ANKARA`) are ambiguous in v1 and are parked in
+`raw/_REVIEW/` with a reason rather than guessed at.
+
+The app's `FabricCategory` enum is a separate change and must follow before users can
+contribute the new classes, because the contribution picker reads `FabricCategory.values()`.
+See `aliases` and `migration_from_v1` in the schema, and `docs/TAXONOMY_GHANA.md` §4.1.
+
+## Targets
+
+`collection_plan.json` allocates **50,000 unique raw photos** across the 25 classes,
+weighted by how confusable each class is with its nearest neighbour — not flat. Flat
+allocation is what produced the 2026-09-01 starter result (MACRO 0.419 overall, but 0.00
+on KENTE, GONJA and BATIK).
+
 ## Workflow
 1. **Collect**: 300+ photos/class minimum (1000+ before publishing accuracy claims).
    Market days at Makola/Kantamanto/Kejetia, weaver cooperatives in Bonwire (kente) and

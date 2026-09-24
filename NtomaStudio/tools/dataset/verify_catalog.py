@@ -297,10 +297,21 @@ def check_dataset_readiness():
     schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
     classes = schema["classes"]
     guidance = schema.get("collection_guidance", {})
-    train_min, claim_min = 300, 1000
 
+    # Prefer the class-specific targets in collection_plan.json; flat thresholds are the
+    # fallback for the v1 schema. Flat 300/1000 is exactly what the plan exists to replace.
+    plan_path = SCHEMA.parent / "collection_plan.json"
+    targets, plan_total = {}, None
+    if plan_path.exists():
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        targets = plan.get("targets", {})
+        plan_total = plan.get("total_target")
+
+    train_min, claim_min = 300, 1000
     facts = {"classes": len(classes), "per_class": {}, "train_min": train_min,
-             "claim_min": claim_min}
+             "claim_min": claim_min, "plan_total": plan_total,
+             "schema_version": schema.get("version", 1),
+             "per_class_target": targets or None}
     total_raw = 0
     for c in classes:
         d = RAW / c
@@ -311,27 +322,47 @@ def check_dataset_readiness():
 
     if total_raw == 0:
         print("  raw/ is empty (gitignored, as designed) - no field photos ingested yet.")
-        print(f"  targets: {train_min}/class to train, {claim_min}/class before accuracy claims")
-        print(f"  => needing {train_min * len(classes):,} photos to train, "
-              f"{claim_min * len(classes):,} to publish numbers")
+        if plan_total:
+            print(f"  plan v2 sets class-specific targets totalling {plan_total:,} unique photos "
+                  f"across {len(classes)} classes (weighted by confusion difficulty).")
+            print(f"  flat {train_min}/class would be {train_min * len(classes):,} - see "
+                  f"docs/TAXONOMY_GHANA.md for why flat allocation fails.")
+        else:
+            print(f"  targets: {train_min}/class to train, {claim_min}/class before accuracy claims")
+            print(f"  => needing {train_min * len(classes):,} photos to train, "
+                  f"{claim_min * len(classes):,} to publish numbers")
         facts["status"] = "no_data"
         warn("training dataset is empty: 0 real labelled photos across "
              f"{len(classes)} classes")
         return facts
 
     ready = claim_ready = 0
+    pct_done = []
     for c in classes:
         n = facts["per_class"][c]
-        mark = "CLAIM-READY" if n >= claim_min else ("trainable" if n >= train_min else "thin")
-        ready += n >= train_min
-        claim_ready += n >= claim_min
-        print(f"  {c:14s} {n:5d}  {mark}")
-    print(f"  totals: {total_raw:,} photos | trainable classes {ready}/{len(classes)} | "
-          f"claim-ready {claim_ready}/{len(classes)}")
-    facts["trainable_classes"] = ready
-    facts["claim_ready_classes"] = claim_ready
+        if targets:
+            tgt = targets.get(c)
+            if tgt:
+                frac = n / tgt
+                pct_done.append(frac)
+                mark = f"{frac:.0%} of {tgt}"
+            else:
+                mark = "target undefined"
+                warn(f"{c}: no target in collection_plan.json")
+            ready += bool(tgt and n >= tgt)
+        else:
+            mark = "CLAIM-READY" if n >= claim_min else ("trainable" if n >= train_min else "thin")
+            ready += n >= train_min
+            claim_ready += n >= claim_min
+        print(f"  {c:20s} {n:6d}  {mark}")
+    print(f"  totals: {total_raw:,} unique-ish photos")
+    if targets and plan_total:
+        print(f"  plan progress: {total_raw:,}/{plan_total:,} ({total_raw/plan_total:.1%}) | "
+              f"classes at target {ready}/{len(classes)}")
+        facts["plan_progress"] = round(total_raw / plan_total, 4)
+    facts["at_target"] = ready
     if ready < len(classes):
-        warn(f"{len(classes) - ready} of {len(classes)} classes are below {train_min} photos")
+        warn(f"{len(classes) - ready} of {len(classes)} classes are below target")
     return facts
 
 
