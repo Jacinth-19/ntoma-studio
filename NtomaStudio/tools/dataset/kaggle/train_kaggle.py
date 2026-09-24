@@ -26,6 +26,7 @@ Usage:
   python3 train_kaggle.py --smoke            # tiny CPU run to prove the pipeline
 """
 import argparse
+import csv
 import json
 import os
 import random
@@ -112,7 +113,64 @@ def filename_date(path: Path):
     return None
 
 
-def session_key(path: Path) -> str:
+def schema_classes():
+    """The 26 class names, if label_schema.json is reachable.
+
+    It is not on Kaggle (only this script and the images are uploaded), so a miss
+    is normal and the off-schema check is simply skipped there.
+    """
+    for cand in (Path(__file__).resolve().parent.parent / "label_schema.json",
+                 Path("label_schema.json")):
+        if cand.exists():
+            try:
+                return set(json.loads(cand.read_text())["classes"])
+            except Exception:
+                return set()
+    return set()
+
+
+def load_metadata(root: Path, path=None):
+    """Read the metadata sidecar (docs/DATASET_SCHEMA.md) into {abs path: row}.
+
+    Metadata is the *primary* session source, not EXIF. Every photo delivered so
+    far has had its EXIF stripped by one re-encoding pipeline, so EXIF grouping
+    collapses the whole corpus into a single "unknown" session and the split
+    silently degrades to "everything is train". The sidecar is what survives.
+
+    The split group is `source|session`, joining two columns a collector can
+    actually observe; either alone under-groups (one stall spans days, one day
+    spans many stalls, and both share light and stock).
+    """
+    csv_path = Path(path) if path else root / "metadata.csv"
+    if not csv_path.exists():
+        return {}, csv_path
+
+    meta, skipped = {}, 0
+    with csv_path.open(newline="") as fh:
+        for row in csv.DictReader(fh):
+            rel = (row.get("file") or "").strip()
+            source = (row.get("source") or "").strip()
+            session = (row.get("session") or "").strip()
+            if not rel:
+                continue
+            if not source or not session:
+                skipped += 1                   # ungroupable; fall through to EXIF
+                continue
+            explicit = (row.get("group") or "").strip()
+            group = explicit or f"{source}|{session}"
+            row["_group"] = f"meta:{group}"
+            meta[str((root / rel).resolve())] = row
+    if skipped:
+        print(f"  note: {skipped} metadata row(s) lack source/session and fall back "
+              f"to EXIF/filename grouping")
+    return meta, csv_path
+
+
+def session_key(path: Path, meta=None) -> str:
+    if meta:
+        row = meta.get(str(Path(path).resolve()))
+        if row and row.get("_group"):
+            return row["_group"]
     ex = exif_datetime(path)
     if ex:
         return ex[:10]                      # date is the session proxy
@@ -122,7 +180,7 @@ def session_key(path: Path) -> str:
     return "unknown"
 
 
-def index_dataset(root: Path):
+def index_dataset(root: Path, meta=None):
     """-> {class: {session: [paths]}} plus a per-class census."""
     table = defaultdict(lambda: defaultdict(list))
     for cls_dir in sorted(p for p in root.iterdir() if p.is_dir()):
@@ -130,7 +188,7 @@ def index_dataset(root: Path):
             continue
         for f in sorted(cls_dir.rglob("*")):
             if f.suffix.lower() in EXTS:
-                table[cls_dir.name][session_key(f)].append(f)
+                table[cls_dir.name][session_key(f, meta)].append(f)
     return table
 
 
@@ -277,6 +335,8 @@ def main():
     ap.add_argument("--seed", type=int, default=DEFAULTS["seed"])
     ap.add_argument("--no-pretrained", action="store_true", help="random init (offline/CI)")
     ap.add_argument("--dry-run", action="store_true", help="index + split report only")
+    ap.add_argument("--metadata", default=None,
+                    help="metadata.csv sidecar (default: <data>/metadata.csv if present)")
     args = ap.parse_args()
 
     if args.smoke:
@@ -295,7 +355,8 @@ def main():
     rng = random.Random(args.seed)
     np.random.seed(args.seed)
 
-    table = index_dataset(data)
+    meta, csv_path = load_metadata(data, args.metadata)
+    table = index_dataset(data, meta)
     if not table:
         print(f"ERROR: no class folders with images under {data}", file=sys.stderr)
         return 2
@@ -306,6 +367,16 @@ def main():
     print("=" * 74)
     print(f"data: {data}")
     print(f"classes: {len(table)} | photos: {total:,}")
+
+    grouped = sum(1 for s in table.values() for k in s if k.startswith("meta:"))
+    if not meta:
+        state = "exists but has no source/session filled in" if csv_path.exists() \
+            else "not found"
+        print(f"metadata: {csv_path.name} {state} — grouping by EXIF/filename only")
+        print("          (tools/dataset/init_dataset.py --metadata-template --apply, "
+              "then --check)")
+    else:
+        print(f"metadata: {grouped}/{total} photos grouped from {csv_path.name}")
 
     splits, report = split_sessions(table, rng, DEFAULTS["val_frac"], DEFAULTS["test_frac"])
     for name in ("train", "val", "test"):
@@ -323,6 +394,26 @@ def main():
             print(f"     {c}: {report[c]['reason']}")
         print("   These train but get NO accuracy claim. Collect more sessions.")
 
+    known = schema_classes()
+    off_schema = sorted(c for c in table if known and c not in known)
+    if off_schema:
+        n = sum(len(v) for c in off_schema for v in table[c].values())
+        print(f"\n!! {len(off_schema)} folder(s) are not classes in label_schema.json "
+              f"({n} photos): {off_schema}")
+        print("   They would train as classes with no app localisation and no "
+              "manifest entry.")
+        print("   make_kaggle_dataset.py refuses to package these; fix with "
+              "tools/dataset/fix_folder_names.py.")
+
+    ungrouped = sum(len(s.get("unknown", [])) for s in table.values())
+    if ungrouped == total and total:
+        print(f"\n!! ALL {total:,} photos share one session. Without recorded "
+              f"source/session there is no honest split at all:")
+        print("     EXIF is stripped on delivery, so every photo falls back to "
+              "'unknown'.")
+        print("     Fix: tools/dataset/init_dataset.py --metadata-template --apply, "
+              "then fill source + session.")
+
     critical_missing = [
         (a, b) for a, b in CRITICAL_PAIRS
         if a not in table or b not in table
@@ -335,7 +426,11 @@ def main():
         "data_root": str(data), "total_photos": total, "classes": len(table),
         "per_class": report, "unsplittable": unsplittable,
         "critical_pairs_unevaluable": [list(p) for p in critical_missing],
-        "policy": "sessions dealt whole; a session never straddles two splits",
+        "policy": "sessions dealt whole; a session never straddles two splits. "
+                  "Split key = metadata source|session when a sidecar is present, "
+                  "else EXIF date, else the date in the filename, else 'unknown'",
+        "metadata": str(csv_path) if meta else None,
+        "photos_grouped_from_metadata": grouped,
     }, indent=2))
     print(f"\nwrote {out/'split_report.json'}")
 

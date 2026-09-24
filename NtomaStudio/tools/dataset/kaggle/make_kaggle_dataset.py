@@ -61,9 +61,13 @@ def main() -> int:
 
     sys.path.insert(0, str(HERE))
     try:
-        from train_kaggle import session_key, index_dataset  # reuse, do not duplicate
+        from train_kaggle import session_key, index_dataset, load_metadata  # reuse, do not duplicate
     except Exception:
-        index_dataset = session_key = None
+        index_dataset = session_key = load_metadata = None
+
+    meta, meta_path = ({}, raw / "metadata.csv")
+    if load_metadata is not None:
+        meta, meta_path = load_metadata(raw)
 
     files, sizes = [], 0
     per_class, sessions, small, offschema = {}, defaultdict(set), [], []
@@ -85,7 +89,7 @@ def main() -> int:
             got += 1
             if index_dataset is None:
                 continue
-            sessions[cls_dir.name].add(session_key(f))
+            sessions[cls_dir.name].add(session_key(f, meta))
             if not small or len(small) < 5:
                 try:
                     from PIL import Image
@@ -109,10 +113,24 @@ def main() -> int:
     if not per_class:
         blocking.append("no images found in any valid class folder")
 
-    missing = [c for c in valid if c not in per_class and c != "UNKNOWN"]
+    # Count photos, not folders: init_dataset.py creates all 26 class folders up
+    # front, so a folder can exist and still be empty. Testing membership in
+    # per_class would silently retire this note the moment the tree is created.
+    missing = [c for c in valid if per_class.get(c, 0) == 0 and c != "UNKNOWN"]
     if missing:
         notes.append(f"{len(missing)} schema classes have no photos at all: "
                      f"{', '.join(missing[:8])}{' ...' if len(missing) > 8 else ''}")
+
+    if meta:
+        notes.append(f"metadata sidecar found ({meta_path.name}): the split will be "
+                     f"grouped by source|session, not EXIF")
+    elif meta_path.exists():
+        notes.append(f"{meta_path.name} exists but no row has source+session yet - "
+                     f"the split falls back to EXIF/filename, which is stripped on "
+                     f"delivery. Run init_dataset.py --check to see what is missing.")
+    else:
+        notes.append(f"no metadata sidecar at {meta_path} - the split falls back to "
+                     f"EXIF/filename, which is stripped on delivery")
 
     if targets:
         short = {c: (per_class.get(c, 0), targets[c]) for c in per_class
@@ -153,6 +171,10 @@ def main() -> int:
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for f in files:
             z.write(f, f.relative_to(raw.parent))     # keeps the leading folder name
+        if meta:
+            # Ships the split keys with the photos, so train_kaggle.py finds
+            # <data>/metadata.csv on Kaggle without a second upload.
+            z.write(meta_path, meta_path.relative_to(raw.parent))
     gb = out.stat().st_size / 1e9
     print(f"wrote {out} ({gb:.2f} GB, {len(files):,} images)")
     if gb > KAGGLE_SOFT_LIMIT_GB:

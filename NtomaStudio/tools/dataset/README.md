@@ -123,6 +123,31 @@ reported; and the script is idempotent, so re-running it after re-extracting `ra
 restores the correct names. It needs to be re-runnable because `raw/` is gitignored — the
 rename is not captured by git.
 
+## Per-photo metadata (required before training)
+
+```bash
+python3 tools/dataset/init_dataset.py                               # dry run: create the 26 class folders
+python3 tools/dataset/init_dataset.py --apply                       # create them
+python3 tools/dataset/init_dataset.py --metadata-template --apply   # seed a blank row per photo
+python3 tools/dataset/init_dataset.py --check                       # validate (exit 1 = not ready)
+```
+
+The tree stays flat at the 26 classes in `label_schema.json`; everything finer —
+technique, material, colour, region, brand family, view, lighting, occasion — is a
+**column** in `raw/metadata.csv`, not a folder. Full rationale and the column
+reference: `docs/DATASET_SCHEMA.md`.
+
+`metadata.csv` also carries the **split key**, `source|session`, and it is the only one
+that works: all 83 delivered photos have zero EXIF, one uniform JPEG encoder signature
+and bare `NN.jpg` names, so EXIF/filename grouping collapses the whole corpus into a
+single session and the trainer reports that there is no honest split at all. Record
+`source` and `session` at capture time — provenance cannot be reconstructed later.
+
+`--check` fails on a class outside the schema, a class that disagrees with its folder, a
+missing image, a duplicate row, a leftover template example, a blank or malformed
+`source`/`session`, and any header drift. The packager ships `metadata.csv` inside the
+Kaggle zip, so the trainer picks it up at `<data>/metadata.csv` with no extra wiring.
+
 ## Taxonomy (v2, Ghana only)
 
 `label_schema.json` v2 defines **25 fabric classes + UNKNOWN**, up from 17. Eight
