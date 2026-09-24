@@ -88,6 +88,32 @@ Exit 2 on a suspicious class, so it can gate a Kaggle upload. See
 `docs/SYNTHETIC_DATA_POLICY.md` for the measurements and why the dataset was not
 generated.
 
+## Health-check a batch (run this every session)
+
+```bash
+python3 tools/dataset/check_dataset.py                  # exit 1 = blockers
+python3 tools/dataset/check_dataset.py --strict         # warnings fail too
+python3 tools/dataset/check_dataset.py --json /tmp/h.json
+```
+
+Decodes every photo and reports integrity, duplicates, resolution, exposure,
+presentation and coverage. **Blockers** are things that would poison training —
+unreadable or zero-byte files, stray non-image files, photos in a folder that is
+not a schema class, near-duplicate pairs **across different classes** (the same
+cloth under two labels), and a failing metadata check. **Warnings** are things a
+human should judge: studio/catalogue backdrops, possible stock credit bars (a
+watermark is pixels, so this is the only way to catch one without metadata),
+frames that are very dark or near-featureless, below-minimum resolution, empty
+classes and target shortfalls.
+
+Every check exists because it caught something real on the first 83 photos — 3
+were one Alamy stock image, 14 were white-backdrop product shots, all 83 had zero
+EXIF. A defect found in a 200-photo batch is a note; the same defect found at
+50,000 is a re-shoot.
+
+`docs/FIELD_CAPTURE_PROTOCOL.md` turns those findings into the collector's rules,
+shot list and rejection list.
+
 ## Track collection progress
 
 ```bash

@@ -184,7 +184,12 @@ def cmd_template(root, do_it, force):
 
 # --------------------------------------------------------------------- check
 
-def cmd_check(root, path):
+def cmd_check(root, path, quiet=False):
+    """Validate metadata.csv against the tree. Returns 0 (ok) or 1 (errors).
+
+    quiet=True prints only the summary counts and the errors - used by
+    check_dataset.py, which embeds this check in a wider report.
+    """
     classes = set(schema_classes())
     errors, warnings = [], []
 
@@ -274,21 +279,22 @@ def cmd_check(root, path):
     print(f"with source+session: {len(rows) - len(unfilled)}")
     print(f"classes covered : {len(by_class)}/{len(classes)}")
 
-    print("\n  groups per class (>=3 is the minimum to hold out validation):")
-    for c in sorted(by_class):
-        n = len(by_class[c])
-        flag = "" if n >= 3 else "   <-- cannot be split honestly"
-        print(f"     {c:<22} {n:>3} group(s){flag}")
-    missing = sorted(classes - set(by_class))
-    if missing:
-        print(f"     not yet in metadata ({len(missing)}): {', '.join(missing[:6])}"
-              f"{' ...' if len(missing) > 6 else ''}")
+    if not quiet:
+        print("\n  groups per class (>=3 is the minimum to hold out validation):")
+        for c in sorted(by_class):
+            n = len(by_class[c])
+            flag = "" if n >= 3 else "   <-- cannot be split honestly"
+            print(f"     {c:<22} {n:>3} group(s){flag}")
+        missing = sorted(classes - set(by_class))
+        if missing:
+            print(f"     not yet in metadata ({len(missing)}): {', '.join(missing[:6])}"
+                  f"{' ...' if len(missing) > 6 else ''}")
 
     for col, vals in sorted(value_warn.items()):
         warnings.append(f"{col}: value(s) outside the suggested vocabulary: "
                         f"{sorted(vals)[:6]}")
 
-    if warnings:
+    if warnings and not quiet:
         print(f"\n{len(warnings)} warning(s):")
         for w in warnings[:30]:
             print(f"   ! {w}")
