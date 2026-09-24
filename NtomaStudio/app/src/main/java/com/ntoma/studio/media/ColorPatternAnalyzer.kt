@@ -496,16 +496,24 @@ object ColorPatternAnalyzer {
     }
 
     private fun usesFor(category: FabricCategory): List<Occasion> = when (category) {
-        FabricCategory.KENTE, FabricCategory.KENTE_PRINT -> listOf(Occasion.CEREMONY, Occasion.FESTIVAL, Occasion.WEDDING)
+        FabricCategory.KENTE, FabricCategory.KENTE_PRINT,
+        FabricCategory.KETE_EWE, FabricCategory.TAPESTRY_JACQUARD ->
+            listOf(Occasion.CEREMONY, Occasion.FESTIVAL, Occasion.WEDDING)
         FabricCategory.ADINKRA -> listOf(Occasion.MOURNING, Occasion.CEREMONY)
+        FabricCategory.NWOMU -> listOf(Occasion.MOURNING, Occasion.CEREMONY)
+        FabricCategory.OBAMA_EMBROIDERY -> listOf(Occasion.FESTIVAL, Occasion.CHURCH, Occasion.WEDDING)
         FabricCategory.WAX, FabricCategory.ANKARA -> listOf(Occasion.EVERYDAY, Occasion.CHURCH, Occasion.PARTY)
-        FabricCategory.BATIK, FabricCategory.TIEDYE -> listOf(Occasion.EVERYDAY, Occasion.PARTY)
+        FabricCategory.BATIK, FabricCategory.TIEDYE,
+        FabricCategory.JAVA_PRINT -> listOf(Occasion.EVERYDAY, Occasion.PARTY)
         FabricCategory.LACE -> listOf(Occasion.WEDDING, Occasion.CHURCH)
         FabricCategory.BROCADE -> listOf(Occasion.WEDDING, Occasion.CEREMONY)
-        FabricCategory.SILK, FabricCategory.CHIFFON -> listOf(Occasion.WEDDING, Occasion.PARTY)
+        FabricCategory.SILK, FabricCategory.CHIFFON,
+        FabricCategory.CREPE, FabricCategory.ORGANZA_TULLE ->
+            listOf(Occasion.WEDDING, Occasion.PARTY)
         FabricCategory.VELVET -> listOf(Occasion.PARTY, Occasion.CEREMONY)
         FabricCategory.DENIM -> listOf(Occasion.EVERYDAY, Occasion.OFFICE)
         FabricCategory.LINEN -> listOf(Occasion.EVERYDAY, Occasion.OFFICE)
+        FabricCategory.SEERSUCKER -> listOf(Occasion.EVERYDAY, Occasion.OFFICE)
         FabricCategory.COTTON_PLAIN -> listOf(Occasion.EVERYDAY, Occasion.OFFICE)
         FabricCategory.FUGU, FabricCategory.GONJA -> listOf(Occasion.FESTIVAL, Occasion.CEREMONY, Occasion.EVERYDAY)
         FabricCategory.UNKNOWN -> listOf(Occasion.EVERYDAY)

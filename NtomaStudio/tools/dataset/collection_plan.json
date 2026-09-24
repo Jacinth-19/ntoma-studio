@@ -1,0 +1,162 @@
+{
+  "plan": "ntoma_fabric_dataset_v2",
+  "version": 2,
+  "date": "2026-09-24",
+  "scope": "GHANA ONLY",
+  "total_target": 50000,
+  "counting_rule": "UNIQUE RAW PHOTOS ONLY. Augmented output (tools/dataset/augmented/) must never be counted toward this target - augmentation multiplies an existing photo, it does not add information. train_starter.py already reports 'curated raws per class' separately for this reason. A target met by counting augmented files is a target not met.",
+  "basis": {
+    "classes": 25,
+    "negative_share": 0.106,
+    "note": "Targets are NOT flat. They are weighted by how confusable each class is with its nearest neighbour, because that is what actually caps accuracy. See docs/TAXONOMY_GHANA.md.",
+    "why_not_flat": "In the 2026-09-01 starter run, 83 photos across 17 classes gave MACRO 0.419 overall while KENTE, GONJA and BATIK scored 0.00. Flat allocation would have spread effort evenly across easy and impossible classes and reproduced that result."
+  },
+  "tiers": {
+    "1": {"label": "critical confusable pairs", "classes": 9, "target": 27300, "per_class": "2,200-3,500", "rationale": "Each of these is one half of a pair a trained eye barely separates. These classes decide whether the model is shippable."},
+    "2": {"label": "moderate", "classes": 6, "target": 9800, "per_class": "800-2,200", "rationale": "Distinct but with real overlap, or low commercial volume making collection slow."},
+    "3": {"label": "visually distinct", "classes": 10, "target": 7600, "per_class": "500-1,100", "rationale": "ImageNet features plus a frozen backbone already separate these; volume buys robustness, not breakthrough."},
+    "0": {"label": "negative / reject", "classes": 1, "target": 5300, "per_class": "5,300", "rationale": "Without an honest reject class the model answers confidently on walls, garments and blur. Target is ~10% of the corpus."}
+  },
+  "targets": {
+    "KENTE_ASHANTI": 3500,
+    "KETE_EWE": 2200,
+    "KENTE_PRINT": 3500,
+    "FUGU_BATAKARI": 3000,
+    "GONJA": 2800,
+    "WAX_REAL": 3500,
+    "FANCY_PRINT": 3200,
+    "BATIK": 3000,
+    "TIEDYE": 2600,
+    "ADINKRA": 2200,
+    "JAVA_PRINT": 1600,
+    "LACE": 2200,
+    "BROCADE_BAZIN": 2000,
+    "OBAMA_EMBROIDERY": 1000,
+    "NWOMU": 800,
+    "SATIN_SILK": 1100,
+    "CHIFFON_GEORGETTE": 1000,
+    "CREPE": 800,
+    "ORGANZA_TULLE": 800,
+    "VELVET": 800,
+    "LINEN": 700,
+    "COTTON_PLAIN": 700,
+    "DENIM": 700,
+    "SEERSUCKER": 500,
+    "TAPESTRY_JACQUARD": 500,
+    "UNKNOWN": 5300
+  },
+  "source_yield_note": "Source yields are NOT disjoint and must not be read as summing to the target: one class is deliberately fed from several sources so no single location dominates it. They are a supply budget with ~11% planned slack for photos lost to duplicate rejection, blur and unusable lighting.",
+  "sources_planned_yield": 55300,
+  "sources_slack_vs_target": 1.106,
+  "sources": [
+    {
+      "id": "S1", "name": "Weaver cooperatives", "yield": 15000,
+      "classes": ["KENTE_ASHANTI", "KETE_EWE", "FUGU_BATAKARI", "GONJA"],
+      "places": ["Bonwire", "Adanwomase", "Kpetoe", "Tamale", "Salaga", "Bolgatanga"],
+      "access": "Negotiate with the cooperative leadership. Pay per session, not per photo.",
+      "advantage": "Only reliable source of construction ground truth: you can photograph the loom, the strip seams and the weft floats, and get the weaver to name the pattern. This is what makes KENTE vs KENTE_PRINT learnable."
+    },
+    {
+      "id": "S2", "name": "Market photography days", "yield": 18000,
+      "classes": ["WAX_REAL", "FANCY_PRINT", "JAVA_PRINT", "LACE", "BROCADE_BAZIN", "SATIN_SILK", "CHIFFON_GEORGETTE", "CREPE", "ORGANZA_TULLE", "VELVET", "LINEN", "COTTON_PLAIN", "DENIM", "SEERSUCKER", "KENTE_PRINT", "TAPESTRY_JACQUARD"],
+      "places": ["Makola (Accra)", "Kaneshie (Accra)", "Kantamanto (Accra)", "Kejetia (Kumasi)", "Tamale Central", "Aboabo (Tamale)"],
+      "access": "Per-stall goodwill payment; traders are usually happy if asked politely and paid.",
+      "advantage": "Highest volume per collector-day. Also the only place to capture the real-world lighting and clutter distribution the model will actually face."
+    },
+    {
+      "id": "S3", "name": "Heritage workshops", "yield": 5000,
+      "classes": ["ADINKRA", "NWOMU", "BATIK", "TIEDYE", "OBAMA_EMBROIDERY"],
+      "places": ["Ntonso Adinkra Village", "Accra Arts Centre", "Kumasi", "Ho"],
+      "access": "Artisan cooperatives; schedule around production runs, not on demand.",
+      "advantage": "The only source for NWOMU, OBAMA and the adinkra colour variants (kobene/kuntunkuni/brisi). Slow and low-yield, so start early."
+    },
+    {
+      "id": "S4", "name": "Distributor / importer warehouses", "yield": 6000,
+      "classes": ["WAX_REAL", "FANCY_PRINT", "JAVA_PRINT", "SEERSUCKER", "TAPESTRY_JACQUARD"],
+      "places": ["GTP Tema", "Woodin / ATL outlets", "Chinese importer warehouses (Accra, Kumasi)"],
+      "access": "Commercial partnership; they get a channel, you get labelled stock.",
+      "advantage": "Gives the double-sided vs single-sided ground truth by brand, at scale, with zero labelling ambiguity. This is the single highest-quality source for the WAX_REAL/FANCY_PRINT split."
+    },
+    {
+      "id": "S5", "name": "In-app user contributions", "yield": 4000,
+      "classes": ["ALL"],
+      "access": "Already shipped: Settings -> Contribute fabric photos, with consent, dHash near-dupe rejection, per-photo category fix-up and a manifest-bearing export zip.",
+      "advantage": "Zero marginal cost per photo and it samples the true user distribution. Weakness: label noise and selection bias toward whatever users happen to own."
+    },
+    {
+      "id": "S6", "name": "Tailor / seamstress network", "yield": 2000,
+      "classes": ["ALL"],
+      "places": ["Makola tailoring lanes", "Kejetia", "Madina Market"],
+      "access": "Tailors hold fabric bolts AND offcuts and will photograph a client's cloth.",
+      "advantage": "Cheapest way to reach COTTON_PLAIN, LINEN and CREPE volume without market days."
+    },
+    {
+      "id": "S7", "name": "Field rejects for UNKNOWN", "yield": 5300,
+      "classes": ["UNKNOWN"],
+      "access": "Instruct every collector to log everything the model would wrongly classify: garments on people, walls, plastic, multi-fabric bundles, motion-blurred frames, screens, market clutter.",
+      "advantage": "Free, and it is the only honest source of the reject class. Synthetic hard negatives supplement but do not replace it."
+    }
+  ],
+  "phases": [
+    {"id": "P0", "name": "Pilot", "weeks": "1", "collectors": 2, "target": 2000, "counted_within": "P1",
+     "classes": ["KENTE_ASHANTI", "KENTE_PRINT", "WAX_REAL", "FANCY_PRINT", "FUGU_BATAKARI", "GONJA"],
+     "gate": "Run ingest.py --apply and train_starter.py end to end. Confirm augmented/ is excluded from counts and that held-out real photos report a per-class table. Do not scale until this passes."},
+    {"id": "P1", "name": "Tier 1", "weeks": "2-5", "collectors": 10, "target": 25300, "plus_pilot": 2000, "tier_total": 27300,
+     "classes": ["KENTE_ASHANTI", "KETE_EWE", "KENTE_PRINT", "FUGU_BATAKARI", "GONJA", "WAX_REAL", "FANCY_PRINT", "BATIK", "TIEDYE"],
+     "gate": "Each tier-1 class clears its target with >= 40% of photos from a source the others do not use."},
+    {"id": "P2", "name": "Tier 2 + 3", "weeks": "6-8", "collectors": 8, "target": 17400,
+     "classes": ["ADINKRA", "JAVA_PRINT", "LACE", "BROCADE_BAZIN", "OBAMA_EMBROIDERY", "NWOMU", "SATIN_SILK", "CHIFFON_GEORGETTE", "CREPE", "ORGANZA_TULLE", "VELVET", "LINEN", "COTTON_PLAIN", "DENIM", "SEERSUCKER", "TAPESTRY_JACQUARD"],
+     "gate": "No class below 60% of target; importers' stock shots not exceeding 50% of any dress-fabric class."},
+    {"id": "P3", "name": "Negatives + gap fill + QA", "weeks": "9-10", "collectors": 4, "target": 5300,
+     "classes": ["UNKNOWN"],
+     "gate": "UNKNOWN >= 10% of corpus. Near-duplicate rate across the whole pool < 2% after ingest. Session-based train/val/test split frozen and written to disk."}
+  ],
+  "throughput": {
+    "unique_photos_per_collector_day": 200,
+    "note": "Achievable in a market with a good phone, the app's dHash check running in the field, and a collector who is not also doing data entry. Verified plan total below uses 200.",
+    "collector_days_required": 250,
+    "configurations": [
+      {"collectors": 10, "field_days": 25, "calendar_weeks": "7-9"},
+      {"collectors": 5, "field_days": 50, "calendar_weeks": "12-14"},
+      {"collectors": 2, "field_days": 125, "calendar_weeks": "30+"}
+    ]
+  },
+  "storage": {
+    "raw_originals_at_2_4mb": "100-200 GB - cold storage only (object bucket / rclone), never Git",
+    "working_set_at_224px": "~2.5 GB for 50,000",
+    "working_set_at_512px": "~12 GB for 50,000 - recommended for review and for retraining at higher input size later",
+    "git_policy": "tools/dataset/raw/ is already gitignored. Keep it that way; ship only the derived .tflite and the labels json."
+  },
+  "budget_ghs": {
+    "ghs_per_usd": 11.5,
+    "collector_day_rate": {"unit": 250, "total": 62500, "basis": "250 collector-days"},
+    "phones_and_accessories": {"unit": 2500, "total": 25000, "basis": "10 handsets + power banks + macro clip-ons"},
+    "transport_and_logistics": {"unit": null, "total": 30000, "basis": "intercity travel to Bonwire, Kpetoe, Tamale, Salaga, Ntonso"},
+    "market_goodwill_and_access": {"unit": null, "total": 25000, "basis": "per-stall and per-cooperative payments"},
+    "annotation_qa_and_relabel": {"unit": null, "total": 20000, "basis": "50,000 x ~GHS 0.40 reviewer pass + disagreement adjudication"},
+    "storage_and_cloud": {"unit": null, "total": 3500, "basis": "1 year"},
+    "total": 166000,
+    "total_usd_approx": 14435
+  },
+  "risks": [
+    {"risk": "Counting augmented images toward 50,000", "impact": "CRITICAL", "mitigation": "track_collection.py counts raw/ only and prints the augmented/ count separately as a warning."},
+    {"risk": "Near-duplicate burst frames inflating a class", "impact": "HIGH", "mitigation": "ingest.py dHash gate (hamming <= 6) on the way in; tracker re-checks exact MD5 dupes."},
+    {"risk": "One location dominating a class", "impact": "HIGH", "mitigation": "P1 gate requires >= 40% of each tier-1 class from a distinct source; tracker reports source concentration if filenames carry a site prefix."},
+    {"risk": "Train/val leakage by augmented twin", "impact": "CRITICAL", "mitigation": "Split by capture session, never by image. train_starter.py already holds out whole real photos - keep that property as volume grows."},
+    {"risk": "Balanced training vs skewed reality", "impact": "MEDIUM", "mitigation": "Train balanced, but also report on a test set re-weighted to market frequency. FANCY_PRINT outnumbers WAX_REAL in the real market by a wide margin; the model must not imply otherwise."},
+    {"risk": "Licensing of collector-acquired photos", "impact": "HIGH", "mitigation": "Written contributor consent at collection, same as the in-app flow already enforces. Market photos of another trader's stock need their permission too - pay for it explicitly."},
+    {"risk": "KENTE_ASHANTI photographed only in studio conditions", "impact": "MEDIUM", "mitigation": "Force on-body and market-shade variants into the pool; a model trained only on flat studio kente will fail on the actual use case."}
+  ],
+  "acceptance": {
+    "definition_of_done": [
+      "Every class at or above its target in raw/ (unique, deduped)",
+      "UNKNOWN >= 10% of the corpus",
+      "Per-class held-out accuracy reported with the validation split by session",
+      "Confusion matrix checked specifically on the four critical pairs: KENTE_ASHANTI/KENTE_PRINT, FUGU/GONJA, WAX_REAL/FANCY_PRINT, BATIK/TIEDYE",
+      "A device test set from phones and lighting conditions never seen in training",
+      "Model exports to a ~2-4 MB int8 tflite behind the existing AnalysisEngine interface",
+      "ON_DEVICE_DEMO labelling is only removed for classes that genuinely cleared the bar"
+    ],
+    "note": "50,000 is the target for a defensible production model in Ghana. It is not a promise of a particular accuracy number - that depends on how cleanly the four critical pairs separate, which no volume of photographs can guarantee in advance."
+  }
+}

@@ -567,8 +567,14 @@
     <!-- ============ Catalogue: fabrics ============ -->
     <string name="fabric_kente">Kente</string>
     <string name="fabric_kente_desc">Hand-woven strip cloth from the Ashanti and Ewe traditions, known for bold geometric blocks.</string>
+    <string name="fabric_kete_ewe">Kete (Ewe kente)</string>
+    <string name="fabric_kete_ewe_desc">Ewe hand-woven strip cloth from the Volta Region, brighter and more symmetrical than Ashanti kente.</string>
     <string name="fabric_adinkra">Adinkra</string>
     <string name="fabric_adinkra_desc">Cotton stamped with symbols cut from calabash, traditionally worn for mourning and ceremony.</string>
+    <string name="fabric_nwomu">Nwomu</string>
+    <string name="fabric_nwomu_desc">Hand-stamped cloth from the Ntonso tradition, a cousin of adinkra with its own stamp vocabulary.</string>
+    <string name="fabric_obama_embroidery">Obama (embroidery cloth)</string>
+    <string name="fabric_obama_embroidery_desc">Ghanaian cloth covered in dense machine embroidery, worn for festive occasions.</string>
     <string name="fabric_wax">Wax print (Ankara)</string>
     <string name="fabric_wax_desc">Vibrant wax-resist printed cotton, the everyday fabric of West African dressmaking.</string>
     <string name="fabric_ankara">Ankara print</string>
@@ -577,6 +583,8 @@
     <string name="fabric_batik_desc">Hand-dyed resist cloth with soft, blended edges and organic motifs.</string>
     <string name="fabric_tiedye">Tie-dye</string>
     <string name="fabric_tiedye_desc">Bound and dyed cloth with radiating rings and marbled gradients.</string>
+    <string name="fabric_java_print">Java print</string>
+    <string name="fabric_java_print_desc">Industrial print imitating Indonesian batik, sold in Ghana alongside wax print.</string>
     <string name="fabric_lace">Lace</string>
     <string name="fabric_lace_desc">Open-work embroidered cloth, a favourite for weddings and church.</string>
     <string name="fabric_brocade">Brocade / Bazin</string>
@@ -585,16 +593,24 @@
     <string name="fabric_cotton_plain_desc">Even, matte weave in a single colour — quiet and versatile.</string>
     <string name="fabric_linen">Linen</string>
     <string name="fabric_linen_desc">Slubby, breathable weave with a relaxed natural texture.</string>
+    <string name="fabric_seersucker">Seersucker</string>
+    <string name="fabric_seersucker_desc">Puckered summer cotton that stays cool and needs almost no ironing.</string>
     <string name="fabric_silk">Silk / satin</string>
     <string name="fabric_silk_desc">Smooth, reflective surface with a fluid drape.</string>
     <string name="fabric_chiffon">Chiffon</string>
     <string name="fabric_chiffon_desc">Sheer, airy weave that moves with the body.</string>
+    <string name="fabric_crepe">Crepe</string>
+    <string name="fabric_crepe_desc">Matte crinkled weave with a soft drape, a favourite for formal dresses.</string>
+    <string name="fabric_organza_tulle">Organza / tulle</string>
+    <string name="fabric_organza_tulle_desc">Crisp sheer cloth and fine net, the backbone of Ghanaian bridal wear.</string>
     <string name="fabric_velvet">Velvet</string>
     <string name="fabric_velvet_desc">Dense pile with deep, light-catching colour.</string>
     <string name="fabric_denim">Denim</string>
     <string name="fabric_denim_desc">Sturdy indigo twill with a visible diagonal weave.</string>
     <string name="fabric_kente_print">Kente-style print</string>
     <string name="fabric_kente_print_desc">Printed cotton imitating woven strip motifs — a possible match, not woven kente.</string>
+    <string name="fabric_tapestry_jacquard">Tapestry / jacquard</string>
+    <string name="fabric_tapestry_jacquard_desc">Machine-woven jacquard with a kente-like look, used for furnishing and kente-style panels.</string>
     <string name="fabric_unknown">Unidentified cloth</string>
     <string name="fabric_unknown_desc">We could not place this fabric confidently. The colour and pattern notes still hold.</string>
 

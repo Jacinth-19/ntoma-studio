@@ -56,6 +56,25 @@ def specifiers(v: str):
     return sorted(SPEC.findall(v))
 
 
+def load_untranslated():
+    """Keys deliberately left untranslated; see tools/i18n/untranslated.txt.
+
+    They are omitted from the generated locale files instead of being written as
+    empty or English text. Android falls back per key to values/strings.xml, so
+    the UI shows correct English until a real translation is supplied — at which
+    point removing the key from the list is all that is needed.
+    """
+    path = I18N / "untranslated.txt"
+    if not path.exists():
+        return set()
+    keys = set()
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            keys.add(line)
+    return keys
+
+
 def load_pack(files):
     out = {}
     for name in files:
@@ -80,13 +99,28 @@ def load_pack(files):
 def main():
     english = read_english()
     en_map = dict(english)
-    print(f"English strings: {len(english)}")
+    untranslated = load_untranslated()
+    unknown_untranslated = sorted(untranslated - set(en_map))
+    if unknown_untranslated:
+        print(f"[untranslated.txt] names keys that do not exist: {unknown_untranslated}")
+    print(f"English strings: {len(english)} "
+          f"({len(untranslated)} deliberately untranslated, English fallback)")
 
     failures = 0
     for tag, (lang, *files) in PACKS.items():
         pack = load_pack(files)
-        missing = [k for k, _ in english if k not in pack]
+        # A key is only "missing" if it was not declared as untranslated.
+        missing = [k for k, _ in english if k not in pack and k not in untranslated]
         extra = [k for k in pack if k not in en_map]
+        # Catch a translation that landed in the TSV but was left on the skip list,
+        # where it would be silently ignored.
+        stale = sorted(
+            k for k in untranslated
+            if k in pack and pack[k].strip() and pack[k] != en_map.get(k)
+        )
+        if stale:
+            failures += 1
+            print(f"[{tag}] TRANSLATED BUT STILL LISTED in untranslated.txt: {stale[:8]}")
         if missing:
             failures += 1
             print(f"[{tag}] MISSING {len(missing)}: {missing[:8]}")
@@ -113,16 +147,20 @@ def main():
                                   target.read_text(encoding="utf-8"), re.S))
             keep = old
         lines = [HEADER.format(lang=lang, tag=tag)]
+        written = 0
         for k, en_val in english:
+            if k in untranslated:
+                continue  # omit entirely; Android falls back to values/strings.xml
             if k in keep and keep[k].strip():
                 body = keep[k].strip()   # already escaped at ship time
             else:
                 body = android_value(pack.get(k, ""))
             lines.append(f'    <string name="{k}">{body}</string>\n')
+            written += 1
         lines.append("</resources>\n")
         target.write_text("".join(lines), encoding="utf-8")
-        print(f"[{tag}] wrote {target.relative_to(ROOT)} ({len(english)} entries, "
-              f"{len(keep)} preserved)")
+        print(f"[{tag}] wrote {target.relative_to(ROOT)} ({written} entries, "
+              f"{len(keep)} preserved, {len(untranslated)} left to English)")
 
     if failures:
         print("VALIDATION FAILED")

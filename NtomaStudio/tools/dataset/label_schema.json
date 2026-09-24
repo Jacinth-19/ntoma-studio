@@ -1,17 +1,229 @@
 {
   "task": "ghanaian_fabric_classification",
-  "version": 1,
+  "version": 2,
+  "scope": "GHANA ONLY - categories reflect what is actually traded in Ghanaian markets (Makola, Kantamala, Kaneshie, Kejetia, Tamale Central). Heritage textiles are separated from imported-but-daily fabrics, because a Ghana-only app must not tell a user that Vlisco is Ghanaian.",
   "classes": [
-    "KENTE", "KENTE_PRINT", "ADINKRA", "WAX", "ANKARA", "BATIK", "TIEDYE",
-    "LACE", "BROCADE", "COTTON_PLAIN", "LINEN", "SILK", "CHIFFON", "VELVET",
-    "DENIM", "FUGU", "GONJA"
+    "KENTE_ASHANTI", "KETE_EWE", "FUGU_BATAKARI", "GONJA",
+    "ADINKRA", "BATIK", "TIEDYE", "NWOMU", "OBAMA_EMBROIDERY",
+    "KENTE_PRINT", "WAX_REAL", "FANCY_PRINT", "JAVA_PRINT",
+    "LACE", "BROCADE_BAZIN", "SATIN_SILK", "CHIFFON_GEORGETTE",
+    "CREPE", "ORGANZA_TULLE", "VELVET",
+    "LINEN", "COTTON_PLAIN", "DENIM", "SEERSUCKER", "TAPESTRY_JACQUARD",
+    "UNKNOWN"
   ],
   "folder_layout": "raw/<CLASS_NAME>/*.jpg  (one folder per class, mirroring FabricCategory)",
+  "class_details": {
+    "KENTE_ASHANTI": {
+      "tier": 1, "group": "HERITAGE_WOVEN", "origin": "GH",
+      "aka": ["nwentoma", "nsaduaso"],
+      "named_patterns": ["Adweneasa", "Sika Futuro", "Oyokoman", "Fathiafata Nsuasua", "Mmarima", "Oheneba"],
+      "confusable_with": ["KENTE_PRINT", "KETE_EWE", "TAPESTRY_JACQUARD"],
+      "why_hard": "Printed imitations share the exact motifs. Discriminator is construction: weft floats, strip seams, visible hand-beaten weft.",
+      "sources": ["Bonwire", "Adanwomase", "Kumasi Kejetia"]
+    },
+    "KETE_EWE": {
+      "tier": 1, "group": "HERITAGE_WOVEN", "origin": "GH",
+      "aka": ["Agbamevor", "Ewe kente"],
+      "confusable_with": ["KENTE_ASHANTI", "KENTE_PRINT"],
+      "why_hard": "Same narrow-strip weave as Ashanti kente. Ewe kete is typically brighter, more geometrically symmetric, and often figural or proverbial rather than block-based.",
+      "sources": ["Kpetoe", "Ho", "Volta Region weaver co-ops"]
+    },
+    "FUGU_BATAKARI": {
+      "tier": 1, "group": "HERITAGE_WOVEN", "origin": "GH",
+      "aka": ["Batakari", "Dansika", "Bana", "Bun-nwo", "smock", "Northern Kente"],
+      "confusable_with": ["GONJA", "KENTE_ASHANTI"],
+      "why_hard": "Same hand-loomed narrow-strip construction as Gonja; differs mainly in palette. 'Northern Kente' is a marketing name for this same strip cloth sold as a kente substitute.",
+      "sources": ["Tamale Central Market", "Salaga", "Yendi", "Bolgatanga"]
+    },
+    "GONJA": {
+      "tier": 1, "group": "HERITAGE_WOVEN", "origin": "GH",
+      "aka": ["Gonja cloth"],
+      "confusable_with": ["FUGU_BATAKARI"],
+      "why_hard": "Identical weaving; palette skews ochre/brown with white and black, where Fugu skews indigo/black/white.",
+      "sources": ["Salaga", "Damongo", "Northern Region"]
+    },
+    "ADINKRA": {
+      "tier": 2, "group": "HERITAGE_STAMPED", "origin": "GH",
+      "aka": ["Adinkra cloth"],
+      "colour_variants": {
+        "KOBENE": "brick red / vermilion, funeral",
+        "KUNTUNKUNI": "dark brown, funeral, bark of Bombax brevicuspe",
+        "BRISI": "black or indigo, may carry no symbols at all"
+      },
+      "confusable_with": ["NWOMU", "KENTE_PRINT", "BATIK"],
+      "why_hard": "Colour variants are named classes in the literature but are one visual family; treat colour as an attribute. Brisi with no symbols is a near-plain black cloth and will fight every dark class.",
+      "sources": ["Ntonso Adinkra Village", "Kumasi", "Bono Region"]
+    },
+    "BATIK": {
+      "tier": 1, "group": "HERITAGE_DYED", "origin": "GH",
+      "confusable_with": ["TIEDYE", "JAVA_PRINT"],
+      "why_hard": "Both resist-dyed with soft, blended edges. Batik shows crackle lines and hand-drawn wax contours; tie-dye shows concentric ring or marble geometry.",
+      "sources": ["Accra Arts Centre", "Kumasi", "Ho"]
+    },
+    "TIEDYE": {
+      "tier": 1, "group": "HERITAGE_DYED", "origin": "GH",
+      "aka": ["tie and dye", "ntoma a wɔde"],
+      "confusable_with": ["BATIK", "JAVA_PRINT"],
+      "why_hard": "Same resist family as batik.",
+      "sources": ["Accra", "Kumasi", "Cape Coast"]
+    },
+    "NWOMU": {
+      "tier": 2, "group": "HERITAGE_STAMPED", "origin": "GH",
+      "aka": ["Nwomu Ntiamu"],
+      "confusable_with": ["ADINKRA", "BATIK"],
+      "why_hard": "Stamped like adinkra but from a different Ntonso tradition; low commercial volume means harder to find and label confidently.",
+      "sources": ["Ntonso", "Kumasi"]
+    },
+    "OBAMA_EMBROIDERY": {
+      "tier": 2, "group": "HERITAGE_EMBROIDERED", "origin": "GH",
+      "aka": ["Obama cloth", "embroidery cloth"],
+      "confusable_with": ["BROCADE_BAZIN", "LACE"],
+      "why_hard": "Low volume, and visually an embroidered surface like lace and brocade.",
+      "sources": ["Kumasi", "Accra boutiques"]
+    },
+    "KENTE_PRINT": {
+      "tier": 1, "group": "PRINT_MARKET", "origin": "GH/CN",
+      "confusable_with": ["KENTE_ASHANTI", "KETE_EWE"],
+      "why_hard": "The single most important fake-vs-real pair in Ghana. Printed cotton imitating woven strip motifs.",
+      "sources": ["Makola", "Kaneshie", "Kejetia"]
+    },
+    "WAX_REAL": {
+      "tier": 1, "group": "PRINT_MARKET", "origin": "NL/GH",
+      "aka": ["Dutch wax", "Ankara (real)", "wax print"],
+      "brands": ["Vlisco", "GTP", "Woodin", "ATL", "ABC", "Uniwax"],
+      "confusable_with": ["FANCY_PRINT", "JAVA_PRINT"],
+      "why_hard": "Real wax is printed on BOTH faces with registration; the visual difference from fancy print is subtle in a photo but decisive in the market and in price (2-4x).",
+      "sources": ["GTP Tema", "Woodin shops", "Makola", "Kejetia"]
+    },
+    "FANCY_PRINT": {
+      "tier": 1, "group": "PRINT_MARKET", "origin": "CN/IN",
+      "aka": ["fancy wax", "Hitarget", "Imiwax", "Phoenix", "fake wax", "single-sided"],
+      "confusable_with": ["WAX_REAL", "JAVA_PRINT"],
+      "why_hard": "Most of the market by volume. Printed one side only, thinner cotton, quicker fade.",
+      "sources": ["Kantamanto", "Makola wholesale", "Kejetia"]
+    },
+    "JAVA_PRINT": {
+      "tier": 2, "group": "PRINT_MARKET", "origin": "ID/CN",
+      "aka": ["Java wax", "batik-inspired industrial print"],
+      "confusable_with": ["BATIK", "WAX_REAL"],
+      "why_hard": "Industrial print imitating Indonesian batik; sits between batik and wax print.",
+      "sources": ["Makola", "Kejetia", "craft co-ops"]
+    },
+    "LACE": {
+      "tier": 2, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "subtypes": ["Swiss lace", "French lace", "guipure", "cord lace", "sequin lace", "beaded lace", "Vlisco lace"],
+      "confusable_with": ["OBAMA_EMBROIDERY", "ORGANZA_TULLE"],
+      "why_hard": "Subtype range is wide (sheer guipure to heavy beaded) which stresses intra-class variance.",
+      "sources": ["Makola", "Kaneshie", "Osu boutiques"]
+    },
+    "BROCADE_BAZIN": {
+      "tier": 2, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "aka": ["Bazin riche", "Getzner", "Brocade"],
+      "confusable_with": ["SATIN_SILK", "OBAMA_EMBROIDERY"],
+      "why_hard": "Lustrous jacquard; gloss overlaps satin under bright market light.",
+      "sources": ["Makola", "Kejetia"]
+    },
+    "SATIN_SILK": {
+      "tier": 3, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "aka": ["silk satin", "satin"],
+      "confusable_with": ["BROCADE_BAZIN", "CHIFFON_GEORGETTE"],
+      "sources": ["Makola", "Kaneshie"]
+    },
+    "CHIFFON_GEORGETTE": {
+      "tier": 3, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "confusable_with": ["ORGANZA_TULLE", "SATIN_SILK"],
+      "sources": ["Makola", "Kaneshie"]
+    },
+    "CREPE": {
+      "tier": 3, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "aka": ["crepe de chine", "moss crepe"],
+      "confusable_with": ["SATIN_SILK", "VELVET"],
+      "sources": ["Makola", "Kejetia"]
+    },
+    "ORGANZA_TULLE": {
+      "tier": 3, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "aka": ["organza", "tulle", "net"],
+      "confusable_with": ["CHIFFON_GEORGETTE", "LACE"],
+      "why_hard": "Very sheer; camera exposure and background bleed through, so framing matters more than for opaque cloth.",
+      "sources": ["Makola bridal lanes", "Kaneshie"]
+    },
+    "VELVET": {
+      "tier": 3, "group": "DRESS_BRIDAL", "origin": "IMP",
+      "aka": ["velveteen", "velour"],
+      "confusable_with": ["CREPE", "DENIM"],
+      "sources": ["Makola", "Kejetia"]
+    },
+    "LINEN": {
+      "tier": 3, "group": "EVERYDAY", "origin": "IMP",
+      "confusable_with": ["COTTON_PLAIN", "SEERSUCKER"],
+      "sources": ["Makola", "Osu", "Kaneshie"]
+    },
+    "COTTON_PLAIN": {
+      "tier": 3, "group": "EVERYDAY", "origin": "GH/IMP",
+      "aka": ["poplin", "plain cotton", "solid cotton"],
+      "confusable_with": ["LINEN", "SEERSUCKER"],
+      "why_hard": "Largest intra-class variance of any class: every solid colour is the same class. Saturation of one colour in the corpus will bias the model.",
+      "sources": ["Makola", "Kaneshie", "Kejetia"]
+    },
+    "DENIM": {
+      "tier": 3, "group": "EVERYDAY", "origin": "IMP",
+      "confusable_with": ["VELVET", "COTTON_PLAIN"],
+      "sources": ["Kantamanto", "Makola"]
+    },
+    "SEERSUCKER": {
+      "tier": 3, "group": "EVERYDAY", "origin": "IMP",
+      "confusable_with": ["LINEN", "COTTON_PLAIN"],
+      "sources": ["Makola", "Kaneshie"]
+    },
+    "TAPESTRY_JACQUARD": {
+      "tier": 3, "group": "OTHER", "origin": "GH/CN",
+      "aka": ["kente tapestry", "jacquard furnishing"],
+      "confusable_with": ["KENTE_PRINT", "KENTE_ASHANTI", "BROCADE_BAZIN"],
+      "why_hard": "Machine-jacquard kente look-alike used for furnishing; if left unmodelled it will be absorbed into KENTE_PRINT and poison that class.",
+      "sources": ["Makola", "furnishing shops", "importers"]
+    },
+    "UNKNOWN": {
+      "tier": 0, "group": "NEGATIVE", "origin": "N/A",
+      "aka": ["OTHER", "reject", "not-a-fabric"],
+      "why_hard": "Not a fabric at all: garments, walls, plastic, multi-fabric bundles, motion-blurred frames, screens. Without this class the model cannot honestly refuse.",
+      "sources": ["in-app rejects", "collector field rejects", "synthetic hard negatives"]
+    }
+  },
   "collection_guidance": {
-    "per_class_target": "300+ real photos before training; 1000+ before claiming accuracy numbers",
-    "capture": "fabric flat or draped, fills most of frame; vary lighting (daylight, market shade, indoor), distance (30cm-2m), angle, folds",
-    "sources": "market photography days (Makola, Kantamanto, Kejetia), weaver cooperatives (Bonwire kente, Tamale fugu), user-contributed photos with consent",
-    "avoid": "screens, prints of photos, watermarked stock, near-duplicate burst frames",
-    "honesty": "never mix authentic hand-woven and machine-printed samples in KENTE without labelling; consider a separate AUTHENTICITY task (see Authente-Kente)"
+    "per_class_target": "use tools/dataset/collection_plan.json - targets are class-specific, not flat",
+    "capture": "fabric flat or draped, fills most of frame; vary lighting (daylight, market shade, indoor), distance (30cm-2m), angle, folds. Shoot BOTH faces for wax prints - the double-sided test is the key discriminator.",
+    "sources": "market photography days (Makola, Kaneshie, Kantamanto, Kejetia, Tamale Central), weaver cooperatives (Bonwire, Adanwomase kente; Kpetoe Ewe kete; Tamale fugu), Ntonso for adinkra, importer/distributor warehouses, user contributions with consent",
+    "avoid": "screens, prints of photos, watermarked stock, near-duplicate burst frames, single-colour-only cotton_plain, and any fabric photographed on a person (label that separately - it is a different distribution)",
+    "honesty": "never mix authentic hand-woven and machine-printed samples in KENTE_ASHANTI without labelling; CONSTRUCTION is the label, not motif. Keep the woven/printed split absolute.",
+    "split_rule": "hold out validation AND test by capture session and by source location - never split augmented variants of one photo across train/val"
+  },
+  "aliases": {
+    "_comment": "Contribution zips exported by the SHIPPED v1 app carry v1 category names. ingest.py resolves them through this map so no user contribution is ever rejected or silently mislabelled. Names are NOT reinstated into 'classes' - that would recreate the duplicate-class bug.",
+    "BROCADE": "BROCADE_BAZIN",
+    "SILK": "SATIN_SILK",
+    "CHIFFON": "CHIFFON_GEORGETTE",
+    "FUGU": "FUGU_BATAKARI",
+    "KENTE": "@REVIEW",
+    "WAX": "@REVIEW",
+    "ANKARA": "@REVIEW"
+  },
+  "review_reason": {
+    "KENTE": "v1 described this as 'hand-woven strip cloth from the Ashanti and Ewe traditions', so the woven/printed split survives but the Ashanti-vs-Ewe split does not. A v1 KENTE photo is genuinely either KENTE_ASHANTI or KETE_EWE and no re-processing can recover which.",
+    "WAX": "v1 'Wax print (Ankara)' described the whole printed-cotton category. Real wax (double-sided) and fancy print (single-sided) are photometrically similar and the v1 contributor was never asked which. Needs the turn-the-cloth-over test by a human.",
+    "ANKARA": "v1 'Ankara print' said 'saturated colour on both faces' - which is the REAL WAX marker - while v1 'WAX' was described generically. The two v1 classes contradicted each other, so neither label can be trusted to mean WAX_REAL or FANCY_PRINT."
+  },
+  "migration_from_v1": {
+    "KENTE": "-> KENTE_ASHANTI (woven only; printed kente moved out)",
+    "KENTE_PRINT": "-> KENTE_PRINT (unchanged)",
+    "ADINKRA": "-> ADINKRA (kobene/kuntunkuni/brisi become colour attributes)",
+    "WAX": "-> WAX_REAL (redefined: double-sided real wax)",
+    "ANKARA": "-> FANCY_PRINT (the honest split is construction, not the word 'ankara', which in Ghana names both)",
+    "BATIK": "-> BATIK", "TIEDYE": "-> TIEDYE", "LACE": "-> LACE",
+    "BROCADE": "-> BROCADE_BAZIN", "COTTON_PLAIN": "-> COTTON_PLAIN",
+    "LINEN": "-> LINEN", "SILK": "-> SATIN_SILK", "CHIFFON": "-> CHIFFON_GEORGETTE",
+    "VELVET": "-> VELVET", "DENIM": "-> DENIM",
+    "FUGU": "-> FUGU_BATAKARI", "GONJA": "-> GONJA", "UNKNOWN": "-> UNKNOWN",
+    "added": ["KETE_EWE", "NWOMU", "OBAMA_EMBROIDERY", "JAVA_PRINT", "CREPE", "ORGANZA_TULLE", "SEERSUCKER", "TAPESTRY_JACQUARD"],
+    "note": "Renaming a class is NOT backward compatible on its own: a shipped v1 app exports v1 names, and v1 names are no longer canonical. The 'aliases' map above is what restores compatibility - ingest.py resolves every incoming category through it first. The app contribution picker reads FabricCategory.values(), so the enum must gain the new members before users can contribute them directly."
   }
 }

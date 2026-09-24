@@ -218,21 +218,29 @@ fun DiscoverScreen(nav: NavHostController, padding: PaddingValues) {
 private fun representativeFabric(cat: FabricCategory): com.ntoma.studio.domain.model.Fabric {
     val palette = when (cat) {
         FabricCategory.KENTE -> listOf(0xFFC8952B, 0xFF8C2F39, 0xFF1F5450, 0xFF14110F)
+        FabricCategory.KETE_EWE -> listOf(0xFFC8952B, 0xFF2F7D4F, 0xFFB02E43, 0xFF14110F)
         FabricCategory.ADINKRA -> listOf(0xFF4A2C17, 0xFF14110F, 0xFFB0803F)
+        FabricCategory.NWOMU -> listOf(0xFF3B2418, 0xFF8C6A3F, 0xFF14110F)
+        FabricCategory.OBAMA_EMBROIDERY -> listOf(0xFF1F5450, 0xFFC8952B, 0xFFFDF8F2)
         FabricCategory.WAX, FabricCategory.ANKARA -> listOf(0xFF2F7D4F, 0xFFC8952B, 0xFF8C2F39, 0xFFFDF8F2)
         FabricCategory.BATIK -> listOf(0xFF31556E, 0xFF7FA3BC, 0xFF1D3446)
+        FabricCategory.JAVA_PRINT -> listOf(0xFF6B4A2F, 0xFFC9A227, 0xFF2E4A3F)
         FabricCategory.TIEDYE -> listOf(0xFF274B8F, 0xFF8FB0E8, 0xFFFDF8F2)
         FabricCategory.LACE -> listOf(0xFFE8DED2, 0xFFC9B7A4, 0xFFFDF8F2)
         FabricCategory.BROCADE -> listOf(0xFF2E6E6A, 0xFFC8952B)
         FabricCategory.DENIM -> listOf(0xFF2B3A5C, 0xFF3E5379)
         FabricCategory.LINEN -> listOf(0xFFD9CDBB, 0xFFC9BCA7)
+        FabricCategory.SEERSUCKER -> listOf(0xFFCFE0E8, 0xFFF2F6F8)
         FabricCategory.SILK -> listOf(0xFFB02E43, 0xFFD06A7B)
         FabricCategory.CHIFFON -> listOf(0xFFE7C8D2, 0xFFF6E7EC)
+        FabricCategory.CREPE -> listOf(0xFF7A6A8C, 0xFFA99BB8)
+        FabricCategory.ORGANZA_TULLE -> listOf(0xFFF3E7F0, 0xFFD9C2DC)
         FabricCategory.VELVET -> listOf(0xFF4A0E1C, 0xFF6E1B2C)
         FabricCategory.COTTON_PLAIN -> listOf(0xFFF3EFE7)
         FabricCategory.FUGU -> listOf(0xFF3A4250, 0xFF14110F, 0xFFF2EFE9)
         FabricCategory.GONJA -> listOf(0xFFB8763A, 0xFFF2EFE9, 0xFF14110F)
         FabricCategory.KENTE_PRINT -> listOf(0xFFC8952B, 0xFF1F5450, 0xFF8C2F39)
+        FabricCategory.TAPESTRY_JACQUARD -> listOf(0xFF8A6A3B, 0xFF2F5D50, 0xFF14110F)
         FabricCategory.UNKNOWN -> listOf(0xFF9A8F86)
     }
     return com.ntoma.studio.domain.model.Fabric(
@@ -242,10 +250,15 @@ private fun representativeFabric(cat: FabricCategory): com.ntoma.studio.domain.m
         colors = palette.map { com.ntoma.studio.domain.model.AnalyzedColor(it.toLong() or 0xFF000000L, com.ntoma.studio.domain.model.ColorName.GOLD, 0.25f) },
         pattern = when (cat) {
             FabricCategory.KENTE, FabricCategory.KENTE_PRINT,
-            FabricCategory.FUGU, FabricCategory.GONJA -> com.ntoma.studio.domain.model.PatternType.STRIPED
-            FabricCategory.ADINKRA -> com.ntoma.studio.domain.model.PatternType.SYMBOLIC
-            FabricCategory.BATIK, FabricCategory.TIEDYE -> com.ntoma.studio.domain.model.PatternType.ORGANIC
-            FabricCategory.COTTON_PLAIN, FabricCategory.LINEN, FabricCategory.SILK, FabricCategory.VELVET, FabricCategory.CHIFFON -> com.ntoma.studio.domain.model.PatternType.SOLID
+            FabricCategory.KETE_EWE, FabricCategory.FUGU, FabricCategory.GONJA,
+            FabricCategory.TAPESTRY_JACQUARD -> com.ntoma.studio.domain.model.PatternType.STRIPED
+            FabricCategory.ADINKRA, FabricCategory.NWOMU -> com.ntoma.studio.domain.model.PatternType.SYMBOLIC
+            FabricCategory.BATIK, FabricCategory.TIEDYE,
+            FabricCategory.JAVA_PRINT -> com.ntoma.studio.domain.model.PatternType.ORGANIC
+            FabricCategory.OBAMA_EMBROIDERY -> com.ntoma.studio.domain.model.PatternType.FLORAL
+            FabricCategory.COTTON_PLAIN, FabricCategory.LINEN, FabricCategory.SEERSUCKER,
+            FabricCategory.SILK, FabricCategory.VELVET, FabricCategory.CHIFFON,
+            FabricCategory.CREPE, FabricCategory.ORGANZA_TULLE -> com.ntoma.studio.domain.model.PatternType.SOLID
             else -> com.ntoma.studio.domain.model.PatternType.GEOMETRIC
         },
         texture = com.ntoma.studio.domain.model.TextureType.WOVEN,
