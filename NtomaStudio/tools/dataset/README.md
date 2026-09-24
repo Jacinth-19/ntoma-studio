@@ -13,8 +13,22 @@ tools/dataset/
   augment.py          Pillow-only augmentation: crop/rotate/perspective/jitter -> augmented/
   train_finetune.py   Keras MobileNetV3-Small fine-tune -> quantized .tflite + val accuracy
   ingest.py           import an app contribution zip into raw/ (validated, deduped)
+  verify_catalog.py   audit the SHIPPED catalog: label<->asset correspondence, look
+                      coverage, duplicates, watermark-like stamps, licence trail, and
+                      per-class readiness vs the thresholds below. Read-only.
   out/                generated models (never shipped without human review)
 ```
+
+## Audit the catalog any time
+
+```bash
+python3 tools/dataset/verify_catalog.py            # human report; exit 2 = warnings
+python3 tools/dataset/verify_catalog.py --json     # machine-readable, for CI
+```
+
+Exit 0 = clean, 1 = a label points at a missing/orphan asset, 2 = warnings only
+(uncovered classes, unlicensed assets, thin dataset). See `docs/DATASET_AUDIT.md`
+(2026-09-24) for the findings this tool was written from.
 
 ## Workflow
 1. **Collect**: 300+ photos/class minimum (1000+ before publishing accuracy claims).
