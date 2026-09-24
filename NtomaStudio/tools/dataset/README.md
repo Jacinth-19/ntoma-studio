@@ -69,6 +69,39 @@ weighted by how confusable each class is with its nearest neighbour — not flat
 allocation is what produced the 2026-09-01 starter result (MACRO 0.419 overall, but 0.00
 on KENTE, GONJA and BATIK).
 
+## Train on Kaggle
+
+`tools/dataset/kaggle/` turns collected photos into a shippable model on Kaggle's free GPU:
+
+```bash
+python3 tools/dataset/kaggle/make_kaggle_dataset.py --write   # package raw/ for upload
+# then run tools/dataset/kaggle/ntoma_train.ipynb on Kaggle (GPU T4 x2, Internet On)
+```
+
+It exports `fabric_ghana.tflite` (int8, 2–4 MB at 224 px) plus `fabric_labels.json`.
+Unlike `train_starter.py`, it splits by **whole capture session**, because photos from one
+market day share lighting, backdrop and stock — splitting them across train/val inflates
+accuracy without ever looking like a bug. See `kaggle/README.md`.
+
+The trainer also runs on CPU, which is how it was validated here before being written up:
+
+```bash
+python3 tools/dataset/kaggle/train_kaggle.py --data tools/dataset/raw --out /tmp/out --dry-run
+python3 tools/dataset/kaggle/train_kaggle.py --data tools/dataset/raw --out /tmp/out --smoke
+```
+
+`--dry-run` reports the split in seconds and is worth running before every training run.
+`--smoke` proves the plumbing and nothing else.
+
+### On public datasets
+
+There is **no usable public dataset of Ghanaian fabrics.** The only related find is
+*African Fabric Images* on Kaggle (1,056 images at 64×64 px, Google-sourced, unlicensed) —
+below training resolution, unlabelled by fabric type, and not shippable. The rest of the
+results are industrial fabric *defect* datasets (a different task) or stock-photo
+libraries. The 50,000 photos must be collected; Kaggle converts them into a model, it does
+not supply them.
+
 ## Workflow
 1. **Collect**: 300+ photos/class minimum (1000+ before publishing accuracy claims).
    Market days at Makola/Kantamanto/Kejetia, weaver cooperatives in Bonwire (kente) and
